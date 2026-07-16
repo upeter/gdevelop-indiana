@@ -1,9 +1,9 @@
 {
-  "firstLayout": "",
+  "firstLayout": "JungleScene",
   "gdVersion": {
-    "build": 238,
+    "build": 273,
     "major": 5,
-    "minor": 5,
+    "minor": 6,
     "revision": 0
   },
   "properties": {
@@ -18,6 +18,7 @@
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "templateSlug": "",
+    "useDeprecatedZeroAsDefaultStringVariable": true,
     "version": "1.0.0",
     "name": "Indi Jungle Adventure",
     "description": "Conquer the many hazards in the jungle to be rewarded with the treasure chest.\n\nFirst Platformer Game made by Quinn & Urs.",
@@ -10379,14 +10380,14 @@
         "smoothed": true,
         "userAdded": false
       }
-    ],
-    "resourceFolders": []
+    ]
   },
   "objects": [
     {
       "assetStoreId": "2d701679df0e067e63e657f3a7de8b0c076c1c0db19e7c6070c186b28a611df2",
       "height": 128,
       "name": "BlackSpace",
+      "persistentUuid": "cfb73b3a-8e85-4bb7-bec4-d88b4d53c43f",
       "texture": "tiled_black space.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 128,
@@ -10415,13 +10416,6 @@
           "gravityScale": 1,
           "layers": 1,
           "masks": 1
-        },
-        {
-          "name": "Platform",
-          "type": "PlatformBehavior::PlatformBehavior",
-          "canBeGrabbed": true,
-          "platformType": "NormalPlatform",
-          "yGrabOffset": 0
         }
       ]
     },
@@ -10589,6 +10583,8 @@
           "FlashDuration": 0
         },
         {
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
           "acceleration": 1500,
@@ -10596,8 +10592,6 @@
           "canGrabPlatforms": false,
           "canGrabWithoutMoving": true,
           "deceleration": 1500,
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
           "jumpSpeed": 600,
           "jumpSustainTime": 0.2,
           "ladderClimbingSpeed": 150,
@@ -13796,6 +13790,7 @@
         "textAlignment": "",
         "verticalTextAlignment": "top",
         "characterSize": 40,
+        "lineHeight": 0,
         "color": "255;255;255"
       }
     },
@@ -13838,6 +13833,7 @@
         "textAlignment": "left",
         "verticalTextAlignment": "top",
         "characterSize": 20,
+        "lineHeight": 0,
         "color": "248;231;28"
       }
     },
@@ -14855,13 +14851,17 @@
         "gridType": "rectangular",
         "gridWidth": 16,
         "gridHeight": 16,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.8883763945458428,
-        "windowMask": false
+        "zoomFactor": 0.4143112114959071,
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -17502,6 +17502,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 20,
+            "lineHeight": 0,
             "color": "0;0;0"
           }
         },
@@ -17885,6 +17886,8 @@
           "effects": [],
           "behaviors": [
             {
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 0,
@@ -17892,8 +17895,6 @@
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 0,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 150,
@@ -20245,6 +20246,8 @@
               "type": "IsOnScreen::InOnScreen"
             },
             {
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
               "acceleration": 1500,
@@ -20252,8 +20255,6 @@
               "canGrabPlatforms": false,
               "canGrabWithoutMoving": true,
               "deceleration": 1500,
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
               "jumpSpeed": 0,
               "jumpSustainTime": 0.2,
               "ladderClimbingSpeed": 0,
@@ -22749,6 +22750,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 80,
+            "lineHeight": 0,
             "color": "248;231;28"
           }
         },
@@ -22791,6 +22793,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 80,
+            "lineHeight": 0,
             "color": "208;2;27"
           }
         },
@@ -22833,6 +22836,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 60,
+            "lineHeight": 0,
             "color": "255;255;255"
           }
         },
@@ -22880,6 +22884,7 @@
             "textAlignment": "",
             "verticalTextAlignment": "top",
             "characterSize": 80,
+            "lineHeight": 0,
             "color": "126;211;33"
           }
         },
@@ -22914,6 +22919,7 @@
           "assetStoreId": "",
           "height": 720,
           "name": "BackgroundTrees2",
+          "persistentUuid": "aa31bfb3-bc04-4ce7-b255-8d220e20d0d6",
           "texture": "assets/BackgroundTreesFront.png",
           "type": "TiledSpriteObject::TiledSprite",
           "width": 6800,
@@ -23118,6 +23124,15 @@
             },
             {
               "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "BlackSpace",
+                "\"EndScreen\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -23170,15 +23185,6 @@
                 "Score",
                 "=",
                 "0"
-              ]
-            },
-            {
-              "type": {
-                "value": "HideLayer"
-              },
-              "parameters": [
-                "BlackSpace",
-                "\"EndScreen\""
               ]
             },
             {
@@ -27767,6 +27773,81 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01KXMR4S7YYXF2FNTN27NYRW6P",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"EndScreen\""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KXMR69HW2N4GFHH36PET0TD4",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"EndScreen\""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KXMR7KJRC2XZ3PC9C5KHVXDT",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HideLayer"
+              },
+              "parameters": [
+                "",
+                "\"EndScreen\""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -27774,6 +27855,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -27783,7 +27865,7 @@
           "isLocked": false,
           "name": "MobileBackground",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
@@ -27791,6 +27873,7 @@
           "ambientLightColorB": 32,
           "ambientLightColorG": 0,
           "ambientLightColorR": 0,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -27819,6 +27902,7 @@
           "ambientLightColorB": 24151336,
           "ambientLightColorG": 6043312,
           "ambientLightColorR": 21003888,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -27836,6 +27920,7 @@
           "ambientLightColorB": 21704592,
           "ambientLightColorG": 6043600,
           "ambientLightColorR": 21416112,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -27845,7 +27930,7 @@
           "isLocked": false,
           "name": "EndScreen",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": []
         }
@@ -27889,7 +27974,8 @@
           "gravityX": 0,
           "gravityY": 9.8,
           "scaleX": 100,
-          "scaleY": 100
+          "scaleY": 100,
+          "worldScale": 100
         },
         {
           "name": "Platform",
@@ -27940,13 +28026,17 @@
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
+        "gridDepth": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
+        "gridOffsetZ": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.6492030249510391,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": "",
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -28037,18 +28127,21 @@
         {
           "folded": true,
           "name": "Health",
+          "persistentUuid": "f0181177-0476-45a4-81bf-8b5a966cfc50",
           "type": "number",
           "value": 5
         },
         {
           "folded": true,
           "name": "UpdateHealth",
+          "persistentUuid": "63e38208-87fa-4594-9bee-6abd7ebc45b5",
           "type": "boolean",
           "value": true
         },
         {
           "folded": true,
           "name": "MaxHealth",
+          "persistentUuid": "f4a1b5b5-9bed-4731-9bd0-56e8a2223b3c",
           "type": "number",
           "value": 5
         }
@@ -45777,6 +45870,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -45794,6 +45888,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -45822,6 +45917,7 @@
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 0.1,
@@ -46671,6 +46767,7 @@
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Trampoline",
       "gdevelopVersion": "",
@@ -46857,12 +46954,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "TrampolinBehavior"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Movement",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Rectangular movement",
       "gdevelopVersion": "",
@@ -47872,12 +47978,29 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "DistanceToClosestEdge"
+          },
+          {
+            "functionName": "MoveAlongBorderOfObject"
+          },
+          {
+            "functionName": "MoveToNearestCorner"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Move objects in a rectangular pattern.",
           "fullName": "Rectangular movement",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "RectangleMovement",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -50598,6 +50721,158 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "TeleportToCorner"
+              },
+              {
+                "folderName": "Rectangular movement shape",
+                "children": [
+                  {
+                    "functionName": "Perimeter"
+                  },
+                  {
+                    "functionName": "SetLeft"
+                  },
+                  {
+                    "functionName": "SetTop"
+                  },
+                  {
+                    "functionName": "SetRight"
+                  },
+                  {
+                    "functionName": "SetBottom"
+                  }
+                ]
+              },
+              {
+                "functionName": "LoopDuration"
+              },
+              {
+                "functionName": "HorizontalEdgeDuration"
+              },
+              {
+                "functionName": "VerticalEdgeDuration"
+              },
+              {
+                "folderName": "Rectangular movement/Shape",
+                "children": [
+                  {
+                    "functionName": "Width"
+                  },
+                  {
+                    "functionName": "Height"
+                  },
+                  {
+                    "functionName": "Left"
+                  },
+                  {
+                    "functionName": "Top"
+                  },
+                  {
+                    "functionName": "Right"
+                  },
+                  {
+                    "functionName": "Bottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Rectangular movement speed",
+                "children": [
+                  {
+                    "functionName": "SetHorizontalEdgeDuration"
+                  },
+                  {
+                    "functionName": "SetVerticalEdgeDuration"
+                  },
+                  {
+                    "functionName": "SetClockwise"
+                  },
+                  {
+                    "functionName": "SetEasing"
+                  }
+                ]
+              },
+              {
+                "functionName": "ToogleClockwise"
+              },
+              {
+                "functionName": "IsMovingClockwise"
+              },
+              {
+                "functionName": "IsMovingLeft"
+              },
+              {
+                "functionName": "IsMovingUp"
+              },
+              {
+                "functionName": "IsMovingRight"
+              },
+              {
+                "functionName": "IsMovingDown"
+              },
+              {
+                "functionName": "IsOnLeft"
+              },
+              {
+                "functionName": "IsOnTop"
+              },
+              {
+                "functionName": "IsOnRight"
+              },
+              {
+                "functionName": "IsOnBottom"
+              },
+              {
+                "functionName": "TopRightDuration"
+              },
+              {
+                "functionName": "BottomRightDuration"
+              },
+              {
+                "functionName": "BottomLeftDuration"
+              },
+              {
+                "functionName": "EdgeProgress"
+              },
+              {
+                "functionName": "EdgeOriginX"
+              },
+              {
+                "functionName": "EdgeOriginY"
+              },
+              {
+                "functionName": "EdgeTargetY"
+              },
+              {
+                "functionName": "EdgeTargetX"
+              },
+              {
+                "functionName": "CurrentTime"
+              },
+              {
+                "functionName": "HalfCurrentTime"
+              },
+              {
+                "functionName": "DeltaX"
+              },
+              {
+                "functionName": "DeltaY"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "100",
@@ -50678,40 +50953,139 @@
               "type": "Choice",
               "label": "Easing",
               "group": "Speed",
-              "extraInformation": [
-                "linear",
-                "easeInQuad",
-                "easeOutQuad",
-                "easeInOutQuad",
-                "easeInCubic",
-                "easeOutCubic",
-                "easeInOutCubic",
-                "easeInQuart",
-                "easeOutQuart",
-                "easeInOutQuart",
-                "easeInQuint",
-                "easeOutQuint",
-                "easeInOutQuint",
-                "easeInOutSine",
-                "easeInExpo",
-                "easeOutExpo",
-                "easeInOutExpo",
-                "easeInCirc",
-                "easeOutCirc",
-                "easeInOutCirc",
-                "easeOutBounce",
-                "easeInBack",
-                "easeOutBack",
-                "easeInOutBack",
-                "elastic",
-                "swingFromTo",
-                "swingFrom",
-                "swingTo",
-                "bounce",
-                "bouncePast",
-                "easeFromTo",
-                "easeFrom",
-                "easeTo"
+              "choices": [
+                {
+                  "label": "linear",
+                  "value": "linear"
+                },
+                {
+                  "label": "easeInQuad",
+                  "value": "easeInQuad"
+                },
+                {
+                  "label": "easeOutQuad",
+                  "value": "easeOutQuad"
+                },
+                {
+                  "label": "easeInOutQuad",
+                  "value": "easeInOutQuad"
+                },
+                {
+                  "label": "easeInCubic",
+                  "value": "easeInCubic"
+                },
+                {
+                  "label": "easeOutCubic",
+                  "value": "easeOutCubic"
+                },
+                {
+                  "label": "easeInOutCubic",
+                  "value": "easeInOutCubic"
+                },
+                {
+                  "label": "easeInQuart",
+                  "value": "easeInQuart"
+                },
+                {
+                  "label": "easeOutQuart",
+                  "value": "easeOutQuart"
+                },
+                {
+                  "label": "easeInOutQuart",
+                  "value": "easeInOutQuart"
+                },
+                {
+                  "label": "easeInQuint",
+                  "value": "easeInQuint"
+                },
+                {
+                  "label": "easeOutQuint",
+                  "value": "easeOutQuint"
+                },
+                {
+                  "label": "easeInOutQuint",
+                  "value": "easeInOutQuint"
+                },
+                {
+                  "label": "easeInOutSine",
+                  "value": "easeInOutSine"
+                },
+                {
+                  "label": "easeInExpo",
+                  "value": "easeInExpo"
+                },
+                {
+                  "label": "easeOutExpo",
+                  "value": "easeOutExpo"
+                },
+                {
+                  "label": "easeInOutExpo",
+                  "value": "easeInOutExpo"
+                },
+                {
+                  "label": "easeInCirc",
+                  "value": "easeInCirc"
+                },
+                {
+                  "label": "easeOutCirc",
+                  "value": "easeOutCirc"
+                },
+                {
+                  "label": "easeInOutCirc",
+                  "value": "easeInOutCirc"
+                },
+                {
+                  "label": "easeOutBounce",
+                  "value": "easeOutBounce"
+                },
+                {
+                  "label": "easeInBack",
+                  "value": "easeInBack"
+                },
+                {
+                  "label": "easeOutBack",
+                  "value": "easeOutBack"
+                },
+                {
+                  "label": "easeInOutBack",
+                  "value": "easeInOutBack"
+                },
+                {
+                  "label": "elastic",
+                  "value": "elastic"
+                },
+                {
+                  "label": "swingFromTo",
+                  "value": "swingFromTo"
+                },
+                {
+                  "label": "swingFrom",
+                  "value": "swingFrom"
+                },
+                {
+                  "label": "swingTo",
+                  "value": "swingTo"
+                },
+                {
+                  "label": "bounce",
+                  "value": "bounce"
+                },
+                {
+                  "label": "bouncePast",
+                  "value": "bouncePast"
+                },
+                {
+                  "label": "easeFromTo",
+                  "value": "easeFromTo"
+                },
+                {
+                  "label": "easeFrom",
+                  "value": "easeFrom"
+                },
+                {
+                  "label": "easeTo",
+                  "value": "easeTo"
+                }
               ],
               "name": "Easing"
             },
@@ -50719,11 +51093,23 @@
               "value": "Top-left corner",
               "type": "Choice",
               "label": "Initial position",
-              "extraInformation": [
-                "Top-left corner",
-                "Top-right corner",
-                "Bottom-right corner",
-                "Bottom-left corner"
+              "choices": [
+                {
+                  "label": "Top-left corner",
+                  "value": "Top-left corner"
+                },
+                {
+                  "label": "Top-right corner",
+                  "value": "Top-right corner"
+                },
+                {
+                  "label": "Bottom-right corner",
+                  "value": "Bottom-right corner"
+                },
+                {
+                  "label": "Bottom-left corner",
+                  "value": "Bottom-left corner"
+                }
               ],
               "name": "InitialPosition"
             },
@@ -50735,7 +51121,60 @@
               "name": "ToogleClockwise"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Dimension",
+                "children": [
+                  {
+                    "propertyName": "Width"
+                  },
+                  {
+                    "propertyName": "Height"
+                  }
+                ]
+              },
+              {
+                "folderName": "Speed",
+                "children": [
+                  {
+                    "propertyName": "Clockwise"
+                  },
+                  {
+                    "propertyName": "HorizontalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "VerticalEdgeDuration"
+                  },
+                  {
+                    "propertyName": "Easing"
+                  }
+                ]
+              },
+              {
+                "propertyName": "Left"
+              },
+              {
+                "propertyName": "Top"
+              },
+              {
+                "propertyName": "Progress"
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "InitialPosition"
+              },
+              {
+                "propertyName": "ToogleClockwise"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -50743,6 +51182,7 @@
     {
       "author": "@4ian",
       "category": "Movement",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Bounce (using forces)",
       "gdevelopVersion": "",
@@ -50775,12 +51215,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Provides an action to make the object bounce from another object it just touched. Add a permanent force to the object and, when in collision with another one, use the action to make it bounce realistically.",
           "fullName": "Bounce",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Bounce",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "description": "Bounce the object off another object it is currently colliding with, according to the angle and the speed of forces applied on the object.\nMake sure to test for a collision between the two objects before launching this action. All the forces will be removed from the object, and a new permanent force will be added to make the object bounce.",
@@ -51277,6 +51723,26 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "BounceOff"
+              },
+              {
+                "functionName": "BounceOffSpecificAngle"
+              },
+              {
+                "functionName": "BounceOffVertically"
+              },
+              {
+                "functionName": "BounceOffHorizontally"
+              },
+              {
+                "functionName": "BounceCount"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0",
@@ -51323,7 +51789,29 @@
               "name": "BounceCount"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "OldForceAngle"
+              },
+              {
+                "propertyName": "OldForceLength"
+              },
+              {
+                "propertyName": "NormalAngle"
+              },
+              {
+                "propertyName": "BounceCount"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -51331,6 +51819,7 @@
     {
       "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "Movement",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Explosion force",
       "gdevelopVersion": "",
@@ -51587,12 +52076,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ApplyExplosionForce"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Smooth Camera",
       "gdevelopVersion": "",
@@ -51630,12 +52128,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Smoothly scroll to follow an object.",
           "fullName": "Smooth Camera",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "SmoothCamera",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -55920,6 +56424,129 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "MoveCameraCloser"
+              },
+              {
+                "functionName": "DoMoveCameraCloser"
+              },
+              {
+                "functionName": "WaitAndCatchUp"
+              },
+              {
+                "functionName": "DrawDebug"
+              },
+              {
+                "folderName": "Camera configuration",
+                "children": [
+                  {
+                    "functionName": "SetFollowOnX"
+                  },
+                  {
+                    "functionName": "SetFollowOnY"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaRight"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaLeft"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaTop"
+                  },
+                  {
+                    "functionName": "SetFollowFreeAreaBottom"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeedMax"
+                  },
+                  {
+                    "functionName": "SetLeftwardSpeed"
+                  },
+                  {
+                    "functionName": "SetRightwardSpeed"
+                  },
+                  {
+                    "functionName": "SetDownwardSpeed"
+                  },
+                  {
+                    "functionName": "SetUpwardSpeed"
+                  },
+                  {
+                    "functionName": "SetOffsetX"
+                  },
+                  {
+                    "functionName": "SetOffsetY"
+                  },
+                  {
+                    "functionName": "SetForecastTime"
+                  },
+                  {
+                    "functionName": "SetCameraDelay"
+                  }
+                ]
+              },
+              {
+                "folderName": "Private",
+                "children": [
+                  {
+                    "functionName": "FreeAreaLeft"
+                  },
+                  {
+                    "functionName": "FreeAreaRight"
+                  },
+                  {
+                    "functionName": "FreeAreaBottom"
+                  },
+                  {
+                    "functionName": "FreeAreaTop"
+                  },
+                  {
+                    "functionName": "UpdateDelayedPosition"
+                  },
+                  {
+                    "functionName": "AddForecastHistoryPosition"
+                  },
+                  {
+                    "functionName": "UpdateForecastedPosition"
+                  },
+                  {
+                    "functionName": "ProjectHistoryEnds"
+                  },
+                  {
+                    "functionName": "ForecastTimeRatio"
+                  }
+                ]
+              },
+              {
+                "functionName": "IsDelayed"
+              },
+              {
+                "functionName": "CurrentDelay"
+              },
+              {
+                "functionName": "IsWaiting"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.9",
@@ -56256,13 +56883,184 @@
               "name": "IsCalledManually"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeed"
+                  },
+                  {
+                    "propertyName": "RightwardSpeed"
+                  },
+                  {
+                    "propertyName": "UpwardSpeed"
+                  },
+                  {
+                    "propertyName": "DownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "propertyName": "FollowOnX"
+              },
+              {
+                "propertyName": "FollowOnY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "FollowFreeAreaLeft"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaRight"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "CameraOffsetX"
+                  },
+                  {
+                    "propertyName": "CameraOffsetY"
+                  }
+                ]
+              },
+              {
+                "folderName": "Timing",
+                "children": [
+                  {
+                    "propertyName": "CameraDelay"
+                  },
+                  {
+                    "propertyName": "ForecastTime"
+                  },
+                  {
+                    "propertyName": "ForecastHistoryDuration"
+                  }
+                ]
+              },
+              {
+                "propertyName": "LogLeftwardSpeed"
+              },
+              {
+                "propertyName": "LogRightwardSpeed"
+              },
+              {
+                "propertyName": "LogDownwardSpeed"
+              },
+              {
+                "propertyName": "LogUpwardSpeed"
+              },
+              {
+                "propertyName": "DelayedCenterX"
+              },
+              {
+                "propertyName": "DelayedCenterY"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanX"
+              },
+              {
+                "propertyName": "ForecastHistoryMeanY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceX"
+              },
+              {
+                "propertyName": "ForecastHistoryCovariance"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearA"
+              },
+              {
+                "propertyName": "ForecastHistoryLinearB"
+              },
+              {
+                "propertyName": "ForecastedX"
+              },
+              {
+                "propertyName": "ForecastedY"
+              },
+              {
+                "propertyName": "ProjectedNewestX"
+              },
+              {
+                "propertyName": "ProjectedNewestY"
+              },
+              {
+                "propertyName": "ProjectedOldestX"
+              },
+              {
+                "propertyName": "ProjectedOldestY"
+              },
+              {
+                "propertyName": "ForecastHistoryVarianceY"
+              },
+              {
+                "propertyName": "Index"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpSpeed"
+              },
+              {
+                "propertyName": "CameraExtraDelay"
+              },
+              {
+                "propertyName": "WaitingSpeedXMax"
+              },
+              {
+                "propertyName": "WaitingSpeedYMax"
+              },
+              {
+                "propertyName": "WaitingEnd"
+              },
+              {
+                "propertyName": "CameraDelayCatchUpDuration"
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "LeftwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "RightwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "UpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "DownwardSpeedMax"
+                  }
+                ]
+              },
+              {
+                "propertyName": "OldX"
+              },
+              {
+                "propertyName": "OldY"
+              },
+              {
+                "propertyName": "IsCalledManually"
+              }
+            ]
+          }
         },
         {
           "description": "Smoothly scroll to follow a character and stabilize the camera when jumping.",
           "fullName": "Smooth platformer camera",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "SmoothPlatformerCamera",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -56479,6 +57277,14 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -56487,6 +57293,7 @@
               "extraInformation": [
                 "PlatformBehavior::PlatformerObjectBehavior"
               ],
+              "choices": [],
               "name": "PlatformerCharacter"
             },
             {
@@ -56496,6 +57303,7 @@
               "extraInformation": [
                 "SmoothCamera::SmoothCamera"
               ],
+              "choices": [],
               "name": "SmoothCamera"
             },
             {
@@ -56590,7 +57398,71 @@
               "name": "FloorDownwardSpeedMax"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "PlatformerCharacter"
+              },
+              {
+                "propertyName": "SmoothCamera"
+              },
+              {
+                "propertyName": "JumpOriginY"
+              },
+              {
+                "folderName": "Position",
+                "children": [
+                  {
+                    "propertyName": "AirFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "AirFollowFreeAreaBottom"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaTop"
+                  },
+                  {
+                    "propertyName": "FloorFollowFreeAreaBottom"
+                  }
+                ]
+              },
+              {
+                "folderName": "Catch-up speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeed"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeed"
+                  }
+                ]
+              },
+              {
+                "folderName": "Maximum speed",
+                "children": [
+                  {
+                    "propertyName": "AirUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "AirDownwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorUpwardSpeedMax"
+                  },
+                  {
+                    "propertyName": "FloorDownwardSpeedMax"
+                  }
+                ]
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -56598,6 +57470,7 @@
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Object spawner",
       "gdevelopVersion": "",
@@ -56645,12 +57518,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Spawn (create) objects periodically.",
           "fullName": "Object Spawner",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ObjectSpawner",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "description": "Spawn (create) objects periodically.  ",
@@ -57607,6 +58486,56 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "SpawnObject"
+              },
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "SetOffsetX"
+              },
+              {
+                "functionName": "SetOffsetY"
+              },
+              {
+                "functionName": "SetMaxQuantity"
+              },
+              {
+                "functionName": "SetSpawnPeriod"
+              },
+              {
+                "functionName": "OffsetX"
+              },
+              {
+                "functionName": "OffsetY"
+              },
+              {
+                "functionName": "MaxQuantity"
+              },
+              {
+                "functionName": "SpawnPeriod"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "onActivate"
+              },
+              {
+                "functionName": "ResetSpawnTimer"
+              },
+              {
+                "functionName": "TimeBeforeSpawn"
+              },
+              {
+                "functionName": "ObjectWasJustSpawned"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "1",
@@ -57647,7 +58576,29 @@
               "name": "MaxQuantity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "SpawnPeriod"
+              },
+              {
+                "propertyName": "OffsetX"
+              },
+              {
+                "propertyName": "OffsetY"
+              },
+              {
+                "propertyName": "JustSpawnedAnObject"
+              },
+              {
+                "propertyName": "MaxQuantityReached"
+              },
+              {
+                "propertyName": "MaxQuantity"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -57655,6 +58606,7 @@
     {
       "author": "Silver-Streak, @Bouh, Tristan Rhodes",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Object \"Is On Screen\" Detection",
       "gdevelopVersion": "",
@@ -57689,12 +58641,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "This behavior provides a condition to check if the object is located within the visible portion of its layer's camera. The condition also allows for specifying padding to the virtual screen border.\nNote that object visibility, such as being hidden or 0 opacity, is not considered (but you can use those existing conditions in addition to this behavior).",
           "fullName": "Is on screen",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "InOnScreen",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "description": "Checks if an object position is within the viewport of its layer.",
@@ -57778,8 +58736,18 @@
               ]
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "IsOnScreen"
+              }
+            ]
+          },
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -57787,6 +58755,7 @@
     {
       "author": "Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Shake Object (position, angle, scale)",
       "gdevelopVersion": "",
@@ -57837,12 +58806,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Shake an object, using one or more ways to shake (position, angle).\nThis behavior can be used on any type of object.",
           "fullName": "Shake object (position, angle)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ShakeObject_PositionAngle",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "description": "Shake an object, using one or more ways to shake (position, angle).",
@@ -59819,14 +60794,36 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "ShakeObject_PositionAngle"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "StopShaking"
+              },
+              {
+                "functionName": "IsShaking"
+              }
+            ]
+          },
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         },
         {
           "description": "Shake an object, using one or more ways to shake (position, angle, scale)\nThis behavior can only be used on sprite objects.",
           "fullName": "Shake object (position, angle, scale)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "ShakeObject_PositionAngleScale",
           "objectType": "Sprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "description": "Shake an object, using one or more ways to shake (position, angle, scale).",
@@ -62189,8 +63186,27 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "ShakeObject_PositionAngleScale"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "StopShaking"
+              },
+              {
+                "functionName": "IsShaking"
+              }
+            ]
+          },
           "propertyDescriptors": [],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -62198,6 +63214,7 @@
     {
       "author": "@4ian, Entropy, VegeTato",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Flash object",
       "gdevelopVersion": "",
@@ -62691,12 +63708,35 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "ColorTint"
+          },
+          {
+            "functionName": "IsTinted"
+          },
+          {
+            "functionName": "ToggleEffect"
+          },
+          {
+            "functionName": "ToggleColorTint"
+          },
+          {
+            "functionName": "ToggleVisibility"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Make the object flash (blink) for a period of time so it alternates between visible and invisible.",
           "fullName": "Flash visibility (blink)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Flash",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -63115,6 +64155,26 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.1",
@@ -63140,13 +64200,29 @@
               "name": "FlashDuration"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              }
+            ]
+          }
         },
         {
           "description": "Make an object flash a color tint for a period of time.",
           "fullName": "Flash color tint",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FlashColor",
           "objectType": "Sprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -63598,6 +64674,26 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.1",
@@ -63630,13 +64726,32 @@
               "name": "TintColor"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TintColor"
+              }
+            ]
+          }
         },
         {
           "description": "Flash opacity smoothly (fade) in a repeating loop.",
           "fullName": "Flash opacity smothly (fade)",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FlashOpacity",
           "objectType": "Sprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -64146,6 +65261,26 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -64154,6 +65289,7 @@
               "extraInformation": [
                 "Tween::TweenBehavior"
               ],
+              "choices": [],
               "name": "TweenBehavior"
             },
             {
@@ -64198,13 +65334,38 @@
               "name": "StartingOpacity"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "TweenBehavior"
+              },
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "TargetOpacity"
+              },
+              {
+                "propertyName": "StartingOpacity"
+              }
+            ]
+          }
         },
         {
           "description": "Make the object flash an effect for a period of time.",
           "fullName": "Flash effect",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "FlashEffect",
           "objectType": "Sprite",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -64804,6 +65965,26 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "Flash"
+              },
+              {
+                "functionName": "IsFlashing"
+              },
+              {
+                "functionName": "onDeActivate"
+              },
+              {
+                "functionName": "Stop"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "0.1",
@@ -64836,7 +66017,23 @@
               "name": "EffectName"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HalfPeriodTime"
+              },
+              {
+                "propertyName": "IsFlashing"
+              },
+              {
+                "propertyName": "FlashDuration"
+              },
+              {
+                "propertyName": "EffectName"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -64844,6 +66041,7 @@
     {
       "author": "@4ian, Tristan Rhodes (https://victrisgames.itch.io/)",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Rectangular Movement",
       "gdevelopVersion": "",
@@ -64897,12 +66095,18 @@
       "globalVariables": [],
       "sceneVariables": [],
       "eventsFunctions": [],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT"
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Allow an object to move in a rectangular pattern.",
           "fullName": "Rectangular Movement",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "RectangularMovement",
           "objectType": "",
+          "previewIconUrl": "",
           "eventsFunctions": [
             {
               "fullName": "",
@@ -67539,6 +68743,77 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "ProgressY"
+              },
+              {
+                "functionName": "ProgressX"
+              },
+              {
+                "functionName": "HorizontalSpeed"
+              },
+              {
+                "functionName": "VerticalSpeed"
+              },
+              {
+                "functionName": "HorizontalDistance"
+              },
+              {
+                "functionName": "VerticalDistance"
+              },
+              {
+                "functionName": "CenterX"
+              },
+              {
+                "functionName": "CenterY"
+              },
+              {
+                "functionName": "SetCenterY"
+              },
+              {
+                "functionName": "SetCenterX"
+              },
+              {
+                "functionName": "SetHorizontalDistance"
+              },
+              {
+                "functionName": "SetVerticalDistance"
+              },
+              {
+                "functionName": "SetHorizontalSpeed"
+              },
+              {
+                "functionName": "SetVerticalSpeed"
+              },
+              {
+                "functionName": "SetCounterClockwise"
+              },
+              {
+                "functionName": "SetConstantSpeed"
+              },
+              {
+                "functionName": "ResetProgressCounters"
+              },
+              {
+                "functionName": "IsMovingDown"
+              },
+              {
+                "functionName": "IsMovingUp"
+              },
+              {
+                "functionName": "IsMovingLeft"
+              },
+              {
+                "functionName": "IsMovingRight"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "300",
@@ -67613,17 +68888,69 @@
               "value": "",
               "type": "Choice",
               "label": "Current direction the object is moving",
-              "extraInformation": [
-                "Left",
-                "Right",
-                "Up",
-                "Down"
+              "choices": [
+                {
+                  "label": "Left",
+                  "value": "Left"
+                },
+                {
+                  "label": "Right",
+                  "value": "Right"
+                },
+                {
+                  "label": "Up",
+                  "value": "Up"
+                },
+                {
+                  "label": "Down",
+                  "value": "Down"
+                }
               ],
               "hidden": true,
               "name": "CurrentDirection"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "HorizontalSpeed"
+              },
+              {
+                "propertyName": "VerticalSpeed"
+              },
+              {
+                "propertyName": "HorizontalDistance"
+              },
+              {
+                "propertyName": "VerticalDistance"
+              },
+              {
+                "propertyName": "CenterPointX"
+              },
+              {
+                "propertyName": "CenterPointY"
+              },
+              {
+                "propertyName": "ProgressX"
+              },
+              {
+                "propertyName": "ProgressY"
+              },
+              {
+                "propertyName": "RectangularCounter"
+              },
+              {
+                "propertyName": "ConstantSpeed"
+              },
+              {
+                "propertyName": "CounterClockwise"
+              },
+              {
+                "propertyName": "CurrentDirection"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
@@ -67631,6 +68958,7 @@
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -67901,12 +69229,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "HorizontalBackAndForth"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -68155,12 +69492,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "CollectHealth"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -68359,12 +69705,21 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "CollectCoin"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -69792,12 +71147,47 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "folderName": "Johnes",
+            "children": [
+              {
+                "functionName": "FallingRock"
+              },
+              {
+                "functionName": "SpiderAction"
+              },
+              {
+                "functionName": "JohnesHit"
+              }
+            ]
+          },
+          {
+            "functionName": "Disable"
+          },
+          {
+            "functionName": "DisableById"
+          },
+          {
+            "functionName": "IsEnabledById"
+          },
+          {
+            "functionName": "Enable"
+          },
+          {
+            "functionName": "EnableById"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": []
     },
     {
       "author": "",
       "category": "",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "",
       "gdevelopVersion": "",
@@ -70192,6 +71582,14 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "Function"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [],
       "eventsBasedObjects": [
         {
@@ -70204,8 +71602,11 @@
           "defaultName": "Spider",
           "description": "",
           "fullName": "Spider",
+          "helpPath": "",
+          "iconUrl": "",
           "isUsingLegacyInstancesRenderer": false,
           "name": "Spider",
+          "previewIconUrl": "",
           "objects": [],
           "objectsFolderStructure": {
             "folderName": "__ROOT"
@@ -70216,6 +71617,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -70242,8 +71644,15 @@
             }
           ],
           "instances": [],
+          "editionSettings": {},
           "eventsFunctions": [],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT"
+          },
           "propertyDescriptors": [],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT"
+          },
           "variants": []
         },
         {
@@ -70256,8 +71665,11 @@
           "defaultName": "Johnes",
           "description": "",
           "fullName": "Johnes",
+          "helpPath": "",
+          "iconUrl": "",
           "isUsingLegacyInstancesRenderer": false,
           "name": "Johnes",
+          "previewIconUrl": "",
           "objects": [],
           "objectsFolderStructure": {
             "folderName": "__ROOT"
@@ -70268,6 +71680,7 @@
               "ambientLightColorB": 200,
               "ambientLightColorG": 200,
               "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
               "camera3DFarPlaneDistance": 10000,
               "camera3DFieldOfView": 45,
               "camera3DNearPlaneDistance": 3,
@@ -70294,7 +71707,11 @@
             }
           ],
           "instances": [],
+          "editionSettings": {},
           "eventsFunctions": [],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT"
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -70303,6 +71720,14 @@
               "name": "Unnamed"
             }
           ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Unnamed"
+              }
+            ]
+          },
           "variants": []
         }
       ]
@@ -70310,6 +71735,7 @@
     {
       "author": "D8H",
       "category": "Movement",
+      "dimension": "",
       "extensionNamespace": "",
       "fullName": "Stick objects to others",
       "gdevelopVersion": ">=5.5.222",
@@ -70675,12 +72101,26 @@
           "objectGroups": []
         }
       ],
+      "eventsFunctionsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "functionName": "DefineHelperClasses"
+          },
+          {
+            "functionName": "IsStuck"
+          }
+        ]
+      },
       "eventsBasedBehaviors": [
         {
           "description": "Stick the object to another. Use the action to stick the object, or unstick it later.",
           "fullName": "Sticker",
+          "helpPath": "",
+          "iconUrl": "",
           "name": "Sticker",
           "objectType": "",
+          "previewIconUrl": "",
           "quickCustomizationVisibility": "hidden",
           "eventsFunctions": [
             {
@@ -70936,6 +72376,29 @@
               "objectGroups": []
             }
           ],
+          "eventsFunctionsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "functionName": "onCreated"
+              },
+              {
+                "functionName": "doStepPreEvents"
+              },
+              {
+                "functionName": "doStepPostEvents"
+              },
+              {
+                "functionName": "Stick"
+              },
+              {
+                "functionName": "Unstick"
+              },
+              {
+                "functionName": "onDestroy"
+              }
+            ]
+          },
           "propertyDescriptors": [
             {
               "value": "",
@@ -70950,7 +72413,17 @@
               "name": "IsDestroyedWithParent"
             }
           ],
-          "sharedPropertyDescriptors": []
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "OnlyFollowPosition"
+              },
+              {
+                "propertyName": "IsDestroyedWithParent"
+              }
+            ]
+          }
         }
       ],
       "eventsBasedObjects": []
