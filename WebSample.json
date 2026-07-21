@@ -14759,6 +14759,187 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "EndScreenOkHeader",
+      "persistentUuid": "5d30cf58-3697-49b7-a114-aacf80754667",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Level completed. Congrats!",
+      "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+      "textAlignment": "",
+      "characterSize": 80,
+      "color": {
+        "b": 28,
+        "g": 231,
+        "r": 248
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Level completed. Congrats!",
+        "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "248;231;28"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "EndScreenNokHeader",
+      "persistentUuid": "8b68b677-e76f-4781-ba01-594612359574",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Game Over",
+      "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+      "textAlignment": "",
+      "characterSize": 80,
+      "color": {
+        "b": 27,
+        "g": 2,
+        "r": 208
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Game Over",
+        "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "208;2;27"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "EndScreenSubHeader",
+      "persistentUuid": "9a8d59f9-a867-47a0-8b26-505cacd98699",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "You got points!",
+      "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+      "textAlignment": "",
+      "characterSize": 60,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "You got points!",
+        "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 60,
+        "lineHeight": 0,
+        "color": "255;255;255"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "EndScreenRetry",
+      "persistentUuid": "d90a39cf-e981-4657-8578-082dadd3e3ab",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
+        }
+      ],
+      "string": "Retry",
+      "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+      "textAlignment": "",
+      "characterSize": 80,
+      "color": {
+        "b": 33,
+        "g": 211,
+        "r": 126
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Retry",
+        "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
+        "textAlignment": "",
+        "verticalTextAlignment": "top",
+        "characterSize": 80,
+        "lineHeight": 0,
+        "color": "126;211;33"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -14826,10 +15007,54 @@
       },
       {
         "objectName": "Trampoline"
+      },
+      {
+        "objectName": "EndScreenOkHeader"
+      },
+      {
+        "objectName": "EndScreenNokHeader"
+      },
+      {
+        "objectName": "EndScreenSubHeader"
+      },
+      {
+        "objectName": "EndScreenRetry"
       }
     ]
   },
-  "objectsGroups": [],
+  "objectsGroups": [
+    {
+      "name": "EndScreenObjects",
+      "objects": [
+        {
+          "name": "EndScreenOkHeader"
+        },
+        {
+          "name": "EndScreenSubHeader"
+        },
+        {
+          "name": "EndScreenRetry"
+        },
+        {
+          "name": "EndScreenNokHeader"
+        }
+      ]
+    },
+    {
+      "name": "NavButtons",
+      "objects": [
+        {
+          "name": "TopArrowRoundButton"
+        },
+        {
+          "name": "LeftArrowRoundButton"
+        },
+        {
+          "name": "RightArrowRoundButton"
+        }
+      ]
+    }
+  ],
   "variables": [
     {
       "folded": true,
@@ -14873,39 +15098,7 @@
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
       },
-      "objectsGroups": [
-        {
-          "name": "EndScreenObjects",
-          "objects": [
-            {
-              "name": "EndScreenOkHeader"
-            },
-            {
-              "name": "EndScreenSubHeader"
-            },
-            {
-              "name": "EndScreenRetry"
-            },
-            {
-              "name": "EndScreenNokHeader"
-            }
-          ]
-        },
-        {
-          "name": "NavButtons",
-          "objects": [
-            {
-              "name": "TopArrowRoundButton"
-            },
-            {
-              "name": "LeftArrowRoundButton"
-            },
-            {
-              "name": "RightArrowRoundButton"
-            }
-          ]
-        }
-      ],
+      "objectsGroups": [],
       "variables": [
         {
           "folded": true,
@@ -20188,6 +20381,7 @@
           "height": 64,
           "leftMargin": 0,
           "name": "TileBlackGreenMiddle",
+          "persistentUuid": "3e9e3969-93b8-4cd6-96cd-edeba27cd901",
           "rightMargin": 0,
           "texture": "assets/Stone_Tile-1.png",
           "tiled": false,
@@ -22727,183 +22921,6 @@
         },
         {
           "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "EndScreenOkHeader",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Level completed. Congrats!",
-          "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-          "textAlignment": "",
-          "characterSize": 80,
-          "color": {
-            "b": 28,
-            "g": 231,
-            "r": 248
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Level completed. Congrats!",
-            "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 80,
-            "lineHeight": 0,
-            "color": "248;231;28"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "EndScreenNokHeader",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "Game Over",
-          "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-          "textAlignment": "",
-          "characterSize": 80,
-          "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Game Over",
-            "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 80,
-            "lineHeight": 0,
-            "color": "208;2;27"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "EndScreenSubHeader",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "You got points!",
-          "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-          "textAlignment": "",
-          "characterSize": 60,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          },
-          "content": {
-            "bold": false,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "You got points!",
-            "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 60,
-            "lineHeight": 0,
-            "color": "255;255;255"
-          }
-        },
-        {
-          "assetStoreId": "",
-          "bold": true,
-          "italic": false,
-          "name": "EndScreenRetry",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "ShakeObject_PositionAngle",
-              "type": "ShakeObject::ShakeObject_PositionAngle"
-            }
-          ],
-          "string": "Retry",
-          "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-          "textAlignment": "",
-          "characterSize": 80,
-          "color": {
-            "b": 33,
-            "g": 211,
-            "r": 126
-          },
-          "content": {
-            "bold": true,
-            "isOutlineEnabled": false,
-            "isShadowEnabled": false,
-            "italic": false,
-            "outlineColor": "255;255;255",
-            "outlineThickness": 2,
-            "shadowAngle": 90,
-            "shadowBlurRadius": 2,
-            "shadowColor": "0;0;0",
-            "shadowDistance": 4,
-            "shadowOpacity": 127,
-            "smoothed": true,
-            "underlined": false,
-            "text": "Retry",
-            "font": "fonts/kenney_fontpackage/Fonts/Kenney Pixel.ttf",
-            "textAlignment": "",
-            "verticalTextAlignment": "top",
-            "characterSize": 80,
-            "lineHeight": 0,
-            "color": "126;211;33"
-          }
-        },
-        {
-          "assetStoreId": "",
           "bottomMargin": 0,
           "height": 720,
           "leftMargin": 0,
@@ -23079,18 +23096,6 @@
           },
           {
             "objectName": "Door"
-          },
-          {
-            "objectName": "EndScreenOkHeader"
-          },
-          {
-            "objectName": "EndScreenNokHeader"
-          },
-          {
-            "objectName": "EndScreenSubHeader"
-          },
-          {
-            "objectName": "EndScreenRetry"
           },
           {
             "objectName": "BackgroundBlue0"
@@ -45118,6 +45123,146 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "Health"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "Health",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "Johnes",
+                "\"Dead\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Johnes",
+                "PlatformerObject",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::Width"
+              },
+              "parameters": [
+                "BlackSpace",
+                "=",
+                "CameraWidth(\"EndScreen\", 0)"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"EndScreen\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "EndScreenOkHeader"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "EndScreenSubHeader"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "EndScreenNokHeader",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::Height"
+              },
+              "parameters": [
+                "BlackSpace",
+                "=",
+                "CameraHeight(\"EndScreen\", 0)"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCenterX"
+              },
+              "parameters": [
+                "EndScreenObjects",
+                "=",
+                "CameraX(\"EndScreen\", 0)"
+              ]
+            },
+            {
+              "type": {
+                "value": "TiledSpriteObject::SetOpacity"
+              },
+              "parameters": [
+                "BlackSpace",
+                "=",
+                "130"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CollectHealth::CollectHealth"
+              },
+              "parameters": [
+                "",
+                "HeartUpgrade",
+                "Johnes",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "BridgeFall"
         },
         {
@@ -47141,7 +47286,7 @@
               "actions": [],
               "events": [
                 {
-                  "aiGeneratedEventId": "01KY2B2W450WXW8FFBSK6CYFT5",
+                  "aiGeneratedEventId": "01KY2B7V4H4WX2BJ555KEF2M3R",
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -47179,12 +47324,12 @@
                     },
                     {
                       "type": {
-                        "value": "Rotate"
+                        "value": "SetAngle"
                       },
                       "parameters": [
                         "Saw",
-                        "1200 * TimeDelta()",
-                        ""
+                        "=",
+                        "Saw.Angle() + 600 * TimeDelta()"
                       ]
                     }
                   ]
@@ -47332,6 +47477,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
         },
         {
           "name": "ShakeObject_PositionAngleScale",
