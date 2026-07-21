@@ -10416,6 +10416,10 @@
           "gravityScale": 1,
           "layers": 1,
           "masks": 1
+        },
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
         }
       ]
     },
@@ -12369,6 +12373,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "1fac5df3a0a4c004ba80e931a43e273c575fafe93aaa37dff5b71ba3f1608c8e",
       "name": "HeartUpgrade",
+      "persistentUuid": "47b71e03-a7be-4eea-ba86-8db932f6d0c5",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -28041,7 +28046,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.2400428680804217,
+        "zoomFactor": 0.628025788078151,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -31216,8 +31221,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 1975,
-          "y": 114,
+          "x": 1968,
+          "y": 136,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -32705,8 +32710,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 182,
+          "depth": 1,
+          "height": 148,
           "layer": "",
           "name": "BigChain",
           "persistentUuid": "31d27b6e-20a1-4590-83fe-c42ee1b6d864",
@@ -34403,8 +34408,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 182,
+          "depth": 1,
+          "height": 147,
           "layer": "",
           "name": "BigChain",
           "persistentUuid": "085b89e1-0931-48e2-aacf-431bee9f3907",
@@ -34419,8 +34424,8 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 182,
+          "depth": 1,
+          "height": 125,
           "layer": "",
           "name": "BigChain",
           "persistentUuid": "0d22244f-9dad-4f40-8de9-dfc46327a7ca",
@@ -35854,6 +35859,55 @@
           "x": 1513,
           "y": 662,
           "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 56,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Saw",
+          "persistentUuid": "e97f0ffc-5b57-4528-9fc1-7062fa634f04",
+          "width": 51,
+          "x": 2002,
+          "y": 536,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Saw",
+          "persistentUuid": "44b98b6a-55a0-4f63-a0e5-d2d626772de4",
+          "width": 38,
+          "x": 1789.5,
+          "y": 555,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 38,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Saw",
+          "persistentUuid": "cfb82709-cc39-49c2-8b23-f597f8af3e20",
+          "width": 38,
+          "x": 1580.5,
+          "y": 538,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -42051,6 +42105,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "bafecbfb52eedf22e7682c633bf69f366f052d5c4d8ea7dbd800e135e3393c9f",
           "name": "BigChain",
+          "persistentUuid": "9d85ce70-ac6e-420d-b53e-061017a2e3e4",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -43023,6 +43078,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "04458b0edc6d387709a7393d302010db9933d6d8fcd0e8150c6db22cdea18d2b",
           "name": "Saw",
+          "persistentUuid": "a66d9416-b367-4575-8163-6b6533213139",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -44486,7 +44542,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KXXSK1KX70ZTS59VY941TFYK",
+          "aiGeneratedEventId": "01KY22SPSDZNB28NK7YAHY3SE1",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -44501,30 +44557,22 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "PosX"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Johnes",
-                    ">",
-                    "Beam.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Johnes",
-                    ">",
-                    "Beam.Y()"
-                  ]
-                }
+              "parameters": [
+                "Johnes",
+                ">",
+                "Beam.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Johnes",
+                ">",
+                "Beam.Y()"
               ]
             },
             {
@@ -44537,18 +44585,55 @@
           "actions": [
             {
               "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "BlackSpace",
+                "Tween",
+                "\"fade_out\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.25",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "await": true,
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
                 "cameraLower",
                 "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "BlackSpace",
+                "Tween",
+                "\"fade_in\"",
+                "0",
+                "\"easeInQuad\"",
+                "0.25",
                 ""
               ]
             }
           ]
         },
         {
-          "aiGeneratedEventId": "01KXXSK1KX70ZTS59VY941TFYK",
+          "aiGeneratedEventId": "01KY22SPSDZNB28NK7YAHY3SE1",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -44563,30 +44648,22 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::And"
+                "value": "PosX"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "PosX"
-                  },
-                  "parameters": [
-                    "Johnes",
-                    "<=",
-                    "Beam.X()"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PosY"
-                  },
-                  "parameters": [
-                    "Johnes",
-                    "<=",
-                    "Beam.Y()"
-                  ]
-                }
+              "parameters": [
+                "Johnes",
+                "<=",
+                "Beam.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Johnes",
+                "<=",
+                "Beam.Y()"
               ]
             },
             {
@@ -44599,11 +44676,48 @@
           "actions": [
             {
               "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "BlackSpace",
+                "Tween",
+                "\"fade_out\"",
+                "255",
+                "\"easeOutQuad\"",
+                "0.25",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "await": true,
+                "value": "Wait"
+              },
+              "parameters": [
+                "0.25"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetBooleanVariable"
               },
               "parameters": [
                 "cameraLower",
                 "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+              },
+              "parameters": [
+                "BlackSpace",
+                "Tween",
+                "\"fade_in\"",
+                "0",
+                "\"easeInQuad\"",
+                "0.25",
                 ""
               ]
             }
@@ -46885,6 +46999,108 @@
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01KY23WT0Y0DMEH0CYBES06F65",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Saw",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Saw",
+                    "Animation",
+                    "=",
+                    "\"On\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::PlayAnimation"
+                  },
+                  "parameters": [
+                    "Saw",
+                    "Animation"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetZOrder"
+                  },
+                  "parameters": [
+                    "Saw",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY23YVJPXDW7SZ9WF9HVVM6R",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "BigChain",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Saw",
+                "BigChain.X()",
+                "BigChain.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetX"
+              },
+              "parameters": [
+                "Saw",
+                "=",
+                "BigChain.X() + BigChain.Width()/2 * cos(ToRad(BigChain.Angle())) - BigChain.Height() * sin(ToRad(BigChain.Angle())) - 19"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetY"
+              },
+              "parameters": [
+                "Saw",
+                "=",
+                "BigChain.Y() + BigChain.Width()/2 * sin(ToRad(BigChain.Angle())) + BigChain.Height() * cos(ToRad(BigChain.Angle())) - 19"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Saw",
+                "=",
+                "Saw.Angle() + 400 * TimeDelta()"
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -46948,6 +47164,24 @@
           "isLightingLayer": false,
           "isLocked": true,
           "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Transition",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
