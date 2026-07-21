@@ -28204,7 +28204,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2602064162678814,
+        "zoomFactor": 1.6431081399970826,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -31379,8 +31379,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 2073,
-          "y": 162,
+          "x": 2342,
+          "y": 457,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -33931,7 +33931,7 @@
           "persistentUuid": "de8b7731-ee21-436b-9373-7e1aaa3afe4e",
           "width": 48,
           "x": 2381,
-          "y": 278,
+          "y": 293,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -33947,51 +33947,9 @@
           "persistentUuid": "d2445645-2b3d-484d-a051-0b4866f16bc8",
           "width": 48,
           "x": 2255,
-          "y": 397,
+          "y": 427,
           "zOrder": 45,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart13",
-          "persistentUuid": "5ec364d9-5aa7-4d09-8c65-8868c88df96b",
-          "width": 48,
-          "x": 2467,
-          "y": 406,
-          "zOrder": 21,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart8",
-          "persistentUuid": "c9e39fba-dbf3-4d70-9aa0-93c1cf9ce6ce",
-          "width": 48,
-          "x": 2467,
-          "y": 365,
-          "zOrder": 16,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -34155,22 +34113,6 @@
               "value": 0
             }
           ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart1",
-          "persistentUuid": "98ed8622-6c1c-494b-96a3-a204ca793043",
-          "width": 48,
-          "x": 2429,
-          "y": 407,
-          "zOrder": 8,
-          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -34588,8 +34530,8 @@
           "name": "MinePart26",
           "persistentUuid": "d23e8274-dc60-4620-8bd7-767ee7fe1223",
           "width": 48,
-          "x": 2367,
-          "y": 525,
+          "x": 2384,
+          "y": 562,
           "zOrder": 34,
           "numberProperties": [
             {
@@ -34901,8 +34843,8 @@
           "name": "Barrel",
           "persistentUuid": "735772a6-25cd-4a8f-a5e3-d2d595d24ed7",
           "width": 162,
-          "x": 2065,
-          "y": 117,
+          "x": 2439,
+          "y": 578,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -34917,8 +34859,8 @@
           "name": "SaphireSquareRed",
           "persistentUuid": "057c8742-80e9-481f-b7cd-704ef95c890b",
           "width": 32,
-          "x": 2432,
-          "y": 350,
+          "x": 2262,
+          "y": 377,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -34934,7 +34876,7 @@
           "persistentUuid": "129d538e-89e7-4b07-8059-cc1ed0a956d1",
           "width": 32,
           "x": 2387,
-          "y": 227,
+          "y": 242,
           "zOrder": 46,
           "numberProperties": [],
           "stringProperties": [],
@@ -35170,8 +35112,8 @@
           "name": "MinePart24",
           "persistentUuid": "be690dd1-c275-45f3-b046-8b241fab5e5c",
           "width": 48,
-          "x": 2322,
-          "y": 525,
+          "x": 2339,
+          "y": 562,
           "zOrder": 32,
           "numberProperties": [
             {
@@ -35648,15 +35590,16 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 128,
           "keepRatio": true,
           "layer": "",
           "name": "Beam",
           "persistentUuid": "082715d5-3a5b-4859-b468-025e9098e954",
-          "width": 0,
+          "width": 226,
           "x": 2254,
-          "y": 421,
+          "y": 412,
           "zOrder": 85,
           "numberProperties": [],
           "stringProperties": [],
@@ -36028,8 +35971,8 @@
           "name": "MinePart15",
           "persistentUuid": "7c4e83ff-156c-43cf-a650-4697f20aa8cd",
           "width": 48,
-          "x": 2429,
-          "y": 455,
+          "x": 2467,
+          "y": 367,
           "zOrder": 23,
           "numberProperties": [
             {
@@ -36049,8 +35992,8 @@
           "name": "MinePart16",
           "persistentUuid": "60375df3-0923-41bb-bdce-70f4c4e71034",
           "width": 48,
-          "x": 2474,
-          "y": 455,
+          "x": 2515,
+          "y": 367,
           "zOrder": 24,
           "numberProperties": [
             {
@@ -36070,29 +36013,8 @@
           "name": "MinePart16",
           "persistentUuid": "0bd74b99-a4e9-4896-b47a-b5737fb84378",
           "width": 48,
-          "x": 2522,
-          "y": 455,
-          "zOrder": 24,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart16",
-          "persistentUuid": "1d289e9d-118b-41ae-83d3-0cb605d4e0a1",
-          "width": 48,
-          "x": 2570,
-          "y": 455,
+          "x": 2563,
+          "y": 367,
           "zOrder": 24,
           "numberProperties": [
             {
@@ -36192,8 +36114,8 @@
           "name": "MinePart6",
           "persistentUuid": "96b084a3-e542-4e8e-b983-edcedee86baf",
           "width": 48,
-          "x": 2614,
-          "y": 455,
+          "x": 2610,
+          "y": 367,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -36400,6 +36322,120 @@
           "y": 590,
           "zOrder": 97,
           "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "HeartUpgrade",
+          "persistentUuid": "55feedf7-acfe-41df-8c43-1189a3a28d8a",
+          "width": 34,
+          "x": 2368,
+          "y": 638,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1",
+          "persistentUuid": "392ec491-320e-4014-aee0-3fadd91d33d8",
+          "width": 48,
+          "x": 2521,
+          "y": 415,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1Small",
+          "persistentUuid": "f5335ec7-bbdc-41fb-93ab-3d3cab4db43c",
+          "width": 48,
+          "x": 2552,
+          "y": 415,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "KeySpinning",
+          "persistentUuid": "6e092f84-926f-4801-bc2e-d2292103eb20",
+          "width": 32,
+          "x": 2519,
+          "y": 759,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "08feaca8-b720-449d-817c-5b51814f3ffa",
+          "width": 48,
+          "x": 2614,
+          "y": 459,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "4af27cac-6f52-4a51-bb12-9b989b825c39",
+          "width": 48,
+          "x": 2614,
+          "y": 413,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -38400,6 +38436,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "RockDown1",
+          "persistentUuid": "f859f611-647d-402c-a49b-e8bbd0fbebb4",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38571,6 +38608,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "RockDown1Small",
+          "persistentUuid": "e68c027b-2b7a-49d9-87e2-64d0e766dc0c",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -38672,6 +38710,7 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Geonid",
+          "persistentUuid": "5709474f-174d-495a-a787-6b754b587ec5",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
@@ -40619,6 +40658,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart27",
+          "persistentUuid": "e420f93c-bb76-4185-a34e-862e9ed87717",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -40893,12 +40933,14 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Bridge",
+          "persistentUuid": "ad139db3-ac84-432c-95aa-25ebb7180d6d",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "folded": true,
               "name": "ID",
+              "persistentUuid": "45e93b8d-6dfb-45cf-a321-021b20920c47",
               "type": "number",
               "value": 0
             }
@@ -41077,6 +41119,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "KeySpinning",
+          "persistentUuid": "3fbc5b46-3c22-43fe-9c11-b2fc976fe357",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41436,16 +41479,19 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Spider",
+          "persistentUuid": "d6566335-8518-41c1-ba49-4b6021e71abf",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "name": "id",
+              "persistentUuid": "6ccfe00b-211d-4c1e-8f9c-4dbccb273e08",
               "type": "number",
               "value": 1
             },
             {
               "name": "TimerValue",
+              "persistentUuid": "318a6836-8846-4be7-aa2e-6c70ce7b931f",
               "type": "number",
               "value": 0
             }
@@ -43118,7 +43164,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Barrel",
           "persistentUuid": "a6e00f26-233c-47d7-8cc0-e03b824bed78",
@@ -43126,7 +43172,15 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
           "animations": [
             {
               "name": "Barrel ",
@@ -43155,20 +43209,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43191,20 +43245,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43227,20 +43281,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43263,20 +43317,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43299,20 +43353,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43335,20 +43389,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43364,7 +43418,7 @@
                 {
                   "looping": false,
                   "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
+                  "timeBetweenFrames": 0.16,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -43384,20 +43438,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43420,20 +43474,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43456,20 +43510,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -43492,20 +43546,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 24,
-                            "y": 26
+                            "x": 30,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 26
+                            "x": 36.5,
+                            "y": 27.5
                           },
                           {
-                            "x": 64,
-                            "y": 64
+                            "x": 38,
+                            "y": 32
                           },
                           {
-                            "x": 24,
-                            "y": 64
+                            "x": 29.5,
+                            "y": 32.5
                           }
                         ]
                       ]
@@ -48020,6 +48074,138 @@
                 "Johnes",
                 "Flash",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "barrel"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionPoint"
+              },
+              "parameters": [
+                "Barrel",
+                "Johnes.PointX(\"Sole\")",
+                "Johnes.PointY(\"Sole\")"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Barrel",
+                "Animation",
+                "=",
+                "\"Barrel Broken\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::SimulateJumpKey"
+              },
+              "parameters": [
+                "Johnes",
+                "PlatformerObject"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Barrel",
+                "Platform",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Barrel",
+                "\"Barrel Broken\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Barrel"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Barrel",
+                "-",
+                "100*TimeDelta()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "Barrel",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Barrel",
+                    ""
+                  ]
+                }
               ]
             }
           ]
