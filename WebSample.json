@@ -14337,6 +14337,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "GemLarge",
+      "persistentUuid": "00e2e755-b128-421b-ae63-6dff0e35b34d",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -31221,8 +31222,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 1968,
-          "y": 136,
+          "x": 2037,
+          "y": 107,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -34796,8 +34797,8 @@
           "name": "Barrel",
           "persistentUuid": "735772a6-25cd-4a8f-a5e3-d2d595d24ed7",
           "width": 162,
-          "x": 1666,
-          "y": 104,
+          "x": 2041,
+          "y": 118,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -35102,8 +35103,8 @@
           "name": "GemLarge",
           "persistentUuid": "e8a8e261-b00f-4cb3-9075-771e00a8298d",
           "width": 37,
-          "x": 2144,
-          "y": 164,
+          "x": 1958,
+          "y": 74,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -35840,8 +35841,8 @@
           "name": "Debug",
           "persistentUuid": "490ff775-0249-48f4-8f27-751dab222c9a",
           "width": 0,
-          "x": 1650,
-          "y": 449,
+          "x": 2070,
+          "y": -172,
           "zOrder": 86,
           "numberProperties": [],
           "stringProperties": [],
@@ -35867,14 +35868,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 56,
+          "height": 83,
           "keepRatio": true,
           "layer": "",
           "name": "Saw",
           "persistentUuid": "e97f0ffc-5b57-4528-9fc1-7062fa634f04",
-          "width": 51,
-          "x": 2002,
-          "y": 536,
+          "width": 78,
+          "x": 1987.5,
+          "y": 570,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -35883,14 +35884,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 38,
+          "depth": 1,
+          "height": 81,
           "keepRatio": true,
           "layer": "",
           "name": "Saw",
           "persistentUuid": "44b98b6a-55a0-4f63-a0e5-d2d626772de4",
-          "width": 38,
-          "x": 1789.5,
-          "y": 555,
+          "width": 81,
+          "x": 1768,
+          "y": 574,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -35899,14 +35901,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 38,
+          "depth": 1,
+          "height": 82,
           "keepRatio": true,
           "layer": "",
           "name": "Saw",
           "persistentUuid": "cfb82709-cc39-49c2-8b23-f597f8af3e20",
-          "width": 38,
-          "x": 1580.5,
-          "y": 538,
+          "width": 77,
+          "x": 1561,
+          "y": 557,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -42110,6 +42113,11 @@
           "updateIfNotVisible": false,
           "variables": [
             {
+              "name": "ChainID",
+              "type": "number",
+              "value": 3
+            },
+            {
               "folded": true,
               "name": "Direction",
               "type": "number",
@@ -43081,7 +43089,14 @@
           "persistentUuid": "a66d9416-b367-4575-8163-6b6533213139",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "ChainID",
+              "persistentUuid": "3e15f59e-64a8-4d0e-aba2-4e68a7663d44",
+              "type": "number",
+              "value": 3
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -43091,7 +43106,7 @@
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.125,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -47051,53 +47066,129 @@
                   ]
                 }
               ]
+            },
+            {
+              "aiGeneratedEventId": "01KY2ARGGYRGCV90Q0ANB2V1EX",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "BigChain",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "BigChain",
+                    "ChainID",
+                    "=",
+                    "I + 1"
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "I",
+                  "type": "number",
+                  "value": 0
+                }
+              ],
+              "loopIndexVariable": "I",
+              "orderBy": "BigChain.X()",
+              "order": "asc"
+            },
+            {
+              "aiGeneratedEventId": "01KY2ARGGYRGCV90Q0ANB2V1EX",
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Saw",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Saw",
+                    "ChainID",
+                    "=",
+                    "I + 1"
+                  ]
+                }
+              ],
+              "variables": [
+                {
+                  "name": "I",
+                  "type": "number",
+                  "value": 0
+                }
+              ],
+              "loopIndexVariable": "I",
+              "orderBy": "Saw.X()",
+              "order": "asc"
             }
           ]
         },
         {
-          "aiGeneratedEventId": "01KY23YVJPXDW7SZ9WF9HVVM6R",
+          "aiGeneratedEventId": "01KY2ARGGYRGCV90Q0ANB2V1EX",
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "BigChain",
+          "object": "Saw",
           "conditions": [],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "PickNearest"
-              },
-              "parameters": [
-                "Saw",
-                "BigChain.X()",
-                "BigChain.Y()"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetX"
-              },
-              "parameters": [
-                "Saw",
-                "=",
-                "BigChain.X() + BigChain.Width()/2 * cos(ToRad(BigChain.Angle())) - BigChain.Height() * sin(ToRad(BigChain.Angle())) - 19"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetY"
-              },
-              "parameters": [
-                "Saw",
-                "=",
-                "BigChain.Y() + BigChain.Width()/2 * sin(ToRad(BigChain.Angle())) + BigChain.Height() * cos(ToRad(BigChain.Angle())) - 19"
-              ]
-            },
-            {
-              "type": {
-                "value": "SetAngle"
-              },
-              "parameters": [
-                "Saw",
-                "=",
-                "Saw.Angle() + 400 * TimeDelta()"
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "BigChain",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "aiGeneratedEventId": "01KY2B2W450WXW8FFBSK6CYFT5",
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberObjectVariable"
+                      },
+                      "parameters": [
+                        "BigChain",
+                        "ChainID",
+                        "=",
+                        "Saw.ChainID"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetX"
+                      },
+                      "parameters": [
+                        "Saw",
+                        "=",
+                        "BigChain.X() + BigChain.Width()/2 * cos(ToRad(BigChain.Angle())) - BigChain.Height() * sin(ToRad(BigChain.Angle())) - Saw.Width()/2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetY"
+                      },
+                      "parameters": [
+                        "Saw",
+                        "=",
+                        "BigChain.Y() + BigChain.Width()/2 * sin(ToRad(BigChain.Angle())) + BigChain.Height() * cos(ToRad(BigChain.Angle())) - Saw.Height()/2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Rotate"
+                      },
+                      "parameters": [
+                        "Saw",
+                        "1200 * TimeDelta()",
+                        ""
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
