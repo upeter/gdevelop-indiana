@@ -1,7 +1,7 @@
 {
   "firstLayout": "JungleScene",
   "gdVersion": {
-    "build": 273,
+    "build": 274,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -10551,6 +10551,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Johnes",
+      "persistentUuid": "f926ddcf-117c-4829-b398-599588d79573",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -10583,10 +10584,10 @@
           "FlashDuration": 0
         },
         {
-          "gravity": 1000,
-          "ignoreDefaultControls": false,
           "name": "PlatformerObject",
           "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
           "acceleration": 1500,
           "canGoDownFromJumpthru": true,
           "canGrabPlatforms": false,
@@ -13799,6 +13800,7 @@
       "bold": false,
       "italic": false,
       "name": "Debug",
+      "persistentUuid": "d2d0901b-94c0-48b3-a801-8206c9789c93",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -14826,11 +14828,13 @@
     {
       "folded": true,
       "name": "Score",
+      "persistentUuid": "600e22d2-355b-45fe-87f4-266f1c209da8",
       "type": "number",
       "value": 0
     },
     {
       "name": "isHit",
+      "persistentUuid": "081fe692-319b-4a3e-a24d-2daca33a4e94",
       "type": "boolean",
       "value": false
     }
@@ -14900,24 +14904,28 @@
         {
           "folded": true,
           "name": "MaxHelath",
+          "persistentUuid": "55dd6930-ab79-4c51-af62-8f55af242e16",
           "type": "number",
           "value": 5
         },
         {
           "folded": true,
           "name": "Health",
+          "persistentUuid": "ab2d7020-b63b-4896-a2ea-0d2eec522eb7",
           "type": "number",
           "value": 5
         },
         {
           "folded": true,
           "name": "UpdateHealth",
+          "persistentUuid": "e9d8336a-c42c-47f2-9fec-c56ef2d35a60",
           "type": "boolean",
           "value": true
         },
         {
           "folded": true,
           "name": "Jackpot",
+          "persistentUuid": "6d14dd73-b40b-48f9-8ef4-6d5230d9e82d",
           "type": "number",
           "value": 0
         }
@@ -17886,10 +17894,10 @@
           "effects": [],
           "behaviors": [
             {
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
               "acceleration": 0,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -20246,10 +20254,10 @@
               "type": "IsOnScreen::InOnScreen"
             },
             {
-              "gravity": 1000,
-              "ignoreDefaultControls": false,
               "name": "PlatformerObject",
               "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "gravity": 1000,
+              "ignoreDefaultControls": false,
               "acceleration": 1500,
               "canGoDownFromJumpthru": true,
               "canGrabPlatforms": false,
@@ -28033,7 +28041,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6492030249510391,
+        "zoomFactor": 0.2400428680804217,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -28125,23 +28133,53 @@
       ],
       "variables": [
         {
+          "name": "lowerCamBottom",
+          "persistentUuid": "d536f649-c1a3-4bb8-a0a8-3da57df01f13",
+          "type": "number",
+          "value": 1000
+        },
+        {
+          "name": "lowerCamRight",
+          "persistentUuid": "d9e5d54b-8d82-40ff-9b7c-8883fe7bbcf6",
+          "type": "number",
+          "value": 4000
+        },
+        {
+          "name": "lowerCamTop",
+          "persistentUuid": "0c58c1d6-dd3e-4188-89a0-18670359d668",
+          "type": "number",
+          "value": 250
+        },
+        {
+          "name": "lowerCamLeft",
+          "persistentUuid": "e2d5d2a5-1d49-44d4-80d5-21540ee029d4",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "cameraLower",
+          "persistentUuid": "3af6c5bf-63a9-4c9e-a1f3-6ad7ee651ce7",
+          "type": "boolean",
+          "value": false
+        },
+        {
           "folded": true,
           "name": "Health",
-          "persistentUuid": "f0181177-0476-45a4-81bf-8b5a966cfc50",
+          "persistentUuid": "8867db5d-ec27-4f36-ad23-c0e776c63ed1",
           "type": "number",
           "value": 5
         },
         {
           "folded": true,
           "name": "UpdateHealth",
-          "persistentUuid": "63e38208-87fa-4594-9bee-6abd7ebc45b5",
+          "persistentUuid": "e6f76789-7106-482b-b1db-8a4f16269567",
           "type": "boolean",
           "value": true
         },
         {
           "folded": true,
           "name": "MaxHealth",
-          "persistentUuid": "f4a1b5b5-9bed-4731-9bd0-56e8a2223b3c",
+          "persistentUuid": "8eb6f69c-05cc-4bf6-b2b3-0461749d12b1",
           "type": "number",
           "value": 5
         }
@@ -28996,7 +29034,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 139,
+          "height": 43,
           "layer": "",
           "name": "MinePart9",
           "persistentUuid": "58d5936d-56d0-47d5-b646-c6036ee1d5e7",
@@ -31178,8 +31216,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 22,
-          "y": -42,
+          "x": 1975,
+          "y": 114,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -31584,7 +31622,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 153,
+          "height": 61,
           "layer": "",
           "name": "MinePart9",
           "persistentUuid": "4c4dcebd-f246-45fd-a758-65115e6d40b0",
@@ -33761,8 +33799,8 @@
           "name": "MinePart2",
           "persistentUuid": "f759c230-3e05-4363-be41-0bb130af6861",
           "width": 48,
-          "x": 2352,
-          "y": 549,
+          "x": 2296,
+          "y": 744,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -34424,8 +34462,8 @@
           "name": "MinePart26",
           "persistentUuid": "d23e8274-dc60-4620-8bd7-767ee7fe1223",
           "width": 48,
-          "x": 2400,
-          "y": 549,
+          "x": 2372,
+          "y": 547,
           "zOrder": 34,
           "numberProperties": [
             {
@@ -34753,8 +34791,8 @@
           "name": "Barrel",
           "persistentUuid": "735772a6-25cd-4a8f-a5e3-d2d595d24ed7",
           "width": 162,
-          "x": 1385,
-          "y": 564,
+          "x": 1666,
+          "y": 104,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -35022,8 +35060,8 @@
           "name": "MinePart24",
           "persistentUuid": "be690dd1-c275-45f3-b046-8b241fab5e5c",
           "width": 48,
-          "x": 2305,
-          "y": 551,
+          "x": 2327,
+          "y": 547,
           "zOrder": 32,
           "numberProperties": [
             {
@@ -35065,6 +35103,760 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "d27485f0-9dd4-412a-a668-5d5879fa5b3d",
+          "width": 48,
+          "x": 1559,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "55572fa8-7b99-4ea8-a602-3026850966a6",
+          "width": 48,
+          "x": 1607,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "1a900dd1-32a6-41c9-b96e-6c618bb7cc0b",
+          "width": 48,
+          "x": 1655,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "aa874705-a421-44c0-a33f-f00050b11cfe",
+          "width": 48,
+          "x": 1701,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "c15d1616-a77d-4d3c-b1c1-f7b05ca9db6e",
+          "width": 48,
+          "x": 1749,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "e50b340b-217f-4d76-b0ba-530b7ba8d1da",
+          "width": 48,
+          "x": 1797,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "02ba4c3a-a2d0-47ad-9a96-13e5610bd80c",
+          "width": 48,
+          "x": 1845,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "fdae2101-39bc-48d4-bbd8-e07d0b28ebf4",
+          "width": 48,
+          "x": 1892,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "d388cdaa-8f8b-46f4-b5bc-efd3013b051f",
+          "width": 48,
+          "x": 1938,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "73b9fae8-0917-43d8-a510-672e53102500",
+          "width": 48,
+          "x": 1986,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "707892c9-541e-4a4a-b7f9-dfff4d6bffdc",
+          "width": 48,
+          "x": 2034,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "7de3b34b-f928-4159-a9c6-36cb644c4dff",
+          "width": 48,
+          "x": 2082,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "7afa4a77-00db-4a64-be4c-a696cf5c3107",
+          "width": 48,
+          "x": 2129,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "193024cd-eaea-4c7f-a45d-a5ffca12f0d2",
+          "width": 48,
+          "x": 2175,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "f2515fd8-caf1-41e9-ad0d-dd1f45e2a8c5",
+          "width": 48,
+          "x": 2223,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "a558012c-731e-43d0-beb2-85d37089baa8",
+          "width": 48,
+          "x": 2271,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "8768e6ad-a8e2-4bb0-8a13-6f73d9190687",
+          "width": 48,
+          "x": 2319,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "af90a561-9424-4c68-b723-0aff9ee7d157",
+          "width": 48,
+          "x": 2368,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "5b3ab035-25ad-45de-92dd-a5681c45b3cc",
+          "width": 48,
+          "x": 2414,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "b29cfd69-53c1-49af-ad2f-cdd7288fb138",
+          "width": 48,
+          "x": 2462,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "bc67cddc-5520-48c4-b75b-e2b955b2b559",
+          "width": 48,
+          "x": 2510,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "d5ca85be-eb11-40e1-b987-b97d04b99ad2",
+          "width": 48,
+          "x": 2558,
+          "y": 662,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "02721e6c-419d-4d23-9c8f-608801d94713",
+          "width": 298,
+          "x": 1184,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "58fd273e-d2ba-48ac-94ea-246cd63988c3",
+          "width": 298,
+          "x": 1481,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "1291ae8f-74da-4515-8a3b-080eeaad9300",
+          "width": 298,
+          "x": 1778,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "4d8cebb1-42a5-4e38-a0c0-c680ab335042",
+          "width": 298,
+          "x": 2075,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "73c661dc-7893-46fb-acad-6b7857e311a6",
+          "width": 298,
+          "x": 2371,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Beam",
+          "persistentUuid": "082715d5-3a5b-4859-b468-025e9098e954",
+          "width": 0,
+          "x": 2254,
+          "y": 421,
+          "zOrder": 85,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "ddbb6ec5-c924-48de-bc96-b0b6178fd264",
+          "width": 298,
+          "x": -3,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "6b794228-8388-4771-b86c-bc2765d6cd39",
+          "width": 298,
+          "x": 294,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "5e2b95e0-c07a-448b-a147-bda7bfe9c81a",
+          "width": 298,
+          "x": 591,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "d0209920-6954-4793-a313-71b0913f7b5d",
+          "width": 298,
+          "x": 887,
+          "y": 725,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart17",
+          "persistentUuid": "71ebccec-8263-41a0-98b0-67530f7de862",
+          "width": 48,
+          "x": 1339,
+          "y": 624,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "3e3135f0-a988-4c89-9332-33c49e1ef3ba",
+          "width": 48,
+          "x": 1245,
+          "y": 624,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "9a98db75-8b4f-43ac-b13c-1fd5bb06e71f",
+          "width": 48,
+          "x": 1151,
+          "y": 624,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "cde415d3-fc45-4145-86bf-1dddcb7df175",
+          "width": 48,
+          "x": 1197,
+          "y": 624,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "045389d5-7f0e-432b-ac69-ee63742626c0",
+          "width": 48,
+          "x": 1291,
+          "y": 624,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "1b50a9a2-ecb5-462d-a190-16d0f09db3eb",
+          "width": 48,
+          "x": 1105,
+          "y": 624,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "bc742828-d442-456d-bb27-97d1587311b4",
+          "width": 48,
+          "x": 1011,
+          "y": 624,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "5a89456e-5463-4201-9c76-156a9117964f",
+          "width": 48,
+          "x": 1058,
+          "y": 624,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "3b527102-00b4-4fdd-852e-127eea4a9ef7",
+          "width": 48,
+          "x": 965,
+          "y": 623,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "dc3f25cd-a8c4-4791-8bc4-9931520d563d",
+          "width": 48,
+          "x": 919,
+          "y": 623,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "490ff775-0249-48f4-8f27-751dab222c9a",
+          "width": 0,
+          "x": 1650,
+          "y": 449,
+          "zOrder": 86,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart1",
+          "persistentUuid": "9cd1a06c-24f5-4c3f-8551-14ea39f89e1f",
+          "width": 48,
+          "x": 1513,
+          "y": 662,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -35072,6 +35864,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "BackgroundTile",
+          "persistentUuid": "14425bd8-99d3-4cc4-9fdd-56d2c39276a6",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -35280,6 +36073,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart1",
+          "persistentUuid": "37744799-3feb-40d7-8a5d-493c05869071",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -35348,6 +36142,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart2",
+          "persistentUuid": "99dc3b83-4071-4bf3-85d9-4c0e962b7e37",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -35824,6 +36619,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart9",
+          "persistentUuid": "733cf242-70ec-4e65-8a89-bf778c732afd",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -35892,6 +36688,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart10",
+          "persistentUuid": "928432e8-4754-4eb4-ace2-07c5b92654fa",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36300,6 +37097,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart16",
+          "persistentUuid": "0491bb0b-b259-4da2-b54f-46c9ad4c6786",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36368,6 +37166,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart17",
+          "persistentUuid": "84a228c6-0c4a-4e9d-bb0d-d65eb219ed71",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36844,6 +37643,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart24",
+          "persistentUuid": "84745a81-0e6c-4eec-89bb-f580b8ec19f9",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -36981,6 +37781,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "MinePart26",
+          "persistentUuid": "d295926f-58a4-49fd-9c07-6e5422de4a8a",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -41763,6 +42564,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "Barrel",
+          "persistentUuid": "a6e00f26-233c-47d7-8cc0-e03b824bed78",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -42894,6 +43696,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "24078076242fbf8d5f58f395279a2eeb72ea3b3336cbfd50c269407a15b7eb2c",
           "name": "Beam",
+          "persistentUuid": "37ba7feb-8507-4d01-89ee-a999ecfe532f",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -43547,8 +44350,20 @@
           "comment": "Camera"
         },
         {
+          "aiGeneratedEventId": "01KY226DR9XVJR77NSV4FGVVKB",
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraLower",
+                "False",
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -43558,8 +44373,8 @@
                 "",
                 "=",
                 "lerp(CameraX(), Johnes.X(), 0.02)",
-                "",
-                ""
+                "\"\"",
+                "0"
               ]
             },
             {
@@ -43570,27 +44385,234 @@
                 "",
                 "=",
                 "lerp(CameraY(), Johnes.Y(), 0.02)",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CenterCameraOnObject"
+              },
+              "parameters": [
                 "",
+                "Johnes",
+                "no",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "0",
+                "10",
+                "4000",
+                "592",
+                "\"\"",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY226DR9XVJR77NSV4FGVVKB",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraLower",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetCameraCenterX"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraX(), Johnes.X(), 0.02)",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "lerp(CameraY(), Johnes.Y(), 0.02)",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "CenterCameraOnObject"
+              },
+              "parameters": [
+                "",
+                "Johnes",
+                "no",
+                "\"\"",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ClampCamera"
+              },
+              "parameters": [
+                "",
+                "lowerCamLeft",
+                "lowerCamTop",
+                "lowerCamRight",
+                "lowerCamBottom",
+                "\"\"",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KXXSK1KX70ZTS59VY941TFYK",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraLower",
+                "False",
                 ""
               ]
             },
             {
               "type": {
-                "value": "FixCamera"
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    ">",
+                    "Beam.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    ">",
+                    "Beam.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
               },
               "parameters": [
-                "",
-                "Johnes",
-                "0",
-                "10",
-                "4000",
-                "592",
-                "",
-                "",
+                "cameraLower",
+                "True",
                 ""
               ]
             }
           ]
+        },
+        {
+          "aiGeneratedEventId": "01KXXSK1KX70ZTS59VY941TFYK",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "cameraLower",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    "<=",
+                    "Beam.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PosY"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    "<=",
+                    "Beam.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "cameraLower",
+                "False",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Link",
