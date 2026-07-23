@@ -10869,6 +10869,198 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/0f48e54bca2d4afe7ae3bd00700ef0c6de323cb8285378e91eb983b12bc94bef_Ghost_Idle_9.png",
           "name": "Ghost_Idle_9.png"
         }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/6ba2b064d2ab76e8e96ac9383f21a564b494f7f292a43643cd894819e3837f65_Blue Jewel_Spinning_1.png",
+          "name": "Blue Jewel_Spinning_1.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/c1fae05ae8d25d4249ba64012375c5fcbf59625a08e2df05a61a844867bbdca2_Blue Jewel_Spinning_10.png",
+          "name": "Blue Jewel_Spinning_10.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_11.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/78f4229f253a0ba3a687cd49ebaf93c21bd87855cbc20a373ee84840724b8458_Blue Jewel_Spinning_11.png",
+          "name": "Blue Jewel_Spinning_11.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_12.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/a3408334b0cac31e8337bf7114c97b199a3fd37665bcdef25de7a70429b9c032_Blue Jewel_Spinning_12.png",
+          "name": "Blue Jewel_Spinning_12.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_13.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/cd13d61fd36b17dce035b1c6c1eb683f98f16c2cec9cc08b5b4ff01876cf5c6b_Blue Jewel_Spinning_13.png",
+          "name": "Blue Jewel_Spinning_13.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_14.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/dffd454f00807e27759ec54b2fafd5a00183a1212c6b91285cecc1a24a4dcf04_Blue Jewel_Spinning_14.png",
+          "name": "Blue Jewel_Spinning_14.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_15.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/d3caaab5ef44d705f80e717a0099d2ca09d4103d3c46a534de647a29368f95a9_Blue Jewel_Spinning_15.png",
+          "name": "Blue Jewel_Spinning_15.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/9dee9ff04806a6e0a660826013148f2c96292bb42c141a5c9e28d86503d473ec_Blue Jewel_Spinning_16.png",
+          "name": "Blue Jewel_Spinning_16.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/227ec10adf2c6c36cd18d0bdc6dcc39ef56f9950b12f5b8e4ade74eb0b65834d_Blue Jewel_Spinning_2.png",
+          "name": "Blue Jewel_Spinning_2.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/3c60d6d73cb9d497b82ed907eccedd30970eec765433f0105e422615c7fcf7f8_Blue Jewel_Spinning_3.png",
+          "name": "Blue Jewel_Spinning_3.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/d37d3ca0eb92eb1c4703c1f4ae00692b03a30014f6f5b66d16cf4e1b9ef7e05a_Blue Jewel_Spinning_4.png",
+          "name": "Blue Jewel_Spinning_4.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/4bcffeaeb18ea2c2f4b74a369d971c8e089d4af8676b14a9a056f3b80c0d9bcc_Blue Jewel_Spinning_5.png",
+          "name": "Blue Jewel_Spinning_5.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/7d89cdb1222be0352f4ccf531405e71fd6d4c61a71ce37d7588963cb64053427_Blue Jewel_Spinning_6.png",
+          "name": "Blue Jewel_Spinning_6.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/4b2ca97167ecffed5f44798548f30cc47c243c3a5996208cd64582004b8a573c_Blue Jewel_Spinning_7.png",
+          "name": "Blue Jewel_Spinning_7.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/42ab0db79021dc6eb0ef1b6ac102cb5c35b5b7bee3107279d3240c110ddc7a57_Blue Jewel_Spinning_8.png",
+          "name": "Blue Jewel_Spinning_8.png"
+        }
+      },
+      {
+        "file": "assets/Blue Jewel_Spinning_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue Jewel_Spinning_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/c094942d75b70a945f96818705fb4f55fe3e93f1dd863110db72cc1813d4995a_Blue Jewel_Spinning_9.png",
+          "name": "Blue Jewel_Spinning_9.png"
+        }
       }
     ]
   },
@@ -14716,12 +14908,14 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "GoldCoin",
+      "persistentUuid": "387c00e6-4ede-4fc8-b503-23180fc12eea",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
         {
           "folded": true,
           "name": "opacity",
+          "persistentUuid": "5c48df18-9335-4645-b14d-ab3f45c8e7ed",
           "type": "number",
           "value": 255
         }
@@ -37015,8 +37209,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "c950e854-ec2d-419d-85b4-6e1b9a2a007a",
           "width": 799,
-          "x": 1387,
-          "y": 418,
+          "x": 1393,
+          "y": 414,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -38796,9 +38990,71 @@
           "name": "Right",
           "persistentUuid": "9fe88e43-e7b3-480b-a43d-f56268d5e2a8",
           "width": 0,
-          "x": 1521,
-          "y": 838,
+          "x": 1441,
+          "y": 834,
           "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1Small",
+          "persistentUuid": "8fa52831-9c41-4bda-aa3b-96a076e38b05",
+          "width": 48,
+          "x": 2567,
+          "y": 790,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1Small",
+          "persistentUuid": "66832fd4-2456-4955-a69e-e38adb24266d",
+          "width": 48,
+          "x": 1921,
+          "y": 790,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "GreenTwice",
+          "persistentUuid": "980ab9a7-5430-455f-89d5-17cdca3fd704",
+          "width": 0,
+          "x": 2233,
+          "y": 791,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "GreenSemiDense",
+          "persistentUuid": "750390eb-4f2c-477d-8abd-db0143097414",
+          "width": 0,
+          "x": 1520,
+          "y": 417,
+          "zOrder": 69,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -45439,6 +45695,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "GreenSemiDense",
+          "persistentUuid": "3a0c5fb9-21e5-42b9-a5a4-30e130e95126",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -45500,6 +45757,7 @@
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
           "name": "GreenTwice",
+          "persistentUuid": "45bbae14-0f52-4678-95b9-75b41dc5d76f",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -47673,6 +47931,7 @@
           "variables": [
             {
               "name": "Health",
+              "persistentUuid": "efce103e-f037-45e8-81f4-19f57df80fe9",
               "type": "number",
               "value": 3
             }
@@ -47733,8 +47992,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -47769,8 +48028,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -47805,8 +48064,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -47841,8 +48100,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -47877,8 +48136,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -47913,8 +48172,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -47949,8 +48208,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -47985,8 +48244,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48021,8 +48280,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48057,8 +48316,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48105,8 +48364,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48141,8 +48400,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48177,8 +48436,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48213,8 +48472,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48249,8 +48508,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48297,8 +48556,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48333,8 +48592,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48369,8 +48628,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48405,8 +48664,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48453,8 +48712,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48489,8 +48748,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48525,8 +48784,8 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
                           }
                         ]
                       ]
@@ -48561,8 +48820,622 @@
                             "y": 30
                           },
                           {
-                            "x": 6,
-                            "y": 30
+                            "x": 3.5,
+                            "y": 29.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c0ee34c55442f2a2dc4019952ced7620db96445db888900f60bdc6a4e883e541",
+          "name": "Blue_Jewel",
+          "persistentUuid": "28aa9f2e-bcca-4b8e-a47d-ea67f7c854ab",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "name": "fading",
+              "persistentUuid": "4d3905b4-6b0a-478b-a32f-97912827eddd",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "lifetime",
+              "persistentUuid": "be2ee3d0-ad4c-4ff2-a36a-7ebe5e6ca53b",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Spinning",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.125,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_11.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_12.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_13.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_14.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_15.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue Jewel_Spinning_16.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 0
+                          },
+                          {
+                            "x": 16,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
                           }
                         ]
                       ]
@@ -48756,6 +49629,9 @@
           },
           {
             "objectName": "Ghost"
+          },
+          {
+            "objectName": "Blue_Jewel"
           }
         ]
       },
@@ -49496,8 +50372,22 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01KY86GC10TX4BMSGBGJED0AW6",
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Blue_Jewel",
+                "Johnes",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
@@ -49505,9 +50395,9 @@
               },
               "parameters": [
                 "",
-                "Saphire",
+                "Blue_Jewel",
                 "Johnes",
-                "100",
+                "20",
                 "Score",
                 ""
               ]
@@ -52491,6 +53381,31 @@
           "comment": "ghost "
         },
         {
+          "aiGeneratedEventId": "01KY86HKMTE9J2RAMVSMBJXFBS",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GhostJewelTimer\""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": [
@@ -52508,6 +53423,99 @@
                 "True",
                 "True",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY86HKMTE9J2RAMVSMBJXFBS",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"GhostJewelTimer\"",
+                ">",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GhostJewelTimer\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Blue_Jewel",
+                    "Ghost.X() + 50",
+                    "Ghost.Y()",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Else",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Blue_Jewel",
+                    "Ghost.X() - 50",
+                    "Ghost.Y()",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "lifetime",
+                    "=",
+                    "4"
+                  ]
+                }
               ]
             }
           ]
@@ -52791,6 +53799,126 @@
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
           "actions": []
+        },
+        {
+          "aiGeneratedEventId": "01KY86JE3CEAS65MMB6HGQHPC6",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blue_Jewel",
+                "lifetime",
+                ">",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Blue_Jewel",
+                "lifetime",
+                "-",
+                "TimeDelta()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "lifetime",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "fading",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY86JE3CEAS65MMB6HGQHPC6",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Blue_Jewel",
+                "fading",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "OpacityCapability::OpacityBehavior::SetValue"
+              },
+              "parameters": [
+                "Blue_Jewel",
+                "Opacity",
+                "-",
+                "200 * TimeDelta()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::Value"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Opacity",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
