@@ -10379,6 +10379,78 @@
         "name": "Hit19",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "barrel_destroyed_001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "barrel_destroyed_001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "barrel_destroyed_002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "barrel_destroyed_002.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "barrel_destroyed_003.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "barrel_destroyed_003.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "barrel_destroyed_004.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "barrel_destroyed_004.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "barrel_destroyed_005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "barrel_destroyed_005.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "barrel_destroyed_006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "barrel_destroyed_006.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Ground Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ground Brown_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Ground/0cfc787294ea8ac4c7911f29657629f3877f34bd4f5959e22dfab39c8b48760f_Ground Brown_Idle.png",
+          "name": "Ground Brown_Idle.png"
+        }
+      },
+      {
+        "file": "assets/Ground Brown_Target.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ground Brown_Target.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Kenney Sokoban/Ground/4ae596bab9241dc2720d06fef216f81c0102154c91030f753bc6a63d931d1064_Ground Brown_Target.png",
+          "name": "Ground Brown_Target.png"
+        }
       }
     ]
   },
@@ -28204,7 +28276,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.6431081399970826,
+        "zoomFactor": 1.4875000000001015,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -32521,7 +32593,7 @@
           "name": "Geonid",
           "persistentUuid": "5018320c-6a5e-4a1b-b06c-93bbe6b07dab",
           "width": 0,
-          "x": 1260,
+          "x": 1261,
           "y": 305,
           "zOrder": 64,
           "numberProperties": [],
@@ -34843,8 +34915,8 @@
           "name": "Barrel",
           "persistentUuid": "735772a6-25cd-4a8f-a5e3-d2d595d24ed7",
           "width": 162,
-          "x": 2439,
-          "y": 578,
+          "x": 2260,
+          "y": 760,
           "zOrder": 73,
           "numberProperties": [],
           "stringProperties": [],
@@ -36384,8 +36456,8 @@
           "persistentUuid": "6e092f84-926f-4801-bc2e-d2292103eb20",
           "width": 32,
           "x": 2519,
-          "y": 759,
-          "zOrder": 63,
+          "y": 531,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": [
@@ -36436,6 +36508,40 @@
               "value": 0
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 81,
+          "keepRatio": true,
+          "layer": "",
+          "name": "barrel_2_02",
+          "persistentUuid": "811a359c-84a9-4690-8b93-71fc702f28e3",
+          "width": 88,
+          "x": 2494,
+          "y": 622,
+          "zOrder": 98,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 8,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ground_Brown",
+          "persistentUuid": "a9f49c78-c274-47c5-8fd8-d593e68641c5",
+          "width": 38,
+          "x": 2537,
+          "y": 746,
+          "zOrder": 99,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -38717,6 +38823,7 @@
             {
               "folded": true,
               "name": "Health",
+              "persistentUuid": "30c0db07-7c7f-4785-92e6-1ce7397113a5",
               "type": "number",
               "value": 2
             }
@@ -41036,6 +41143,7 @@
           "height": 48,
           "leftMargin": 0,
           "name": "Ladder",
+          "persistentUuid": "f0fa26ff-61a4-4ef9-bf43-076efb77ca26",
           "rightMargin": 0,
           "texture": "cave-ladder_225.png",
           "tiled": false,
@@ -41116,7 +41224,7 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "KeySpinning",
           "persistentUuid": "3fbc5b46-3c22-43fe-9c11-b2fc976fe357",
@@ -41152,12 +41260,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -41188,12 +41296,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -41224,12 +41332,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -41260,12 +41368,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -41296,12 +41404,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -41332,12 +41440,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -41368,12 +41476,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -41404,12 +41512,12 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 4,
-                            "y": 0
+                            "x": 4.5,
+                            "y": 2
                           },
                           {
                             "x": 12,
-                            "y": 0
+                            "y": 2
                           },
                           {
                             "x": 12,
@@ -44516,6 +44624,384 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "barrel_2_02",
+          "persistentUuid": "e93c330f-d4e6-4f2e-9fd3-0e28e4e4c63d",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Barrel",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "barrel_destroyed_001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 22.5,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrel Broken",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "barrel_destroyed_002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 22.5,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "barrel_destroyed_003.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 22.5,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "barrel_destroyed_004.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 22.5,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "barrel_destroyed_005.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 22.5,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "barrel_destroyed_006.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 10,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 22.5,
+                            "y": 5.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 24
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 24
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "de9a03aabcf2e9ab1477341eefec6b735da1dd9ecafece758034e09a56db6910",
+          "name": "Ground_Brown",
+          "persistentUuid": "9eb09a5a-31fc-42e5-b413-23b4fef3d749",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ground Brown_Idle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Target",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ground Brown_Target.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -44682,6 +45168,12 @@
           },
           {
             "objectName": "Beam"
+          },
+          {
+            "objectName": "barrel_2_02"
+          },
+          {
+            "objectName": "Ground_Brown"
           }
         ]
       },
@@ -44910,6 +45402,25 @@
                     "",
                     "Trampoline",
                     "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Ground_Brown"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JohnesFunctions::DisableById"
+                  },
+                  "parameters": [
+                    "",
+                    "KeySpinning",
+                    "2",
                     ""
                   ]
                 }
@@ -48103,7 +48614,7 @@
                 "value": "CollisionPoint"
               },
               "parameters": [
-                "Barrel",
+                "barrel_2_02",
                 "Johnes.PointX(\"Sole\")",
                 "Johnes.PointY(\"Sole\")"
               ]
@@ -48118,10 +48629,18 @@
           "actions": [
             {
               "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "KeySpinning"
+              ]
+            },
+            {
+              "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
               },
               "parameters": [
-                "Barrel",
+                "barrel_2_02",
                 "Animation",
                 "=",
                 "\"Barrel Broken\""
@@ -48129,21 +48648,23 @@
             },
             {
               "type": {
-                "value": "PlatformBehavior::SimulateJumpKey"
+                "value": "ActivateBehavior"
               },
               "parameters": [
-                "Johnes",
-                "PlatformerObject"
+                "barrel_2_02",
+                "Platform",
+                "no"
               ]
             },
             {
               "type": {
-                "value": "ActivateBehavior"
+                "value": "JohnesFunctions::EnableById"
               },
               "parameters": [
-                "Barrel",
-                "Platform",
-                "no"
+                "",
+                "KeySpinning",
+                "2",
+                ""
               ]
             }
           ]
@@ -48156,7 +48677,7 @@
                 "value": "AnimationName"
               },
               "parameters": [
-                "Barrel",
+                "barrel_2_02",
                 "\"Barrel Broken\""
               ]
             },
@@ -48165,7 +48686,7 @@
                 "value": "AnimationEnded"
               },
               "parameters": [
-                "Barrel"
+                "barrel_2_02"
               ]
             }
           ],
@@ -48175,9 +48696,18 @@
                 "value": "Opacity"
               },
               "parameters": [
-                "Barrel",
+                "barrel_2_02",
                 "-",
                 "100*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "KeySpinning",
+                ""
               ]
             }
           ],
@@ -48190,7 +48720,7 @@
                     "value": "Opacity"
                   },
                   "parameters": [
-                    "Barrel",
+                    "barrel_2_02",
                     "=",
                     "0"
                   ]
@@ -48202,7 +48732,16 @@
                     "value": "Delete"
                   },
                   "parameters": [
-                    "Barrel",
+                    "barrel_2_02",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Ground_Brown",
                     ""
                   ]
                 }
