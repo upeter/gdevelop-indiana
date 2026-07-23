@@ -28905,7 +28905,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4218332278033665,
+        "zoomFactor": 0.846457184345172,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -37219,8 +37219,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "c950e854-ec2d-419d-85b4-6e1b9a2a007a",
           "width": 799,
-          "x": 841,
-          "y": 533,
+          "x": 771,
+          "y": 542,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -38189,8 +38189,8 @@
           "name": "MinePart28",
           "persistentUuid": "1a5c7999-7828-4ceb-991b-1f9587d02a67",
           "width": 50,
-          "x": 1387,
-          "y": 828,
+          "x": 1380,
+          "y": 937,
           "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
@@ -47944,6 +47944,12 @@
               "persistentUuid": "efce103e-f037-45e8-81f4-19f57df80fe9",
               "type": "number",
               "value": 3
+            },
+            {
+              "name": "GhostActivated",
+              "persistentUuid": "a447c7b9-c1cd-45f8-9529-2bd4e11dcebf",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -53403,7 +53409,93 @@
           "comment": "ghost "
         },
         {
+          "aiGeneratedEventId": "01KY89MNPVH28N6G25N62TGX7W",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "abs(Johnes.Y() - Ghost.Y())",
+                "<",
+                "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "GhostActivated",
+                "False",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "GhostActivated",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"GhostJewelTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY89MNPVH28N6G25N62TGX7W",
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Ghost",
+                "GhostActivated",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "HorizontalBackAndForth::HorizontalBackAndForth"
+              },
+              "parameters": [
+                "",
+                "Ghost",
+                "150",
+                "Right",
+                "Left",
+                "True",
+                "True",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
           "aiGeneratedEventId": "01KY86HKMTE9J2RAMVSMBJXFBS",
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
