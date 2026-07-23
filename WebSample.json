@@ -11061,6 +11061,16 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/c094942d75b70a945f96818705fb4f55fe3e93f1dd863110db72cc1813d4995a_Blue Jewel_Spinning_9.png",
           "name": "Blue Jewel_Spinning_9.png"
         }
+      },
+      {
+        "file": "assets/sfx_gem.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "gem-spawn.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -28895,7 +28905,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9045052888202922,
+        "zoomFactor": 0.4218332278033665,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -32070,8 +32080,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 1468,
-          "y": 618,
+          "x": 2336,
+          "y": 334,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -36256,8 +36266,8 @@
           "name": "Beam",
           "persistentUuid": "082715d5-3a5b-4859-b468-025e9098e954",
           "width": 226,
-          "x": 1378,
-          "y": 676,
+          "x": 2257,
+          "y": 407,
           "zOrder": 85,
           "numberProperties": [],
           "stringProperties": [],
@@ -37059,8 +37069,8 @@
           "name": "KeySpinningBarrel",
           "persistentUuid": "72a46d1d-d1bf-4013-81d2-acb3a2b0df01",
           "width": 32,
-          "x": 2516,
-          "y": 555,
+          "x": 2521,
+          "y": 571,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -37209,8 +37219,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "c950e854-ec2d-419d-85b4-6e1b9a2a007a",
           "width": 799,
-          "x": 1393,
-          "y": 414,
+          "x": 841,
+          "y": 533,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -38775,8 +38785,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "9dc3714c-ce17-471a-82cb-db94a20d296e",
           "width": 1281,
-          "x": 1679,
-          "y": 1044,
+          "x": 1437,
+          "y": 1143,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -38872,8 +38882,8 @@
           "name": "HeartUpgrade",
           "persistentUuid": "5d1102a4-6341-4d1e-9186-c9d70ab45773",
           "width": 34,
-          "x": 2753,
-          "y": 823,
+          "x": 2873,
+          "y": 822,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -38960,7 +38970,7 @@
           "width": 72,
           "x": 1825,
           "y": 808,
-          "zOrder": 151,
+          "zOrder": 119,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -39022,7 +39032,7 @@
           "name": "RockDown1Small",
           "persistentUuid": "66832fd4-2456-4955-a69e-e38adb24266d",
           "width": 48,
-          "x": 1921,
+          "x": 1995,
           "y": 790,
           "zOrder": 36,
           "numberProperties": [],
@@ -48854,7 +48864,12 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "Spinning",
@@ -50372,22 +50387,9 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KY86GC10TX4BMSGBGJED0AW6",
+          "aiGeneratedEventId": "01KY86XX5SSYWP3KXS72T4NYK0",
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Blue_Jewel",
-                "Johnes",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
+          "conditions": [],
           "actions": [
             {
               "type": {
@@ -50398,6 +50400,26 @@
                 "Blue_Jewel",
                 "Johnes",
                 "20",
+                "Score",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY86XX5SSYWP3KXS72T4NYK0",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CollectCoin::CollectCoin"
+              },
+              "parameters": [
+                "",
+                "Saphire",
+                "Johnes",
+                "50",
                 "Score",
                 ""
               ]
@@ -53428,7 +53450,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KY86HKMTE9J2RAMVSMBJXFBS",
+          "aiGeneratedEventId": "01KY86XX5SSYWP3KXS72T4NYK0",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -53443,19 +53465,10 @@
               ]
             }
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"GhostJewelTimer\""
-              ]
-            }
-          ],
+          "actions": [],
           "events": [
             {
+              "aiGeneratedEventId": "01KY87G2DPY2DBHARVBY0N5Z5G",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -53477,34 +53490,61 @@
                     "",
                     "Blue_Jewel",
                     "Ghost.X() + 50",
-                    "Ghost.Y()",
+                    "Ghost.Y() + 20",
                     "\"\""
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Else",
-              "conditions": [],
-              "actions": [
+                },
                 {
                   "type": {
-                    "value": "Create"
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
                   },
                   "parameters": [
-                    "",
                     "Blue_Jewel",
-                    "Ghost.X() - 50",
-                    "Ghost.Y()",
-                    "\"\""
+                    "Scale",
+                    "=",
+                    "0.2"
                   ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Tween",
+                    "\"spawn_scale\"",
+                    "2",
+                    "\"easeOutBack\"",
+                    "0.5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Tween",
+                    "\"spawn_opacity\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
                 {
                   "type": {
                     "value": "SetNumberObjectVariable"
@@ -53514,6 +53554,140 @@
                     "lifetime",
                     "=",
                     "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "gem-spawn.wav",
+                    "no",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GhostJewelTimer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "aiGeneratedEventId": "01KY87G2DPY2DBHARVBY0N5Z5G",
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "FlippableCapability::FlippableBehavior::FlippedX"
+                  },
+                  "parameters": [
+                    "Ghost",
+                    "Flippable"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Blue_Jewel",
+                    "Ghost.X() - 50",
+                    "Ghost.Y() + 20",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Scale",
+                    "=",
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "OpacityCapability::OpacityBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Opacity",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Tween",
+                    "\"spawn_scale\"",
+                    "2",
+                    "\"easeOutBack\"",
+                    "0.5",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "Tween",
+                    "\"spawn_opacity\"",
+                    "255",
+                    "\"easeOutQuad\"",
+                    "0.5",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Blue_Jewel",
+                    "lifetime",
+                    "=",
+                    "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "gem-spawn.wav",
+                    "no",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"GhostJewelTimer\""
                   ]
                 }
               ]
@@ -53729,6 +53903,15 @@
                 "Score",
                 "=",
                 "ToString(GlobalVariable(Score))"
+              ]
+            },
+            {
+              "type": {
+                "value": "RemoveTimer"
+              },
+              "parameters": [
+                "",
+                "\"GhostJewelTimer\""
               ]
             }
           ]
