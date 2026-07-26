@@ -40980,8 +40980,8 @@
           "name": "Torch",
           "persistentUuid": "f578faf0-c7ac-414b-83db-7bbb01ae09ab",
           "width": 97,
-          "x": 2729,
-          "y": 493,
+          "x": 2756,
+          "y": 545,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -41631,7 +41631,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 4,
+          "height": 5,
           "layer": "",
           "name": "BlackSpace",
           "persistentUuid": "f78e0f6d-d7bb-4f62-9029-6e7bec339f12",
@@ -50991,7 +50991,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.2,
+                  "timeBetweenFrames": 0.16,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -51339,7 +51339,7 @@
               "directions": [
                 {
                   "looping": false,
-                  "timeBetweenFrames": 0.25,
+                  "timeBetweenFrames": 0.16,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -57433,6 +57433,52 @@
                 "Flash",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Ghost",
+                "Animation",
+                "=",
+                "\"Hit\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Ghost",
+                "\"Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationEnded"
+              },
+              "parameters": [
+                "Ghost"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Ghost",
+                "Animation",
+                "=",
+                "\"Idle\""
+              ]
             }
           ]
         },
@@ -57627,11 +57673,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         },
         {
           "aiGeneratedEventId": "01KY86JE3CEAS65MMB6HGQHPC6",
@@ -58024,7 +58065,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KYFF1T1CAF005XNYH3VJMGMV",
+          "aiGeneratedEventId": "01KYFG8EV89KJ0MMXZTF1T1FRY",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "bat",
           "conditions": [
@@ -58092,7 +58133,7 @@
                 "BrownBullet",
                 "Johnes.X()",
                 "Johnes.Y()",
-                "1",
+                "10",
                 "0"
               ]
             },
@@ -58102,7 +58143,7 @@
               },
               "parameters": [
                 "BrownBullet",
-                "\"lifetime\""
+                "\"alive\""
               ]
             }
           ]
@@ -58176,29 +58217,47 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KYFEV2G4HYJT9QWZEANS8WGE",
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "aiGeneratedEventId": "01KYFG8EV89KJ0MMXZTF1T1FRY",
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "BrownBullet",
+          "conditions": [],
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Physics2::Collision"
-              },
-              "parameters": [
-                "BrownBullet",
-                "Physics2",
-                "MineParts",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "BrownBullet",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "BrownBullet",
+                    "\"alive\"",
+                    ">",
+                    "0.15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                  },
+                  "parameters": [
+                    "BrownBullet.Physics2::LinearVelocity()",
+                    "<",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "BrownBullet",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -58206,30 +58265,8 @@
         {
           "aiGeneratedEventId": "01KYFF1T1CAF005XNYH3VJMGMV",
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "BrownBullet",
-                "\"lifetime\"",
-                ">",
-                "3"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "BrownBullet",
-                ""
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
