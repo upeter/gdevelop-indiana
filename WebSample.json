@@ -11252,6 +11252,12 @@
       "updateIfNotVisible": false,
       "variables": [
         {
+          "name": "canHit",
+          "persistentUuid": "cd5d9634-47de-4445-899a-ed789e820b78",
+          "type": "boolean",
+          "value": true
+        },
+        {
           "folded": true,
           "name": "shoot",
           "persistentUuid": "4e9d1606-4def-446a-b9f0-672f1588f735",
@@ -16317,7 +16323,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.7780092846867803,
+        "zoomFactor": 1.1973594012231759,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -17233,21 +17239,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 48,
-          "layer": "",
-          "name": "Bat",
-          "persistentUuid": "28fb0fe9-387c-4e5b-ab0f-60aa245575aa",
-          "width": 48,
-          "x": 1856,
-          "y": 208,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "height": 16,
           "layer": "",
           "name": "Left",
@@ -17259,28 +17250,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 48,
-          "layer": "",
-          "name": "Bat",
-          "persistentUuid": "e813840a-661f-4ba9-84e1-66032f15c041",
-          "width": 48,
-          "x": 2208,
-          "y": 160,
-          "zOrder": 59,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            }
-          ]
         },
         {
           "angle": 0,
@@ -18714,6 +18683,40 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bat",
+          "persistentUuid": "6bb53400-04d6-42b2-ba80-60d37b4543c4",
+          "width": 48,
+          "x": 1888,
+          "y": 160,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Bat",
+          "persistentUuid": "4790d820-590a-4c56-b48a-7c5060dee2a2",
+          "width": 48,
+          "x": 2208,
+          "y": 208,
+          "zOrder": 101,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -19304,12 +19307,14 @@
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
           "name": "Cobra",
+          "persistentUuid": "ed181f2d-8b05-4cbb-921a-0b7020670ddb",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "folded": true,
               "name": "direction",
+              "persistentUuid": "7ff8c0ad-0bd4-4517-8379-7e018cce155b",
               "type": "string",
               "value": "left"
             }
@@ -22826,373 +22831,6 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Bat",
-          "persistentUuid": "725fd5e7-3a2a-4fb3-8aca-329ea3d796df",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "persistentUuid": "02bb332e-f1bf-45b6-91d4-d050852a1184",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "InOnScreen",
-              "type": "IsOnScreen::InOnScreen"
-            },
-            {
-              "name": "ShakeObject_PositionAngle",
-              "type": "ShakeObject::ShakeObject_PositionAngle"
-            }
-          ],
-          "animations": [
-            {
-              "name": "Flying",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.14000000059604645,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyes-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyes-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyes-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyes-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyes-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "FlyingRed",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.14000000059604645,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_RedEyes-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_RedEyes-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_RedEyes-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_RedEyes-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_RedEyes-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Hit",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.14000000059604645,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyesHit-1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyesHit-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyesHit-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyesHit-4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyesHit-5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Falling",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.14000000059604645,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyesHit-3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    },
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "assets/Bat_WhiteEyesHit-2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
           "name": "BrownBullet",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -23816,6 +23454,496 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Bat",
+          "persistentUuid": "22c1b553-5cab-4f41-af6f-b116d4772e60",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "InOnScreen",
+              "type": "IsOnScreen::InOnScreen"
+            },
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Flying",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyes-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyes-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyes-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyes-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyes-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyesHit-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyesHit-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyesHit-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyesHit-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyesHit-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Falling",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyesHit-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/Bat_WhiteEyesHit-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 3
+                          },
+                          {
+                            "x": 14,
+                            "y": 11
+                          },
+                          {
+                            "x": 1,
+                            "y": 11
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -23903,9 +24031,6 @@
             "objectName": "Scorpion"
           },
           {
-            "objectName": "Bat"
-          },
-          {
             "objectName": "BrownBullet"
           },
           {
@@ -23958,6 +24083,9 @@
           },
           {
             "objectName": "BackgroundTrees2"
+          },
+          {
+            "objectName": "Bat"
           }
         ]
       },
@@ -28905,7 +29033,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9045052888203141,
+        "zoomFactor": 0.6075393603117403,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -32064,8 +32192,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 3197,
-          "y": 501,
+          "x": 2779,
+          "y": 646,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -35490,7 +35618,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 4,
+          "height": 6,
           "layer": "",
           "name": "BlackSpace",
           "persistentUuid": "6e5045e0-bf9f-41a4-9098-e7ff0661fc95",
@@ -38753,8 +38881,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "9dc3714c-ce17-471a-82cb-db94a20d296e",
           "width": 1281,
-          "x": 1542,
-          "y": 793,
+          "x": 1547,
+          "y": 980,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -38968,7 +39096,7 @@
           "name": "Right",
           "persistentUuid": "9fe88e43-e7b3-480b-a43d-f56268d5e2a8",
           "width": 0,
-          "x": 1398,
+          "x": 1421,
           "y": 834,
           "zOrder": 84,
           "numberProperties": [],
@@ -40299,7 +40427,7 @@
           "name": "RockDown1",
           "persistentUuid": "9e78e1bf-f0a0-4f53-95a9-e2fd6fda1b52",
           "width": 48,
-          "x": 3267,
+          "x": 3248,
           "y": 422,
           "zOrder": 35,
           "numberProperties": [],
@@ -40671,14 +40799,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 89,
+          "height": 75,
           "keepRatio": true,
           "layer": "",
           "name": "Torch",
           "persistentUuid": "97177e4f-0d91-47d5-bb13-adad5b2c0402",
-          "width": 97,
+          "width": 80,
           "x": 2363,
-          "y": 775,
+          "y": 786,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -40688,14 +40816,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 89,
+          "height": 74,
           "keepRatio": true,
           "layer": "",
           "name": "Torch",
           "persistentUuid": "249dcea1-8b4b-4c3a-b581-711ec84f95c3",
-          "width": 97,
+          "width": 78,
           "x": 1683,
-          "y": 772,
+          "y": 781,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -40779,8 +40907,8 @@
           "name": "Down_Arrow",
           "persistentUuid": "680e5d76-1faa-4e71-8ec2-aa93da2c0547",
           "width": 14,
-          "x": 4077,
-          "y": 416,
+          "x": 3961,
+          "y": 420,
           "zOrder": 82,
           "numberProperties": [],
           "stringProperties": [],
@@ -41315,8 +41443,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "1f03f58b-cddf-47b6-ad3a-64342baf9fce",
           "width": 395,
-          "x": 2705,
-          "y": 423,
+          "x": 2717,
+          "y": 1062,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -46468,6 +46596,11 @@
           "updateIfNotVisible": false,
           "variables": [
             {
+              "name": "canHit",
+              "type": "boolean",
+              "value": true
+            },
+            {
               "name": "id",
               "persistentUuid": "6ccfe00b-211d-4c1e-8f9c-4dbccb273e08",
               "type": "number",
@@ -47563,7 +47696,18 @@
           "persistentUuid": "c2bf8894-5a35-4530-9519-f07128cb1a07",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "tweenPhase",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "isTweening",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -51984,6 +52128,7 @@
       },
       "events": [
         {
+          "aiGeneratedEventId": "01KY9KEFY2N85PDBXWCCQHSVQ4",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -52020,7 +52165,7 @@
                 "value": "HideLayer"
               },
               "parameters": [
-                "BlackSpace",
+                "",
                 "\"EndScreen\""
               ]
             },
@@ -52053,7 +52198,7 @@
               "parameters": [
                 "Health",
                 "=",
-                "Variable(MaxHealth)"
+                "MaxHealth"
               ]
             },
             {
@@ -52093,7 +52238,7 @@
               "parameters": [
                 "Debug",
                 "=",
-                "ToString(Variable(Health))"
+                "ToString(Health)"
               ]
             },
             {
@@ -52106,44 +52251,6 @@
                 "yes",
                 "30",
                 ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Sticker::Sticker::Stick"
-              },
-              "parameters": [
-                "Spider",
-                "Sticker",
-                "Rope",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Spider",
-                "\"SpiderTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Down_Arrow"
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "Spider",
-                "TopDownMovement",
-                "yes"
               ]
             },
             {
@@ -52244,6 +52351,7 @@
                     "",
                     "\"HealthNavExtLayout\"",
                     "",
+                    "",
                     ""
                   ]
                 }
@@ -52255,19 +52363,115 @@
               "actions": []
             },
             {
+              "aiGeneratedEventId": "01KY9NZ7PQN3YVPC3Z3Z0KQB5P",
               "type": "BuiltinCommonInstructions::ForEach",
               "object": "Spider",
               "conditions": [],
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberObjectVariable"
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "Spider.X()",
+                    "Spider.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Down_Arrow",
+                    "Spider.X()",
+                    "Spider.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Spider",
+                    "Rope"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LinkedObjects::LinkObjects"
+                  },
+                  "parameters": [
+                    "",
+                    "Spider",
+                    "Down_Arrow"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
                   },
                   "parameters": [
                     "Spider",
-                    "id",
-                    "+",
-                    "1"
+                    "Sticker",
+                    "Rope",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "\"SpiderTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "TopDownMovement",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "canHit",
+                    "True",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "Animation",
+                    "=",
+                    "\"Hanging\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Down_Arrow"
                   ]
                 }
               ]
@@ -52891,6 +53095,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01KY9KPY6MWAGFBFGK9RMWKW78",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -52898,8 +53103,8 @@
                 "value": "CompareObjectTimer"
               },
               "parameters": [
-                "Johnes",
-                "\"HitTimer\"",
+                "Spider",
+                "\"HitCooldown\"",
                 ">",
                 "2"
               ]
@@ -52908,11 +53113,12 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "isHit",
-                "False",
+                "Spider",
+                "canHit",
+                "True",
                 ""
               ]
             }
@@ -54356,6 +54562,7 @@
           "comment": "Spider Hanging Behavior"
         },
         {
+          "aiGeneratedEventId": "01KY9PKEKZ12VHGF4XZEEBZX8Z",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -54371,69 +54578,247 @@
             },
             {
               "type": {
-                "value": "AnimationName"
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
               "parameters": [
                 "Spider",
+                "Animation",
+                "=",
                 "\"Hanging\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Tween::AddObjectPositionYTween"
-              },
-              "parameters": [
-                "Rope",
-                "Tween",
-                "\"MoveDown\"",
-                "Rope.Y() + 100",
-                "\"bounce\"",
-                "1000",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "Wait"
-              },
-              "parameters": [
-                "1.5\n"
-              ]
-            },
-            {
-              "type": {
-                "value": "Tween::AddObjectPositionYTween"
-              },
-              "parameters": [
-                "Rope",
-                "Tween",
-                "\"MoveUp\"",
-                "Down_Arrow.Y()",
-                "\"linear\"",
-                "1000",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Spider",
-                "\"SpiderTimer\""
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Spider",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "Spider.X()",
+                    "Spider.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "\"SpiderTimer\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Rope",
+                        "isTweening",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Rope",
+                        "Tween",
+                        "\"MoveDown\"",
+                        "Rope.Y() + 100",
+                        "\"bounce\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "Rope",
+                        "isTweening",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "Rope",
+                        "tweenPhase",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
         },
         {
+          "aiGeneratedEventId": "01KY9PKEKZ12VHGF4XZEEBZX8Z",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Rope",
+                "isTweening",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Rope",
+                "tweenPhase",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "Tween",
+                    "\"MoveDown\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "Tween",
+                    "\"MoveUp\"",
+                    "Rope.Y() - 100",
+                    "\"linear\"",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "tweenPhase",
+                    "=",
+                    "2"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY9PKEKZ12VHGF4XZEEBZX8Z",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanObjectVariable"
+              },
+              "parameters": [
+                "Rope",
+                "isTweening",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberObjectVariable"
+              },
+              "parameters": [
+                "Rope",
+                "tweenPhase",
+                "=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "Tween",
+                    "\"MoveUp\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "isTweening",
+                    "False",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "tweenPhase",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KY9PW4Q9NTB8WKDCZ51N7G6Y",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -54450,20 +54835,23 @@
             },
             {
               "type": {
-                "value": "AnimationName"
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
               "parameters": [
                 "Spider",
+                "Animation",
+                "=",
                 "\"Hanging\""
               ]
             },
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "isHit",
-                "False",
+                "Spider",
+                "canHit",
+                "True",
                 ""
               ]
             },
@@ -54477,12 +54865,41 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "isHit",
-                "True",
+                "Spider",
+                "canHit",
+                "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Spider",
+                "\"HitCooldown\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Spider",
+                "Animation",
+                "=",
+                "\"Hit\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ClearForces"
+              },
+              "parameters": [
+                "Spider"
               ]
             },
             {
@@ -54495,33 +54912,11 @@
                 "Flash",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "Tween::AddObjectPositionYTween"
-              },
-              "parameters": [
-                "Rope",
-                "Tween",
-                "\"MoveUp\"",
-                "Down_Arrow.Y()",
-                "\"linear\"",
-                "1000",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Spider",
-                "\"SpiderTimer\""
-              ]
             }
           ]
         },
         {
+          "aiGeneratedEventId": "01KY9Q60Z5TV5Y96EP7FJJ7RKJ",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -54538,68 +54933,78 @@
             },
             {
               "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Spider",
-                "\"Hanging\""
-              ]
-            },
-            {
-              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
             }
           ],
-          "actions": [
+          "actions": [],
+          "events": [
             {
-              "type": {
-                "value": "Sticker::Sticker::Unstick"
-              },
-              "parameters": [
-                "Spider",
-                "Sticker",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextObject::String"
-              },
-              "parameters": [
-                "Debug",
-                "=",
-                "\"Unstick\""
-              ]
-            },
-            {
-              "type": {
-                "value": "PauseObjectTimer"
-              },
-              "parameters": [
-                "Spider",
-                "\"SpiderTimer\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Delete"
-              },
-              "parameters": [
-                "Rope",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "AddForceXY"
-              },
-              "parameters": [
-                "Spider",
-                "0",
-                "300",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "Down_Arrow.X()",
+                    "Down_Arrow.Y()",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Rope",
+                    "Spider.X()",
+                    "Spider.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Unstick"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "Sticker",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PauseObjectTimer"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "\"SpiderTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Rope",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AddForceXY"
+                  },
+                  "parameters": [
+                    "Spider",
+                    "0",
+                    "300",
+                    "1"
+                  ]
+                }
               ]
             }
           ]
@@ -54817,6 +55222,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01KY9KNH0XGPB2RNCK7YK0K27W",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -54853,11 +55259,12 @@
             },
             {
               "type": {
-                "value": "BooleanVariable"
+                "value": "BooleanObjectVariable"
               },
               "parameters": [
-                "isHit",
-                "False",
+                "Spider",
+                "canHit",
+                "True",
                 ""
               ]
             },
@@ -54871,12 +55278,22 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "SetBooleanObjectVariable"
               },
               "parameters": [
-                "isHit",
-                "True",
+                "Spider",
+                "canHit",
+                "False",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Spider",
+                "\"HitCooldown\""
               ]
             },
             {
@@ -54892,7 +55309,7 @@
             },
             {
               "type": {
-                "value": "Arreter"
+                "value": "ClearForces"
               },
               "parameters": [
                 "Spider"
