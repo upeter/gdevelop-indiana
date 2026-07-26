@@ -16334,7 +16334,7 @@
               "timeBetweenFrames": 0.07999999821186066,
               "sprites": [
                 {
-                  "hasCustomCollisionMask": false,
+                  "hasCustomCollisionMask": true,
                   "image": "assets/BrownBullet.png",
                   "points": [],
                   "originPoint": {
@@ -16348,7 +16348,42 @@
                     "x": 0,
                     "y": 0
                   },
-                  "customCollisionMask": []
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1,
+                        "y": 6
+                      },
+                      {
+                        "x": 2.5,
+                        "y": 1.5
+                      },
+                      {
+                        "x": 7,
+                        "y": 0.5
+                      },
+                      {
+                        "x": 11.5,
+                        "y": 2
+                      },
+                      {
+                        "x": 12.5,
+                        "y": 5.5
+                      },
+                      {
+                        "x": 12,
+                        "y": 9.5
+                      },
+                      {
+                        "x": 7,
+                        "y": 12
+                      },
+                      {
+                        "x": 2.5,
+                        "y": 10.5
+                      }
+                    ]
+                  ]
                 }
               ]
             }
@@ -29154,7 +29189,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.7662947015257309,
+        "zoomFactor": 1.0328169125299629,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -41619,7 +41654,7 @@
           "persistentUuid": "9bcaf5c1-a2f9-4dfe-93a2-ecd3229ba3c0",
           "width": 54,
           "x": 2996,
-          "y": 457,
+          "y": 504,
           "zOrder": 151,
           "numberProperties": [],
           "stringProperties": [],
@@ -41635,7 +41670,7 @@
           "persistentUuid": "bdb3ff01-8a99-4e87-9ab5-d70760d832e5",
           "width": 0,
           "x": 3226,
-          "y": 457,
+          "y": 504,
           "zOrder": 83,
           "numberProperties": [],
           "stringProperties": [],
@@ -41651,7 +41686,7 @@
           "persistentUuid": "580a02d6-3603-4641-9cc0-e1822b96c469",
           "width": 0,
           "x": 2723,
-          "y": 457,
+          "y": 504,
           "zOrder": 84,
           "numberProperties": [],
           "stringProperties": [],
@@ -57332,6 +57367,16 @@
                 "-",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "Opacity"
+              },
+              "parameters": [
+                "Ghost",
+                "-",
+                "60"
+              ]
             }
           ]
         },
@@ -57348,6 +57393,15 @@
                 "",
                 "",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimationName"
+              },
+              "parameters": [
+                "Ghost",
+                "\"Idle\""
               ]
             },
             {
@@ -57531,7 +57585,17 @@
               "parameters": [
                 "Ghost",
                 "-",
-                "200*TimeDelta()"
+                "100*TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Ghost",
+                "Platform",
+                ""
               ]
             }
           ],
@@ -57809,34 +57873,14 @@
             },
             {
               "type": {
-                "value": "BuiltinCommonInstructions::Or"
+                "value": "CollisionNP"
               },
-              "parameters": [],
-              "subInstructions": [
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bat",
-                    "MinePart2",
-                    "",
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "bat",
-                    "MinePart7",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
+              "parameters": [
+                "bat",
+                "MineParts",
+                "",
+                "",
+                ""
               ]
             }
           ],
@@ -57980,6 +58024,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01KYFF1T1CAF005XNYH3VJMGMV",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "bat",
           "conditions": [
@@ -58007,10 +58052,12 @@
             },
             {
               "type": {
-                "value": "AnimationName"
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
               "parameters": [
                 "bat",
+                "Animation",
+                "=",
                 "\"Redeyesbat\""
               ]
             }
@@ -58034,21 +58081,28 @@
                 "BrownBullet",
                 "bat.CenterX()",
                 "bat.CenterY()",
-                ""
+                "\"\""
               ]
             },
             {
               "type": {
-                "value": "Physics2::ApplyForceTowardPosition"
+                "value": "AddForceTowardPosition"
               },
               "parameters": [
                 "BrownBullet",
-                "Physics2",
-                "1",
                 "Johnes.X()",
                 "Johnes.Y()",
-                "",
-                ""
+                "1",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "BrownBullet",
+                "\"lifetime\""
               ]
             }
           ]
@@ -58117,6 +58171,62 @@
                 "",
                 "100",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KYFEV2G4HYJT9QWZEANS8WGE",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics2::Collision"
+              },
+              "parameters": [
+                "BrownBullet",
+                "Physics2",
+                "MineParts",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BrownBullet",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KYFF1T1CAF005XNYH3VJMGMV",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "BrownBullet",
+                "\"lifetime\"",
+                ">",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "BrownBullet",
+                ""
               ]
             }
           ]
