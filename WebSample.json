@@ -11471,6 +11471,38 @@
         "name": "RocketMonsterSmall30",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/Buff Arrow 1_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Buff Arrow 1_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/c5b584d0726b4fb38ba8f52661e014da4a792333664375689984d45785761360_Buff Arrow 1_No Shadow.png",
+          "name": "Buff Arrow 1_No Shadow.png"
+        }
+      },
+      {
+        "file": "assets/Buff Arrow 1_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Buff Arrow 1_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/Buffs & Debuffs/83e4c34b11668065ac3aec9e1284b4d25e5271d265f2c4b66f2e2a58c69564fa_Buff Arrow 1_Shadow.png",
+          "name": "Buff Arrow 1_Shadow.png"
+        }
+      },
+      {
+        "file": "tileset-cave tileset-cave_54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tileset-cave tileset-cave_54.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -29472,7 +29504,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3235313168576707,
+        "zoomFactor": 0.6937238887524679,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -29563,6 +29595,11 @@
         }
       ],
       "variables": [
+        {
+          "name": "RockMonsterSpawnedCount",
+          "type": "number",
+          "value": 0
+        },
         {
           "name": "RockMonstersActivated",
           "persistentUuid": "bc728120-a3ed-42ee-a8fc-5404f5211089",
@@ -43036,7 +43073,7 @@
           "name": "Torch",
           "persistentUuid": "6c0f55e5-0f40-4fca-b581-949aa3fa299e",
           "width": 97,
-          "x": 3537,
+          "x": 3595,
           "y": 785,
           "zOrder": 81,
           "numberProperties": [],
@@ -43053,7 +43090,7 @@
           "name": "Torch",
           "persistentUuid": "6403dca0-b69b-4a1d-b637-c951cb223865",
           "width": 97,
-          "x": 3840,
+          "x": 3898,
           "y": 785,
           "zOrder": 81,
           "numberProperties": [],
@@ -43070,7 +43107,7 @@
           "name": "Torch",
           "persistentUuid": "d0643214-e54c-4666-abdb-f455b3cd87ac",
           "width": 97,
-          "x": 4166,
+          "x": 4224,
           "y": 785,
           "zOrder": 81,
           "numberProperties": [],
@@ -43357,8 +43394,8 @@
           "name": "RockMonsterSmall",
           "persistentUuid": "28b4ae91-d121-453b-acc1-a7d1e6afffc6",
           "width": 113,
-          "x": 3761,
-          "y": 909,
+          "x": 3858,
+          "y": 789,
           "zOrder": 163,
           "numberProperties": [],
           "stringProperties": [],
@@ -43736,6 +43773,22 @@
           "x": 3962,
           "y": 796,
           "zOrder": 165,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 177,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Buff_Arrow_1",
+          "persistentUuid": "cea7e677-afe2-4efe-a635-79639775a3a6",
+          "width": 0,
+          "x": 3562,
+          "y": 701,
+          "zOrder": 166,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -56435,6 +56488,188 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "persistentUuid": "27d17329-4b5d-4372-9e18-650371eb0c6b",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "c5f43cddc97c42bcd0141c7f80ea7807e5c885439730c6a433a55f3ba95bb05d",
+          "name": "Buff_Arrow_1",
+          "persistentUuid": "f3676071-c89e-4bce-8064-2b3ce513bdcc",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "No Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Buff Arrow 1_No Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 28
+                          },
+                          {
+                            "x": 5,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shadow",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Buff Arrow 1_Shadow.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 4
+                          },
+                          {
+                            "x": 27,
+                            "y": 28
+                          },
+                          {
+                            "x": 5,
+                            "y": 28
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Mushroomn",
+          "persistentUuid": "a10dd95b-b686-40d5-914b-b31b4895d747",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "tileset-cave tileset-cave_54.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 1
+                          },
+                          {
+                            "x": 15,
+                            "y": 16
+                          },
+                          {
+                            "x": 0,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -56561,6 +56796,12 @@
             "objectName": "BottomRockMedium"
           },
           {
+            "objectName": "NewSprite"
+          },
+          {
+            "objectName": "Buff_Arrow_1"
+          },
+          {
             "objectName": "Bridge"
           },
           {
@@ -56628,6 +56869,9 @@
           },
           {
             "objectName": "RockMonsterSmall"
+          },
+          {
+            "objectName": "Mushroomn"
           }
         ]
       },
@@ -56766,6 +57010,14 @@
                 "Ghost",
                 "Flippable",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Buff_Arrow_1"
               ]
             }
           ],
@@ -62006,7 +62258,7 @@
           "comment": "mini rock monster colllision "
         },
         {
-          "aiGeneratedEventId": "01KYHKDAYTX1QWYJ48DH7962YK",
+          "aiGeneratedEventId": "01KYHVSQZXFK2Y21YGR3C7C87M",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -62044,6 +62296,27 @@
               "parameters": [
                 "RockMonsterSmall",
                 "\"StartTimer\""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RockMonsterSpawnedCount",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "RockMonsterSmall",
+                "Animation",
+                "=",
+                "\"Idle\""
               ]
             }
           ]
@@ -62172,16 +62445,6 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "RockMonsterSmall",
-                    "\"Dead\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "VarObjet"
                   },
                   "parameters": [
@@ -62189,6 +62452,16 @@
                     "Health",
                     ">",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"Dead\""
                   ]
                 }
               ],
@@ -62229,16 +62502,6 @@
                 },
                 {
                   "type": {
-                    "inverted": true,
-                    "value": "AnimationName"
-                  },
-                  "parameters": [
-                    "RockMonsterSmall",
-                    "\"Dead\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "VarObjet"
                   },
                   "parameters": [
@@ -62246,6 +62509,16 @@
                     "Health",
                     ">",
                     "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"Dead\""
                   ]
                 }
               ],
@@ -62640,6 +62913,121 @@
                     "no"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "RockMonsterSmall respawn"
+        },
+        {
+          "aiGeneratedEventId": "01KYHW86Y3AQ8W9TD11EV12Z2H",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "RockMonstersActivated",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "RockMonsterSmall",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RockMonsterSpawnedCount",
+                "<",
+                "3"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "RockMonsterSmall",
+                "Buff_Arrow_1.X()",
+                "Buff_Arrow_1.Y()",
+                "\"\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetX"
+              },
+              "parameters": [
+                "RockMonsterSmall",
+                "Scale",
+                "=",
+                "3.53125"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetY"
+              },
+              "parameters": [
+                "RockMonsterSmall",
+                "Scale",
+                "=",
+                "3.78125"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "RockMonsterSpawnedCount",
+                "+",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "RockMonsterSmall",
+                "Health",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "RockMonsterSmall",
+                "\"StartTimer\""
               ]
             }
           ]
