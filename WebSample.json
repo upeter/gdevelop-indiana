@@ -11191,6 +11191,286 @@
         "name": "Bat_RedEyes5.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "../../../../../../Applications/Unity/Hub/Editor/2022.3.5f1/Documentation/en/uploads/Main/2dGames.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../../../../Applications/Unity/Hub/Editor/2022.3.5f1/Documentation/en/uploads/Main/2dGames.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../../../../development copy/github/gaming/gdevelop/assets/Bunny_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../../../development copy/github/gaming/gdevelop/assets/Bunny_Hit_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Mini Golem Sprite Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mini Golem Sprite Sheet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Mini Golem Sprite Sheet.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Mini Golem Sprite Sheet",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "../game_assets/Mines/Armadillo Sprite Sheet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../game_assets/Mines/Armadillo Sprite Sheet.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall2",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall3",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall4",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall5",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall6",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall10.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall11",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall12",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall13",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall14",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall15",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall16.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall16",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall17.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall17",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall18.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall18",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall19.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall19",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall20.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall20",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall21.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall21",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall22.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall22",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall23.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall23",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall24.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall24",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall25.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall25",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall26.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall26",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall27.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall27",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall28.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall28",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall29.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall29",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/RocketMonsterSmall30.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "RocketMonsterSmall30",
+        "smoothed": false,
+        "userAdded": false
       }
     ]
   },
@@ -16552,7 +16832,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.616827001666711,
+        "zoomFactor": 0.9144382614953319,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -27255,6 +27535,7 @@
           ]
         },
         {
+          "aiGeneratedEventId": "01KYFGW1K9NGPK1S8MVDKR77WC",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "Bat",
           "conditions": [
@@ -27282,10 +27563,12 @@
             },
             {
               "type": {
-                "value": "AnimationName"
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
               },
               "parameters": [
                 "Bat",
+                "Animation",
+                "=",
                 "\"Flying\""
               ]
             }
@@ -27314,16 +27597,16 @@
             },
             {
               "type": {
-                "value": "Physics2::ApplyForceTowardPosition"
+                "value": "Physics2::ApplyImpulseTowardPosition"
               },
               "parameters": [
                 "BrownBullet",
                 "Physics2",
-                "1",
+                "50",
                 "Johnes.X()",
                 "Johnes.Y()",
-                "",
-                ""
+                "BrownBullet.Physics2::MassCenterX()",
+                "BrownBullet.Physics2::MassCenterY()"
               ]
             }
           ]
@@ -29036,7 +29319,7 @@
           "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "",
           "renderingType": "",
           "visibility": true,
@@ -29065,7 +29348,7 @@
           "cameraType": "perspective",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "UI",
           "renderingType": "",
           "visibility": true,
@@ -29086,7 +29369,7 @@
           "isLocked": false,
           "name": "EndScreen",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         }
@@ -29189,7 +29472,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.0328169125299629,
+        "zoomFactor": 0.5320619346001895,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -32348,8 +32631,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 2779,
-          "y": 646,
+          "x": 55,
+          "y": 14,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -34956,27 +35239,6 @@
           "y": 284,
           "zOrder": 14,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart16",
-          "persistentUuid": "e6e19fa3-cdb3-4a07-b5bd-c92c669aa0cc",
-          "width": 48,
-          "x": 2575,
-          "y": 119,
-          "zOrder": 24,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -39037,8 +39299,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "9dc3714c-ce17-471a-82cb-db94a20d296e",
           "width": 1281,
-          "x": 1547,
-          "y": 980,
+          "x": 1420,
+          "y": 753,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -40018,7 +40280,7 @@
           "width": 48,
           "x": 2655,
           "y": 742,
-          "zOrder": 140,
+          "zOrder": 119,
           "numberProperties": [
             {
               "name": "animation",
@@ -40997,8 +41259,8 @@
           "name": "Torch",
           "persistentUuid": "e274dcab-2bbc-432e-ac58-b18541698901",
           "width": 97,
-          "x": 3889,
-          "y": 420,
+          "x": 4020,
+          "y": 421,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -41014,8 +41276,8 @@
           "name": "Torch",
           "persistentUuid": "4e5b0d5d-38eb-4e2a-98e6-9b3a194f784d",
           "width": 97,
-          "x": 3636,
-          "y": 420,
+          "x": 3694,
+          "y": 421,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -41528,38 +41790,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart2",
-          "persistentUuid": "15b5a087-1fef-4733-9881-4a1f9f69aa4f",
-          "width": 48,
-          "x": 4282,
-          "y": 587,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart2",
-          "persistentUuid": "5b0680f4-f79a-4d88-ad04-777d728d50d6",
-          "width": 48,
-          "x": 4328,
-          "y": 587,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 598,
           "keepRatio": true,
@@ -41567,8 +41797,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "1f03f58b-cddf-47b6-ad3a-64342baf9fce",
           "width": 395,
-          "x": 2717,
-          "y": 1062,
+          "x": 2700,
+          "y": 420,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -41610,13 +41840,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 153,
+          "height": 424,
           "layer": "",
           "name": "MinePart9",
           "persistentUuid": "f02e93e8-b094-4a49-99c3-eae8e0a3f82d",
-          "width": 1494,
-          "x": 2728,
-          "y": 220,
+          "width": 1759,
+          "x": 2481,
+          "y": -47,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -41655,7 +41885,7 @@
           "width": 54,
           "x": 2996,
           "y": 504,
-          "zOrder": 151,
+          "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -41688,6 +41918,1563 @@
           "x": 2723,
           "y": 504,
           "zOrder": 84,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart3",
+          "persistentUuid": "15e23287-d28a-4737-8685-9f39c0193316",
+          "width": 48,
+          "x": 4285,
+          "y": 587,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "a98cadce-8f67-4e24-b462-380b247f4425",
+          "width": 48,
+          "x": 4285,
+          "y": 635,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "75295058-6944-4690-8521-403d793cd0b1",
+          "width": 48,
+          "x": 4285,
+          "y": 683,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "a7076f2f-cf4c-4fd7-8a92-5e65603116d4",
+          "width": 48,
+          "x": 4512,
+          "y": 654,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "cfbab1e7-dbed-494a-8db7-f4fd4585a401",
+          "width": 48,
+          "x": 4512,
+          "y": 700,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "4b4e8592-6017-41a2-800f-bf886034932b",
+          "width": 48,
+          "x": 4512,
+          "y": 744,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "5f045150-e44a-4847-bce0-c8839630070c",
+          "width": 48,
+          "x": 4512,
+          "y": 791,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "af072025-0b9c-41e8-bf8a-4f82ca9adae2",
+          "width": 48,
+          "x": 4512,
+          "y": 839,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "678f79bb-2f8a-4825-871d-22fc531672ea",
+          "width": 48,
+          "x": 4512,
+          "y": 887,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart13",
+          "persistentUuid": "fce77747-f803-4ff2-8239-bd6850608c14",
+          "width": 48,
+          "x": 4512,
+          "y": 935,
+          "zOrder": 21,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "32ec8398-34a0-4199-967e-5e15c3b46161",
+          "width": 48,
+          "x": 4416,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "61963dc3-7029-4c0b-8a4c-50e7a4e73302",
+          "width": 48,
+          "x": 4464,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "74422251-1418-43eb-98e2-1d54ebc63b88",
+          "width": 48,
+          "x": 4368,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "1c0a5621-b7be-4a3e-a544-68dee5c26224",
+          "width": 48,
+          "x": 4320,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "8d9c5042-2118-4fdc-9ed4-47bd006a303a",
+          "width": 48,
+          "x": 4274,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "b550b779-0aea-4488-81d7-7cd031f7904c",
+          "width": 48,
+          "x": 4226,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "c3f66427-3d2f-4434-897d-ad4f318b41fe",
+          "width": 48,
+          "x": 4178,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "d0636487-65bc-4d15-94db-624ffb7af89d",
+          "width": 48,
+          "x": 4130,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "f06a64d2-9d6f-4826-892b-e842a5df3c15",
+          "width": 48,
+          "x": 4082,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "6d237003-7267-4f16-ad9d-184a7c07feac",
+          "width": 48,
+          "x": 4036,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "46f828cc-714d-47cb-8fc2-c79a78ca3b4a",
+          "width": 48,
+          "x": 3987,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "e914b46e-0547-4e30-b897-dc0a947587f8",
+          "width": 48,
+          "x": 3939,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "dce04f3e-e9ff-4ce0-881b-84a61ab35195",
+          "width": 48,
+          "x": 3891,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "430e5d11-0d9e-409e-b79b-d86001f6b5e7",
+          "width": 48,
+          "x": 3843,
+          "y": 935,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "abbd58ba-4cc8-4f93-896c-26ee6c2f17ef",
+          "width": 48,
+          "x": 4416,
+          "y": 374,
+          "zOrder": 162,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "c06f9244-542e-43e3-9680-27f73de2c6c1",
+          "width": 48,
+          "x": 4464,
+          "y": 374,
+          "zOrder": 162,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart6",
+          "persistentUuid": "22a264b3-9f34-48a2-bb5a-9832083a7062",
+          "width": 48,
+          "x": 4511,
+          "y": 374,
+          "zOrder": 152,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "fe145122-4ddf-451a-94d8-a23b7a85c589",
+          "width": 48,
+          "x": 4512,
+          "y": 422,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "1a10cc61-2840-404e-9144-b1ae87f7db92",
+          "width": 48,
+          "x": 4512,
+          "y": 468,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "c7f4d3df-c2b2-4677-b635-b24a272287a8",
+          "width": 48,
+          "x": 4512,
+          "y": 512,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "93f162d9-7d9f-4659-888f-ac28fbf23e9c",
+          "width": 48,
+          "x": 4512,
+          "y": 559,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "eb81b878-16c8-4c59-a083-9c837bcd6920",
+          "width": 48,
+          "x": 4512,
+          "y": 607,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "d24932b1-6392-4ac8-a4e7-a5b5ec1d05c6",
+          "width": 48,
+          "x": 4224,
+          "y": 374,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "6129934b-c8df-41d3-9701-abe5522d014f",
+          "width": 48,
+          "x": 4272,
+          "y": 374,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "11bf2dce-a9b8-4cc1-8889-28ca34de6d33",
+          "width": 48,
+          "x": 4320,
+          "y": 374,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "d8e2fceb-e4e1-48be-9e7a-3ba8593ea01c",
+          "width": 48,
+          "x": 4368,
+          "y": 374,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart17",
+          "persistentUuid": "465fe7d7-8a3b-47c5-abd7-9623bcc953ac",
+          "width": 48,
+          "x": 4285,
+          "y": 731,
+          "zOrder": 25,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "a4d3aad2-dbc2-4f3d-94b8-712078c07f6b",
+          "width": 48,
+          "x": 3817,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "6268450c-1788-43e8-b244-d4be7c3aa527",
+          "width": 48,
+          "x": 3864,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "37bf6d7b-599d-498e-83d7-192e23f4e784",
+          "width": 48,
+          "x": 3910,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "3ae77e42-21f7-4dd5-82ae-a17c91013872",
+          "width": 48,
+          "x": 3956,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "dfdabf5d-163b-4aec-bad9-80690d744ced",
+          "width": 48,
+          "x": 4003,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "f8c37e6d-cb9d-4053-bfad-02598da9e31a",
+          "width": 48,
+          "x": 4050,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "1380ac43-9279-4c96-840c-d747f8bc9e64",
+          "width": 48,
+          "x": 4096,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "5c686855-0d12-414f-9467-6f14933d3a35",
+          "width": 48,
+          "x": 4142,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "ff8b1d1c-d58e-4dd2-aa08-96c55d49b4af",
+          "width": 48,
+          "x": 4190,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "9da9efe8-7864-426c-89f1-dfef27901ba4",
+          "width": 48,
+          "x": 4236,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "dc709985-e0fd-4e33-aadb-3803b6e71279",
+          "width": 48,
+          "x": 3632,
+          "y": 731,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "3ee26c2f-3403-4d91-91b6-0f9031a5084c",
+          "width": 48,
+          "x": 3678,
+          "y": 731,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "2facc9f6-a1bf-4267-adf0-b29d6fb12dd7",
+          "width": 48,
+          "x": 3724,
+          "y": 731,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "12adad46-c629-4074-a295-c0073ac8673d",
+          "width": 48,
+          "x": 3771,
+          "y": 731,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 113,
+          "layer": "",
+          "name": "MinePart9",
+          "persistentUuid": "5a17b176-3233-459a-a441-5401b8248878",
+          "width": 878,
+          "x": 3440,
+          "y": 629,
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "3b6ffde3-5273-4572-bb07-a392735ad6ba",
+          "width": 298,
+          "x": 4446,
+          "y": 358,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "5524b8a8-5bb5-4147-8abe-e9f433280bd3",
+          "width": 298,
+          "x": 4446,
+          "y": 719,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "ee050e20-89e0-47e2-aa47-47dc339bd2cf",
+          "width": 298,
+          "x": 4149,
+          "y": 359,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "1966261e-06eb-4121-a25b-a38d9dc63348",
+          "width": 298,
+          "x": 4149,
+          "y": 720,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Torch",
+          "persistentUuid": "4c471b60-325f-4b66-be07-7a6c0d5e804c",
+          "width": 97,
+          "x": 4304,
+          "y": 421,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart27",
+          "persistentUuid": "1ebf1262-7368-4b34-a149-e38cd2d735b1",
+          "width": 48,
+          "x": 4464,
+          "y": 806,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "SaphireSquareRed",
+          "persistentUuid": "55df972e-41f7-46f9-b628-7741fa40b7f0",
+          "width": 32,
+          "x": 4472,
+          "y": 763,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart28",
+          "persistentUuid": "b4076d7c-1119-4f55-9ab3-18ac2d92e5d5",
+          "width": 48,
+          "x": 4332,
+          "y": 708,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "SaphireSquareRed",
+          "persistentUuid": "744b2d84-88b1-48fa-a34b-a186dca905cf",
+          "width": 32,
+          "x": 4339,
+          "y": 658,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart27",
+          "persistentUuid": "d934e2b5-d666-4ff8-a55c-0d5a9d1da1fe",
+          "width": 48,
+          "x": 4463,
+          "y": 620,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "SaphireSquareRed",
+          "persistentUuid": "5af19958-f026-4574-87ff-a047f7576777",
+          "width": 32,
+          "x": 4471,
+          "y": 577,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "GreenSemiDense",
+          "persistentUuid": "9ecaa631-e27b-43ac-b8c9-6a2adaf990f1",
+          "width": 0,
+          "x": 3904,
+          "y": 780,
+          "zOrder": 69,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1",
+          "persistentUuid": "afb7f29f-6b37-4494-8911-45747117a938",
+          "width": 48,
+          "x": 4082,
+          "y": 780,
+          "zOrder": 35,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Torch",
+          "persistentUuid": "6c0f55e5-0f40-4fca-b581-949aa3fa299e",
+          "width": 97,
+          "x": 3537,
+          "y": 785,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Torch",
+          "persistentUuid": "6403dca0-b69b-4a1d-b637-c951cb223865",
+          "width": 97,
+          "x": 3840,
+          "y": 785,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 89,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Torch",
+          "persistentUuid": "d0643214-e54c-4666-abdb-f455b3cd87ac",
+          "width": 97,
+          "x": 4166,
+          "y": 785,
+          "zOrder": 81,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "GreenTwice",
+          "persistentUuid": "eb1ff01f-b882-4734-a9d7-03af8812bbed",
+          "width": 0,
+          "x": 3670,
+          "y": 422,
+          "zOrder": 70,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1Small",
+          "persistentUuid": "e929f0ed-addb-4b0f-bd38-661a9802ce13",
+          "width": 48,
+          "x": 3525,
+          "y": 422,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1Small",
+          "persistentUuid": "e6dd0a2c-398a-4189-8aee-8618fefb26d1",
+          "width": 48,
+          "x": 4148,
+          "y": 422,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "RockDown1Small",
+          "persistentUuid": "5b87a253-fe37-4ca0-9c68-4c39fad2d8f1",
+          "width": 48,
+          "x": 3676,
+          "y": 779,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "47a49ca7-f8ce-4354-99f9-800a116487e8",
+          "width": 48,
+          "x": 3795,
+          "y": 934,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "532d8180-5302-4452-baa3-c516615cf9d8",
+          "width": 48,
+          "x": 3746,
+          "y": 934,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "693ffc07-3314-4f24-a143-99daeda70a8e",
+          "width": 48,
+          "x": 3698,
+          "y": 934,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "bf255a2f-8dfa-452b-8dd0-37783b8dbae6",
+          "width": 48,
+          "x": 3538,
+          "y": 731,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "04fb7061-52de-4300-be43-3cf1c5483b69",
+          "width": 48,
+          "x": 3584,
+          "y": 731,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart5",
+          "persistentUuid": "6f17b73c-c872-4ff3-a108-ec8596ec0a88",
+          "width": 48,
+          "x": 3490,
+          "y": 731,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart1",
+          "persistentUuid": "aef13dcf-7614-44de-ac44-5cb866af3251",
+          "width": 48,
+          "x": 3650,
+          "y": 934,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 218,
+          "layer": "",
+          "name": "MinePart9",
+          "persistentUuid": "14631157-177d-4a14-950e-6ecb164b67c8",
+          "width": 57,
+          "x": 3438,
+          "y": 738,
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "37747225-bdd1-4b4a-9756-647bb7b21910",
+          "width": 48,
+          "x": 3490,
+          "y": 780,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "c36e41a4-95b1-4392-b9d2-512b2e4cd2ef",
+          "width": 48,
+          "x": 3490,
+          "y": 827,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "1cdfad8e-497b-4f5a-8803-249b0b0ed2c7",
+          "width": 48,
+          "x": 3490,
+          "y": 871,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GemLarge",
+          "persistentUuid": "59d11313-5aa9-482e-8f4d-40710fcc34f3",
+          "width": 37,
+          "x": 3685,
+          "y": 886,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -52719,6 +54506,1160 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "RockMonsterSmall",
+          "persistentUuid": "708a3062-4672-465f-8442-ac718eabd4f3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Walking",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall6",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall7",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall8",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall9",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall10",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall11",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall12",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall13",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Attack",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall14",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall15",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall16",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall17",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall18",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall19",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall20",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall21",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall22",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall23",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall24",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall25",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Dead",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall26",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall27",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall28",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall29",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall30",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 8,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 20
+                          },
+                          {
+                            "x": 27,
+                            "y": 32
+                          },
+                          {
+                            "x": 8,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -52909,6 +55850,9 @@
           },
           {
             "objectName": "bat"
+          },
+          {
+            "objectName": "RockMonsterSmall"
           }
         ]
       },
@@ -58065,7 +61009,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KYFG8EV89KJ0MMXZTF1T1FRY",
+          "aiGeneratedEventId": "01KYFGX5ZK79EJA56BYV20JQT1",
           "type": "BuiltinCommonInstructions::ForEach",
           "object": "bat",
           "conditions": [
@@ -58127,14 +61071,16 @@
             },
             {
               "type": {
-                "value": "AddForceTowardPosition"
+                "value": "Physics2::ApplyImpulseTowardPosition"
               },
               "parameters": [
                 "BrownBullet",
+                "Physics2",
+                "50",
                 "Johnes.X()",
                 "Johnes.Y()",
-                "10",
-                "0"
+                "BrownBullet.Physics2::MassCenterX()",
+                "BrownBullet.Physics2::MassCenterY()"
               ]
             },
             {
@@ -58356,10 +61302,10 @@
           "cameraType": "",
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
-          "isLocked": false,
+          "isLocked": true,
           "name": "EndScreen",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": []
         },
