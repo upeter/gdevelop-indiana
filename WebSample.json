@@ -29472,7 +29472,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8188454456337305,
+        "zoomFactor": 1.392037257577342,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -29563,6 +29563,12 @@
         }
       ],
       "variables": [
+        {
+          "name": "RockMonstersActivated",
+          "persistentUuid": "bc728120-a3ed-42ee-a8fc-5404f5211089",
+          "type": "boolean",
+          "value": false
+        },
         {
           "name": "lowerCamBottom",
           "persistentUuid": "d536f649-c1a3-4bb8-a0a8-3da57df01f13",
@@ -32631,8 +32637,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 4388,
-          "y": 423,
+          "x": 4254,
+          "y": 486,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -43243,22 +43249,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart1",
-          "persistentUuid": "aef13dcf-7614-44de-ac44-5cb866af3251",
-          "width": 48,
-          "x": 3650,
-          "y": 1030,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 1,
           "height": 218,
           "layer": "",
@@ -43367,8 +43357,8 @@
           "name": "RockMonsterSmall",
           "persistentUuid": "28b4ae91-d121-453b-acc1-a7d1e6afffc6",
           "width": 113,
-          "x": 3730,
-          "y": 908,
+          "x": 3761,
+          "y": 909,
           "zOrder": 163,
           "numberProperties": [],
           "stringProperties": [],
@@ -43384,7 +43374,7 @@
           "persistentUuid": "4c50a213-5d1a-421a-ac58-04ca38457006",
           "width": 48,
           "x": 3883,
-          "y": 890,
+          "y": 922,
           "zOrder": 32,
           "numberProperties": [
             {
@@ -43405,7 +43395,7 @@
           "persistentUuid": "e601c586-354d-4b12-bcd9-469d3c7bdfe9",
           "width": 48,
           "x": 3930,
-          "y": 890,
+          "y": 922,
           "zOrder": 33,
           "numberProperties": [
             {
@@ -43426,7 +43416,7 @@
           "persistentUuid": "952ae4d2-eaf6-460e-9d6b-58d6ca5e26ce",
           "width": 48,
           "x": 3977,
-          "y": 890,
+          "y": 922,
           "zOrder": 34,
           "numberProperties": [
             {
@@ -43587,6 +43577,166 @@
               "value": 0
             }
           ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "16e6202d-0631-40f5-a55a-67b3a4df66dd",
+          "width": 48,
+          "x": 3650,
+          "y": 1030,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "9cd40791-64f8-42a8-90c9-9bed010d49f7",
+          "width": 48,
+          "x": 3602,
+          "y": 1029,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "f5b61020-dd5f-4256-8564-2dd4a50958f6",
+          "width": 48,
+          "x": 3553,
+          "y": 1029,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "b3124966-3850-444b-b5cf-e35884bff2ab",
+          "width": 48,
+          "x": 3505,
+          "y": 1029,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "17dd6055-dcc5-49df-bdb0-5e6ffc9ad128",
+          "width": 48,
+          "x": 3457,
+          "y": 1011,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "3ec16efc-84c5-44cf-83a7-8a15d3f485b4",
+          "width": 48,
+          "x": 3457,
+          "y": 967,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "1458511e-fac2-4750-b898-20b8347f0fef",
+          "width": 48,
+          "x": 3457,
+          "y": 920,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 12,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Ground_Brown",
+          "persistentUuid": "a251b20c-03b0-4165-8bec-ff5184ca2fc8",
+          "width": 260,
+          "x": 4290,
+          "y": 718,
+          "zOrder": 164,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Debug",
+          "persistentUuid": "81cce5ae-af2a-4654-abe5-17290d3bd646",
+          "width": 0,
+          "x": 3962,
+          "y": 796,
+          "zOrder": 165,
+          "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
@@ -51990,15 +52140,7 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "Platform",
-              "type": "PlatformBehavior::PlatformBehavior",
-              "canBeGrabbed": true,
-              "platformType": "NormalPlatform",
-              "yGrabOffset": 0
-            }
-          ],
+          "behaviors": [],
           "animations": [
             {
               "name": "Idle",
@@ -54625,7 +54767,20 @@
           "persistentUuid": "708a3062-4672-465f-8442-ac718eabd4f3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "hasHit",
+              "persistentUuid": "6d2a2d3d-cd0d-45da-9e18-78ae45c3fd34",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "name": "Health",
+              "persistentUuid": "c265497a-dcc2-4666-b9d3-e96514f95d98",
+              "type": "number",
+              "value": 2
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -54636,10 +54791,24 @@
               "FlashDuration": 0
             },
             {
-              "canBeGrabbed": false,
-              "name": "Platform",
-              "platformType": "NormalPlatform",
-              "type": "PlatformBehavior::PlatformBehavior",
+              "acceleration": 300,
+              "canGoDownFromJumpthru": true,
+              "canGrabPlatforms": false,
+              "canGrabWithoutMoving": true,
+              "deceleration": 500,
+              "gravity": 900,
+              "ignoreDefaultControls": false,
+              "jumpSpeed": 0,
+              "jumpSustainTime": 0.2,
+              "ladderClimbingSpeed": 0,
+              "maxFallingSpeed": 700,
+              "maxSpeed": 100,
+              "name": "PlatformerObject",
+              "slopeMaxAngle": 45,
+              "type": "PlatformBehavior::PlatformerObjectBehavior",
+              "useLegacyTrajectory": false,
+              "useRepeatedJump": false,
+              "xGrabTolerance": 10,
               "yGrabOffset": 0
             }
           ],
@@ -61361,6 +61530,341 @@
           "actions": []
         },
         {
+          "aiGeneratedEventId": "01KYHKDAYTX1QWYJ48DH7962YK",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PosY"
+              },
+              "parameters": [
+                "Johnes",
+                ">",
+                "Ground_Brown.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "RockMonstersActivated",
+                "True",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KYHKHJVGT20580X2406CHB36",
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "RockMonsterSmall AI",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BooleanVariable"
+                  },
+                  "parameters": [
+                    "RockMonstersActivated",
+                    "True",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "Johnes",
+                        "80",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "Animation",
+                        "=",
+                        "\"Attack\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "disabled": true,
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Johnes",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BooleanObjectVariable"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "hasHit",
+                            "False",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Johnes.PointX(\"Sole\")",
+                            "Johnes.PointY(\"Sole\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "\"Dead\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "JohnesFunctions::JohnesHit"
+                          },
+                          "parameters": [
+                            "",
+                            "Johnes",
+                            "Flash",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Johnes",
+                            "",
+                            "",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "CollisionPoint"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Johnes.PointX(\"Sole\")",
+                            "Johnes.PointY(\"Sole\")"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "AnimationName"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "\"Dead\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "JohnesFunctions::JohnesHit"
+                          },
+                          "parameters": [
+                            "",
+                            "Johnes",
+                            "Flash",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Else",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "hasHit",
+                        "False",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "<",
+                            "Johnes.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateRightKey"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Flippable",
+                            "no"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Animation",
+                            "=",
+                            "\"Walking\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "PosX"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            ">",
+                            "Johnes.X()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "PlatformBehavior::SimulateLeftKey"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "PlatformerObject"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "FlippableCapability::FlippableBehavior::FlipX"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Flippable",
+                            "yes"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                          },
+                          "parameters": [
+                            "RockMonsterSmall",
+                            "Animation",
+                            "=",
+                            "\"Walking\""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -61373,8 +61877,21 @@
           "comment": "mini rock monster colllision "
         },
         {
+          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Johnes",
+                "RockMonsterSmall",
+                "",
+                "",
+                ""
+              ]
+            },
             {
               "type": {
                 "inverted": true,
@@ -61388,23 +61905,12 @@
             },
             {
               "type": {
+                "inverted": true,
                 "value": "AnimationName"
               },
               "parameters": [
                 "RockMonsterSmall",
-                "\"Idle\""
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Johnes",
-                "RockMonsterSmall",
-                "",
-                "",
-                ""
+                "\"Dead\""
               ]
             },
             {
@@ -61461,26 +61967,6 @@
               "parameters": [
                 "Johnes",
                 "\"Hit\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "\"Hit\""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "\"Walking\""
               ]
             },
             {
@@ -61542,6 +62028,17 @@
                 "100",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Debug",
+                "Text",
+                "=",
+                "ToString(RockMonsterSmall.Health)"
+              ]
             }
           ],
           "events": [
@@ -61558,6 +62055,12 @@
                     ">",
                     "0"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
