@@ -29472,7 +29472,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.392037257577342,
+        "zoomFactor": 0.3235313168576707,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -32637,8 +32637,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 4254,
-          "y": 486,
+          "x": 4400,
+          "y": 504,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -43374,7 +43374,7 @@
           "persistentUuid": "4c50a213-5d1a-421a-ac58-04ca38457006",
           "width": 48,
           "x": 3883,
-          "y": 922,
+          "y": 916,
           "zOrder": 32,
           "numberProperties": [
             {
@@ -43395,7 +43395,7 @@
           "persistentUuid": "e601c586-354d-4b12-bcd9-469d3c7bdfe9",
           "width": 48,
           "x": 3930,
-          "y": 922,
+          "y": 916,
           "zOrder": 33,
           "numberProperties": [
             {
@@ -43416,7 +43416,7 @@
           "persistentUuid": "952ae4d2-eaf6-460e-9d6b-58d6ca5e26ce",
           "width": 48,
           "x": 3977,
-          "y": 922,
+          "y": 916,
           "zOrder": 34,
           "numberProperties": [
             {
@@ -54778,7 +54778,7 @@
               "name": "Health",
               "persistentUuid": "c265497a-dcc2-4666-b9d3-e96514f95d98",
               "type": "number",
-              "value": 2
+              "value": 3
             }
           ],
           "effects": [],
@@ -54814,205 +54814,12 @@
           ],
           "animations": [
             {
-              "name": "Idle",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.16,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "RocketMonsterSmall",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 14.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 20,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 24,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 9.5,
-                            "y": 31.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "RocketMonsterSmall2",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 14.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 20,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 24,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 9.5,
-                            "y": 31.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "RocketMonsterSmall3",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 14.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 20,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 24,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 9.5,
-                            "y": 31.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "RocketMonsterSmall4",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 14.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 20,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 24,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 9.5,
-                            "y": 31.5
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "RocketMonsterSmall5",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 14.5,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 20,
-                            "y": 20.5
-                          },
-                          {
-                            "x": 24,
-                            "y": 31.5
-                          },
-                          {
-                            "x": 9.5,
-                            "y": 31.5
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "name": "Walking",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": true,
-                  "timeBetweenFrames": 0.16,
+                  "timeBetweenFrames": 0.12,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
@@ -55032,6 +54839,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55040,7 +54851,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55068,6 +54891,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55076,7 +54903,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55104,6 +54943,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55112,7 +54955,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55140,6 +54995,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55148,7 +55007,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55176,6 +55047,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55184,7 +55059,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55212,6 +55099,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55220,7 +55111,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55248,6 +55151,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55256,7 +55163,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55284,6 +55203,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55292,7 +55215,292 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 31.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 20,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
+                            "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 31.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 20,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
+                            "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 31.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 20,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
+                            "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 31.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 20,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
+                            "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
+                            "y": 31.5
+                          },
+                          {
+                            "x": 9.5,
+                            "y": 31.5
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "RocketMonsterSmall5",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 20,
+                            "y": 20.5
+                          },
+                          {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
+                            "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55332,6 +55540,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55340,7 +55552,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55368,6 +55592,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55376,7 +55604,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55404,6 +55644,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55412,7 +55656,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55440,6 +55696,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55448,7 +55708,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55476,6 +55748,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55484,7 +55760,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55512,6 +55800,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55520,7 +55812,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55548,6 +55852,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55556,7 +55864,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55596,6 +55916,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55604,7 +55928,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55632,6 +55968,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55640,7 +55980,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55668,6 +56020,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55676,7 +56032,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55704,6 +56072,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55712,7 +56084,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55740,6 +56124,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55748,7 +56136,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55788,6 +56188,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55796,7 +56200,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55824,6 +56240,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55832,7 +56252,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55860,6 +56292,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55868,7 +56304,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55896,6 +56344,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55904,7 +56356,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -55932,6 +56396,10 @@
                       "customCollisionMask": [
                         [
                           {
+                            "x": 6.5,
+                            "y": 22.5
+                          },
+                          {
                             "x": 14.5,
                             "y": 20.5
                           },
@@ -55940,7 +56408,19 @@
                             "y": 20.5
                           },
                           {
+                            "x": 31,
+                            "y": 24
+                          },
+                          {
+                            "x": 31,
+                            "y": 26
+                          },
+                          {
                             "x": 24,
+                            "y": 26.5
+                          },
+                          {
+                            "x": 23,
                             "y": 31.5
                           },
                           {
@@ -61514,20 +61994,16 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KYFF1T1CAF005XNYH3VJMGMV",
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "mini rock monster colllision "
         },
         {
           "aiGeneratedEventId": "01KYHKDAYTX1QWYJ48DH7962YK",
@@ -61560,491 +62036,48 @@
                 "True",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "RockMonsterSmall",
+                "\"StartTimer\""
+              ]
             }
           ]
         },
         {
-          "aiGeneratedEventId": "01KYHKHJVGT20580X2406CHB36",
-          "colorB": 228,
-          "colorG": 176,
-          "colorR": 74,
-          "creationTime": 0,
-          "name": "RockMonsterSmall AI",
-          "source": "",
-          "type": "BuiltinCommonInstructions::Group",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "RockMonstersActivated",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "value": "BooleanVariable"
+                    "value": "Distance"
                   },
                   "parameters": [
-                    "RockMonstersActivated",
-                    "True",
+                    "RockMonsterSmall",
+                    "Johnes",
+                    "100",
                     ""
                   ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "Distance"
-                      },
-                      "parameters": [
-                        "RockMonsterSmall",
-                        "Johnes",
-                        "80",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                      },
-                      "parameters": [
-                        "RockMonsterSmall",
-                        "Animation",
-                        "=",
-                        "\"Attack\""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "disabled": true,
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Johnes",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BooleanObjectVariable"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "hasHit",
-                            "False",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Johnes.PointX(\"Sole\")",
-                            "Johnes.PointY(\"Sole\")"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AnimationName"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "\"Dead\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "JohnesFunctions::JohnesHit"
-                          },
-                          "parameters": [
-                            "",
-                            "Johnes",
-                            "Flash",
-                            ""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "CollisionNP"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Johnes",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "CollisionPoint"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Johnes.PointX(\"Sole\")",
-                            "Johnes.PointY(\"Sole\")"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "AnimationName"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "\"Dead\""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "BuiltinCommonInstructions::Once"
-                          },
-                          "parameters": []
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "JohnesFunctions::JohnesHit"
-                          },
-                          "parameters": [
-                            "",
-                            "Johnes",
-                            "Flash",
-                            ""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
                 },
-                {
-                  "type": "BuiltinCommonInstructions::Else",
-                  "conditions": [],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetBooleanObjectVariable"
-                      },
-                      "parameters": [
-                        "RockMonsterSmall",
-                        "hasHit",
-                        "False",
-                        ""
-                      ]
-                    }
-                  ],
-                  "events": [
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "<",
-                            "Johnes.X()"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateRightKey"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Flippable",
-                            "no"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Animation",
-                            "=",
-                            "\"Walking\""
-                          ]
-                        }
-                      ]
-                    },
-                    {
-                      "type": "BuiltinCommonInstructions::Standard",
-                      "conditions": [
-                        {
-                          "type": {
-                            "value": "PosX"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            ">",
-                            "Johnes.X()"
-                          ]
-                        }
-                      ],
-                      "actions": [
-                        {
-                          "type": {
-                            "value": "PlatformBehavior::SimulateLeftKey"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "PlatformerObject"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "FlippableCapability::FlippableBehavior::FlipX"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Flippable",
-                            "yes"
-                          ]
-                        },
-                        {
-                          "type": {
-                            "value": "AnimatableCapability::AnimatableBehavior::SetName"
-                          },
-                          "parameters": [
-                            "RockMonsterSmall",
-                            "Animation",
-                            "=",
-                            "\"Walking\""
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "mini rock monster colllision "
-        },
-        {
-          "disabled": true,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Johnes",
-                "RockMonsterSmall",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "CollisionPoint"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "Johnes.PointX(\"Sole\")",
-                "Johnes.PointY(\"Sole\")"
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "\"Dead\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "JohnesFunctions::JohnesHit"
-              },
-              "parameters": [
-                "",
-                "Johnes",
-                "Flash",
-                ""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionPoint"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "Johnes.PointX(\"Sole\")",
-                "Johnes.PointY(\"Sole\")"
-              ]
-            },
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "Johnes",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "inverted": true,
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "Johnes",
-                "\"Hit\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "ModVarObjet"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "Health",
-                "-",
-                "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Flash::Flash::Flash"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "Flash",
-                "1",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::SetCanJump"
-              },
-              "parameters": [
-                "Johnes",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlatformBehavior::SimulateJumpKey"
-              },
-              "parameters": [
-                "Johnes",
-                "PlatformerObject"
-              ]
-            },
-            {
-              "type": {
-                "value": "PlaySound"
-              },
-              "parameters": [
-                "",
-                "sounds/jump.wav",
-                "",
-                "100",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Debug",
-                "Text",
-                "=",
-                "ToString(RockMonsterSmall.Health)"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
                 {
                   "type": {
                     "value": "VarObjet"
@@ -62066,22 +62099,13 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ModVarGlobal"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
-                    "Score",
-                    "+",
-                    "20"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextObject::String"
-                  },
-                  "parameters": [
-                    "Score",
+                    "RockMonsterSmall",
+                    "Animation",
                     "=",
-                    "ToString(GlobalVariable(Score))"
+                    "\"Attack\""
                   ]
                 }
               ]
@@ -62091,12 +62115,24 @@
               "conditions": [
                 {
                   "type": {
+                    "inverted": true,
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Johnes",
+                    "100",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "VarObjet"
                   },
                   "parameters": [
                     "RockMonsterSmall",
                     "Health",
-                    "<=",
+                    ">",
                     "0"
                   ]
                 },
@@ -62110,10 +62146,488 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Animation",
+                    "=",
+                    "\"Walking\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "<",
+                    "Johnes.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Health",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateRightKey"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Flippable",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    ">",
+                    "Johnes.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Health",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateLeftKey"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Flippable",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    "RockMonsterSmall",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Johnes.PointX(\"Sole\")",
+                    "Johnes.PointY(\"Sole\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "JohnesFunctions::JohnesHit"
+                  },
+                  "parameters": [
+                    "",
+                    "Johnes",
+                    "Flash",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimationEnded"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Opacity"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "-",
+                    "150*TimeDelta()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Opacity"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionPoint"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Johnes.PointX(\"Sole\")",
+                    "Johnes.PointY(\"Sole\")"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Johnes",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "AnimationName"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    "\"Hit\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::IsFalling"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    "PlatformerObject"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Health",
+                    "-",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Debug",
+                    "Text",
+                    "=",
+                    "ToString(RockMonsterSmall.Health) + \" \" + ToString(RockMonsterSmall.hasHit) + \" \" "
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Flash::Flash::Flash"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Flash",
+                    "1",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SetCanJump"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlatformBehavior::SimulateJumpKey"
+                  },
+                  "parameters": [
+                    "Johnes",
+                    "PlatformerObject"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sounds/jump.wav",
+                    "",
+                    "100",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "Health",
+                        ">",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarGlobal"
+                      },
+                      "parameters": [
+                        "Score",
+                        "+",
+                        "50"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Score",
+                        "=",
+                        "ToString(GlobalVariable(Score))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "Health",
+                        "<=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Arreter"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "Platform",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAnimationName"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "\"Dead\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"StartTimer\"",
+                    ">=",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "Health",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "Arreter"
                   },
                   "parameters": [
                     "RockMonsterSmall"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "\"Dead\""
                   ]
                 },
                 {
@@ -62125,86 +62639,10 @@
                     "Platform",
                     "no"
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetAnimationName"
-                  },
-                  "parameters": [
-                    "RockMonsterSmall",
-                    "\"Dead\""
-                  ]
                 }
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "AnimationName"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "\"Dead\""
-              ]
-            },
-            {
-              "type": {
-                "value": "AnimationEnded"
-              },
-              "parameters": [
-                "RockMonsterSmall"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Opacity"
-              },
-              "parameters": [
-                "RockMonsterSmall",
-                "-",
-                "150*TimeDelta()"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Opacity"
-                  },
-                  "parameters": [
-                    "RockMonsterSmall",
-                    "=",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "RockMonsterSmall",
-                    ""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
