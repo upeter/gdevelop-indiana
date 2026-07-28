@@ -29504,7 +29504,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6937238887524679,
+        "zoomFactor": 0.4979159907912979,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -29597,6 +29597,7 @@
       "variables": [
         {
           "name": "RockMonsterSpawnedCount",
+          "persistentUuid": "b893faf7-e726-4985-8989-ef63ab70f5a8",
           "type": "number",
           "value": 0
         },
@@ -32674,8 +32675,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 4400,
-          "y": 504,
+          "x": 63,
+          "y": 28,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -37635,23 +37636,6 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 29,
-          "keepRatio": true,
-          "layer": "",
-          "name": "KeySpinningBarrel",
-          "persistentUuid": "72a46d1d-d1bf-4013-81d2-acb3a2b0df01",
-          "width": 32,
-          "x": 2521,
-          "y": 571,
-          "zOrder": 100,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
           "depth": 0,
           "height": 48,
           "layer": "",
@@ -37740,7 +37724,7 @@
           "height": 189,
           "keepRatio": true,
           "layer": "",
-          "name": "MineGate",
+          "name": "MineGateSaws",
           "persistentUuid": "762053c7-fdcf-4319-b7c5-ddf86e7e7610",
           "width": 48,
           "x": 2184,
@@ -41840,8 +41824,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "1f03f58b-cddf-47b6-ad3a-64342baf9fce",
           "width": 395,
-          "x": 2700,
-          "y": 420,
+          "x": 2701,
+          "y": 421,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -42138,7 +42122,7 @@
           "persistentUuid": "1c0a5621-b7be-4a3e-a544-68dee5c26224",
           "width": 48,
           "x": 4320,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42154,7 +42138,7 @@
           "persistentUuid": "8d9c5042-2118-4fdc-9ed4-47bd006a303a",
           "width": 48,
           "x": 4274,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42170,7 +42154,7 @@
           "persistentUuid": "b550b779-0aea-4488-81d7-7cd031f7904c",
           "width": 48,
           "x": 4226,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42186,7 +42170,7 @@
           "persistentUuid": "c3f66427-3d2f-4434-897d-ad4f318b41fe",
           "width": 48,
           "x": 4178,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42202,7 +42186,7 @@
           "persistentUuid": "d0636487-65bc-4d15-94db-624ffb7af89d",
           "width": 48,
           "x": 4130,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42218,7 +42202,7 @@
           "persistentUuid": "f06a64d2-9d6f-4826-892b-e842a5df3c15",
           "width": 48,
           "x": 4082,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42234,7 +42218,7 @@
           "persistentUuid": "6d237003-7267-4f16-ad9d-184a7c07feac",
           "width": 48,
           "x": 4036,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42249,8 +42233,8 @@
           "name": "MinePart2",
           "persistentUuid": "46f828cc-714d-47cb-8fc2-c79a78ca3b4a",
           "width": 48,
-          "x": 3987,
-          "y": 1031,
+          "x": 3988,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42265,8 +42249,8 @@
           "name": "MinePart2",
           "persistentUuid": "e914b46e-0547-4e30-b897-dc0a947587f8",
           "width": 48,
-          "x": 3939,
-          "y": 1031,
+          "x": 3940,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42281,8 +42265,8 @@
           "name": "MinePart2",
           "persistentUuid": "dce04f3e-e9ff-4ce0-881b-84a61ab35195",
           "width": 48,
-          "x": 3891,
-          "y": 1031,
+          "x": 3892,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42297,8 +42281,8 @@
           "name": "MinePart2",
           "persistentUuid": "430e5d11-0d9e-409e-b79b-d86001f6b5e7",
           "width": 48,
-          "x": 3843,
-          "y": 1031,
+          "x": 3844,
+          "y": 1128,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -42561,7 +42545,7 @@
           "persistentUuid": "465fe7d7-8a3b-47c5-abd7-9623bcc953ac",
           "width": 48,
           "x": 4285,
-          "y": 731,
+          "y": 827,
           "zOrder": 25,
           "numberProperties": [
             {
@@ -42729,48 +42713,6 @@
           "persistentUuid": "5c686855-0d12-414f-9467-6f14933d3a35",
           "width": 48,
           "x": 4142,
-          "y": 732,
-          "zOrder": 24,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart16",
-          "persistentUuid": "ff8b1d1c-d58e-4dd2-aa08-96c55d49b4af",
-          "width": 48,
-          "x": 4190,
-          "y": 732,
-          "zOrder": 24,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart16",
-          "persistentUuid": "9da9efe8-7864-426c-89f1-dfef27901ba4",
-          "width": 48,
-          "x": 4236,
           "y": 732,
           "zOrder": 24,
           "numberProperties": [
@@ -43107,8 +43049,8 @@
           "name": "Torch",
           "persistentUuid": "d0643214-e54c-4666-abdb-f455b3cd87ac",
           "width": 97,
-          "x": 4224,
-          "y": 785,
+          "x": 4077,
+          "y": 859,
           "zOrder": 81,
           "numberProperties": [],
           "stringProperties": [],
@@ -43186,8 +43128,8 @@
           "name": "MinePart2",
           "persistentUuid": "47a49ca7-f8ce-4354-99f9-800a116487e8",
           "width": 48,
-          "x": 3795,
-          "y": 1030,
+          "x": 3796,
+          "y": 1127,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43202,8 +43144,8 @@
           "name": "MinePart2",
           "persistentUuid": "532d8180-5302-4452-baa3-c516615cf9d8",
           "width": 48,
-          "x": 3746,
-          "y": 1030,
+          "x": 3748,
+          "y": 1127,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43218,8 +43160,8 @@
           "name": "MinePart2",
           "persistentUuid": "693ffc07-3314-4f24-a143-99daeda70a8e",
           "width": 48,
-          "x": 3698,
-          "y": 1030,
+          "x": 3700,
+          "y": 1127,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43293,7 +43235,7 @@
           "persistentUuid": "14631157-177d-4a14-950e-6ecb164b67c8",
           "width": 57,
           "x": 3438,
-          "y": 738,
+          "y": 723,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -43378,25 +43320,8 @@
           "persistentUuid": "59d11313-5aa9-482e-8f4d-40710fcc34f3",
           "width": 37,
           "x": 3685,
-          "y": 886,
+          "y": 983,
           "zOrder": 60,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 121,
-          "keepRatio": true,
-          "layer": "",
-          "name": "RockMonsterSmall",
-          "persistentUuid": "28b4ae91-d121-453b-acc1-a7d1e6afffc6",
-          "width": 113,
-          "x": 3858,
-          "y": 789,
-          "zOrder": 163,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43411,7 +43336,7 @@
           "persistentUuid": "4c50a213-5d1a-421a-ac58-04ca38457006",
           "width": 48,
           "x": 3883,
-          "y": 916,
+          "y": 1013,
           "zOrder": 32,
           "numberProperties": [
             {
@@ -43432,7 +43357,7 @@
           "persistentUuid": "e601c586-354d-4b12-bcd9-469d3c7bdfe9",
           "width": 48,
           "x": 3930,
-          "y": 916,
+          "y": 1013,
           "zOrder": 33,
           "numberProperties": [
             {
@@ -43453,7 +43378,7 @@
           "persistentUuid": "952ae4d2-eaf6-460e-9d6b-58d6ca5e26ce",
           "width": 48,
           "x": 3977,
-          "y": 916,
+          "y": 1013,
           "zOrder": 34,
           "numberProperties": [
             {
@@ -43474,7 +43399,7 @@
           "persistentUuid": "85c6f48b-0e20-4d24-aada-966a2412014f",
           "width": 48,
           "x": 4369,
-          "y": 1031,
+          "y": 1128,
           "zOrder": 21,
           "numberProperties": [
             {
@@ -43495,7 +43420,7 @@
           "persistentUuid": "e743b0b6-8d1e-413f-a762-d646c65bea17",
           "width": 48,
           "x": 4369,
-          "y": 935,
+          "y": 1032,
           "zOrder": 16,
           "numberProperties": [
             {
@@ -43516,7 +43441,7 @@
           "persistentUuid": "4f37b3d2-0e04-4c70-82d8-b6dcf046a3f8",
           "width": 48,
           "x": 4369,
-          "y": 983,
+          "y": 1080,
           "zOrder": 16,
           "numberProperties": [
             {
@@ -43537,7 +43462,7 @@
           "persistentUuid": "7658403b-9626-433d-9174-7729ae21fa83",
           "width": 48,
           "x": 4369,
-          "y": 886,
+          "y": 983,
           "zOrder": 100,
           "numberProperties": [],
           "stringProperties": [],
@@ -43553,7 +43478,7 @@
           "persistentUuid": "31e20a65-130b-46a0-8bfa-0c78463bb95d",
           "width": 48,
           "x": 4417,
-          "y": 886,
+          "y": 983,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43569,7 +43494,7 @@
           "persistentUuid": "06d1844d-cabc-4aff-ae9e-2768d78264fd",
           "width": 48,
           "x": 4466,
-          "y": 886,
+          "y": 983,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43585,7 +43510,7 @@
           "persistentUuid": "ecd49eb0-0267-4d69-8ac8-1af8cb0ef804",
           "width": 48,
           "x": 4512,
-          "y": 886,
+          "y": 983,
           "zOrder": 21,
           "numberProperties": [
             {
@@ -43606,7 +43531,7 @@
           "persistentUuid": "ef1a3f64-d147-4172-a1b1-3ae878b50557",
           "width": 152,
           "x": 4402,
-          "y": 917,
+          "y": 1014,
           "zOrder": 2,
           "numberProperties": [
             {
@@ -43626,8 +43551,8 @@
           "name": "MinePart2",
           "persistentUuid": "16e6202d-0631-40f5-a55a-67b3a4df66dd",
           "width": 48,
-          "x": 3650,
-          "y": 1030,
+          "x": 3652,
+          "y": 1127,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43642,8 +43567,8 @@
           "name": "MinePart2",
           "persistentUuid": "9cd40791-64f8-42a8-90c9-9bed010d49f7",
           "width": 48,
-          "x": 3602,
-          "y": 1029,
+          "x": 3604,
+          "y": 1126,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43658,8 +43583,8 @@
           "name": "MinePart2",
           "persistentUuid": "f5b61020-dd5f-4256-8564-2dd4a50958f6",
           "width": 48,
-          "x": 3553,
-          "y": 1029,
+          "x": 3556,
+          "y": 1125,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -43674,73 +43599,10 @@
           "name": "MinePart2",
           "persistentUuid": "b3124966-3850-444b-b5cf-e35884bff2ab",
           "width": 48,
-          "x": 3505,
-          "y": 1029,
+          "x": 3508,
+          "y": 1125,
           "zOrder": 10,
           "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart10",
-          "persistentUuid": "17dd6055-dcc5-49df-bdb0-5e6ffc9ad128",
-          "width": 48,
-          "x": 3457,
-          "y": 1011,
-          "zOrder": 18,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart10",
-          "persistentUuid": "3ec16efc-84c5-44cf-83a7-8a15d3f485b4",
-          "width": 48,
-          "x": 3457,
-          "y": 967,
-          "zOrder": 18,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 48,
-          "layer": "",
-          "name": "MinePart10",
-          "persistentUuid": "1458511e-fac2-4750-b898-20b8347f0fef",
-          "width": 48,
-          "x": 3457,
-          "y": 920,
-          "zOrder": 18,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 0
-            }
-          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -43753,26 +43615,10 @@
           "layer": "",
           "name": "Ground_Brown",
           "persistentUuid": "a251b20c-03b0-4165-8bec-ff5184ca2fc8",
-          "width": 260,
-          "x": 4290,
+          "width": 182,
+          "x": 4332,
           "y": 718,
           "zOrder": 164,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "Debug",
-          "persistentUuid": "81cce5ae-af2a-4654-abe5-17290d3bd646",
-          "width": 0,
-          "x": 3962,
-          "y": 796,
-          "zOrder": 165,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -43792,12 +43638,693 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "HeartUpgrade",
+          "persistentUuid": "3e7f19b2-d260-4270-baf5-3bb21b0168fa",
+          "width": 34,
+          "x": 3974,
+          "y": 970,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 31,
+          "keepRatio": true,
+          "layer": "",
+          "name": "HeartUpgrade",
+          "persistentUuid": "fc50c0bf-e0b2-48cd-b39b-87270b0ff4c5",
+          "width": 34,
+          "x": 3891,
+          "y": 970,
+          "zOrder": 97,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 121,
+          "keepRatio": true,
+          "layer": "",
+          "name": "RockMonsterSmall",
+          "persistentUuid": "73319037-aee4-4da1-a70a-a64aed609f4c",
+          "width": 113,
+          "x": 3766,
+          "y": 890,
+          "zOrder": 163,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "1ba873da-ece8-4b09-af2f-4262122eb471",
+          "width": 48,
+          "x": 4285,
+          "y": 731,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart10",
+          "persistentUuid": "fa511022-195d-4d3c-9976-0e4d521abcfd",
+          "width": 48,
+          "x": 4285,
+          "y": 779,
+          "zOrder": 18,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart6",
+          "persistentUuid": "d6ba5cea-e5fe-45bd-b003-c530c5059757",
+          "width": 48,
+          "x": 4237,
+          "y": 732,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "e483f829-e467-4c3e-8edb-e6ab5b5838e2",
+          "width": 48,
+          "x": 4237,
+          "y": 780,
+          "zOrder": 141,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart15",
+          "persistentUuid": "fd1ee1c5-7e31-423c-975d-1153a0d6ab5b",
+          "width": 48,
+          "x": 4237,
+          "y": 827,
+          "zOrder": 140,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "69c0105b-e343-4d8e-96fe-a6148eefb3f4",
+          "width": 48,
+          "x": 4190,
+          "y": 732,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart27",
+          "persistentUuid": "03113d92-0ab7-4d75-8a19-710d68140047",
+          "width": 48,
+          "x": 4463,
+          "y": 840,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 32,
+          "layer": "",
+          "name": "SaphireSquareRed",
+          "persistentUuid": "44ad8f55-8249-4249-a3e9-fad5b4401c2c",
+          "width": 32,
+          "x": 4471,
+          "y": 797,
+          "zOrder": 46,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "fdabe5a3-6a32-4036-8e78-968cfc18272c",
+          "width": 298,
+          "x": 2959,
+          "y": 1084,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "8402e846-c085-4273-aeaf-25ffb6ae9e36",
+          "width": 298,
+          "x": 3256,
+          "y": 1083,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "11d72a84-3674-4b38-af4a-7ce9127c62ef",
+          "width": 298,
+          "x": 3553,
+          "y": 1083,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "f8d691a2-1f6a-4757-995b-f05aa35d2f47",
+          "width": 298,
+          "x": 4147,
+          "y": 1081,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "a3a7c740-513f-475c-8ef8-57abd5db993b",
+          "width": 298,
+          "x": 3850,
+          "y": 1082,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 364,
+          "layer": "Background",
+          "name": "BackgroundTile",
+          "persistentUuid": "81aa8f34-3c33-43f0-a14f-943d5ffe39e1",
+          "width": 298,
+          "x": 4444,
+          "y": 1080,
+          "zOrder": -100,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "af6ae254-9d19-44af-9b4c-58562f7a4e2b",
+          "width": 48,
+          "x": 4512,
+          "y": 935,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart8",
+          "persistentUuid": "4004b8c9-a57f-4423-924a-a0cbf90435ba",
+          "width": 48,
+          "x": 4512,
+          "y": 887,
+          "zOrder": 16,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "872a3f84-b52b-4bfa-a526-478fa6638796",
+          "width": 48,
+          "x": 3110,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "e5b3f1f3-c211-40d1-85e8-632252777447",
+          "width": 48,
+          "x": 3158,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "7003c864-b7d9-4f95-8c4f-5407b3fd0c68",
+          "width": 48,
+          "x": 3204,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "3fdecfdf-bae7-416d-9e3b-8e1f8512df07",
+          "width": 48,
+          "x": 3252,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "b5e489fc-7ebe-4cf9-b07a-f77a9b6eb86d",
+          "width": 48,
+          "x": 3298,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "51ad6b0d-0732-4c9f-afbb-896d20301418",
+          "width": 48,
+          "x": 2922,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "68dc7bae-8f5f-4bc3-aeee-64c155f93682",
+          "width": 48,
+          "x": 2968,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "7c82fedf-3970-44f8-9b39-5fabe37c56f7",
+          "width": 48,
+          "x": 3016,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "b2d72aad-0967-4301-94b5-a552adc6aa9a",
+          "width": 48,
+          "x": 3062,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "ff58221c-8b36-42c1-912b-9d9d50c22f86",
+          "width": 48,
+          "x": 3346,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "e78e8b57-7b8f-49d7-aabe-798298f9f11f",
+          "width": 48,
+          "x": 3394,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart16",
+          "persistentUuid": "59ac8b33-03a3-42f3-a1c0-dd6c24c7fe3c",
+          "width": 48,
+          "x": 3442,
+          "y": 919,
+          "zOrder": 24,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart17",
+          "persistentUuid": "8db2eeaa-5605-4e8f-b6c8-f42d33dcf4cc",
+          "width": 48,
+          "x": 3490,
+          "y": 919,
+          "zOrder": 119,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KeySpinningBarel",
+          "persistentUuid": "4469a75f-7f20-44dd-84dd-735870dccb63",
+          "width": 26,
+          "x": 2524,
+          "y": 577,
+          "zOrder": 167,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 42,
+          "keepRatio": true,
+          "layer": "",
+          "name": "KeySpinningRockMonsterSmall",
+          "persistentUuid": "e6912ca0-e648-495a-8990-a33579b7b6b4",
+          "width": 42,
+          "x": 3597,
+          "y": 1010,
+          "zOrder": 168,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MineGateRockMonsterSmall",
+          "persistentUuid": "47ca51f0-503d-416a-9689-9027db866188",
+          "width": 0,
+          "x": 3488,
+          "y": 948,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart2",
+          "persistentUuid": "3dc9f1ee-278c-4d38-a108-c7efb26ae01f",
+          "width": 48,
+          "x": 3460,
+          "y": 1125,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
         {
           "assetStoreId": "",
-          "name": "MineGate",
+          "name": "MineGateSaws",
           "persistentUuid": "a67496ff-36b5-48c4-aa76-4255011f15e9",
           "type": "UntitledExtension::MineGate",
           "variant": "",
@@ -52296,7 +52823,7 @@
         {
           "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "KeySpinningBarrel",
+          "name": "KeySpinningBarel",
           "persistentUuid": "09365520-6143-4666-90ad-281e69dc360f",
           "type": "Sprite",
           "updateIfNotVisible": false,
@@ -54831,7 +55358,7 @@
               "name": "Health",
               "persistentUuid": "c265497a-dcc2-4666-b9d3-e96514f95d98",
               "type": "number",
-              "value": 3
+              "value": 2
             }
           ],
           "effects": [],
@@ -56670,6 +57197,342 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "KeySpinningRockMonsterSmall",
+          "persistentUuid": "9e653a15-e31d-4fdd-8949-b2f685839ff0",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.15,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "cee296ee6218900f2d5f26cfa4be2efb38ce5c28d8723f4d79717e3b248acda7_Key_Spinning_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "baba99de4d7d430369f55dd98b433fae93c98d63c25fb5851dc13752c125ff26_Key_Spinning_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "774ce460422f3571dc47822f96f5deb5f1730b603d679bf678986362b5670d9f_Key_Spinning_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "0b391d5795178e55ecdab605bb5b27d1143667298f6fe7543d3f55f5bbae62d2_Key_Spinning_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "5e222aba9c54517f0315d7b57a279cc09075238f3bd1a6cba580ba92621f6e5b_Key_Spinning_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ec7469d5dd44406252fb69378415fb49c8da4b4adb805ebf51e4a113e9693acf_Key_Spinning_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "fc14be3a43180256f22c02fa85c7991d4e1b537de4f0c30f076d3ffd8926acb0_Key_Spinning_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "4e5d729c89ec42a9ea8df2764882bd1aee77a64364041aad3783394bbc29fb90_Key_Spinning_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 4.5,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 2
+                          },
+                          {
+                            "x": 12,
+                            "y": 16
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "MineGateRockMonsterSmall",
+          "persistentUuid": "9e3867fc-94be-49ab-acf7-c2892bf49eb1",
+          "type": "UntitledExtension::MineGate",
+          "variant": "",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Platform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "canBeGrabbed": true,
+              "platformType": "NormalPlatform",
+              "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "content": {}
         }
       ],
       "objectsFolderStructure": {
@@ -56814,7 +57677,10 @@
             "objectName": "KeySpinningGeonid"
           },
           {
-            "objectName": "KeySpinningBarrel"
+            "objectName": "KeySpinningBarel"
+          },
+          {
+            "objectName": "KeySpinningRockMonsterSmall"
           },
           {
             "objectName": "KeyCollectEmitter"
@@ -56856,7 +57722,10 @@
             "objectName": "Ground_Brown"
           },
           {
-            "objectName": "MineGate"
+            "objectName": "MineGateSaws"
+          },
+          {
+            "objectName": "MineGateRockMonsterSmall"
           },
           {
             "objectName": "Ghost"
@@ -57019,6 +57888,14 @@
               "parameters": [
                 "Buff_Arrow_1"
               ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Ground_Brown"
+              ]
             }
           ],
           "events": [
@@ -57090,7 +57967,7 @@
                   },
                   "parameters": [
                     "",
-                    "KeySpinningBarrel",
+                    "KeySpinningBarel",
                     ""
                   ]
                 }
@@ -60725,7 +61602,7 @@
                   },
                   "parameters": [
                     "",
-                    "KeySpinningBarrel",
+                    "KeySpinningBarel",
                     ""
                   ]
                 }
@@ -60742,7 +61619,7 @@
                 "value": "CollisionNP"
               },
               "parameters": [
-                "KeySpinningBarrel",
+                "KeySpinningBarel",
                 "Johnes",
                 "",
                 "",
@@ -60764,8 +61641,8 @@
               "parameters": [
                 "",
                 "KeyCollectEmitter",
-                "KeySpinningBarrel.CenterX()",
-                "KeySpinningBarrel.CenterY()",
+                "KeySpinningBarel.CenterX()",
+                "KeySpinningBarel.CenterY()",
                 ""
               ]
             },
@@ -60798,7 +61675,7 @@
                 "value": "Delete"
               },
               "parameters": [
-                "KeySpinningBarrel",
+                "KeySpinningBarel",
                 ""
               ]
             },
@@ -60815,7 +61692,7 @@
                 "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
-                "MineGate",
+                "MineGateSaws",
                 "Tween",
                 "\"gateOpen\"",
                 "200",
@@ -63028,6 +63905,39 @@
               "parameters": [
                 "RockMonsterSmall",
                 "\"StartTimer\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Johnes",
+                "KeySpinningRockMonsterSmall",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+              },
+              "parameters": [
+                "MineGateRockMonsterSmall",
+                "Tween",
+                "\"gateOpen\"",
+                "200",
+                "\"easeOutQuad\"",
+                "4.5",
+                "no"
               ]
             }
           ]
