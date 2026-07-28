@@ -1312,7 +1312,7 @@
         "kind": "image",
         "metadata": "",
         "name": "NewSprite-24.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -1744,7 +1744,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Johnes-24.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -2112,7 +2112,7 @@
         "kind": "image",
         "metadata": "",
         "name": "Johnes-24-0.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -3684,7 +3684,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Coin-24.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -4356,7 +4356,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Gems-24.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -5156,7 +5156,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/Gems-124.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -8163,7 +8163,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "mine-construction-block-27",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -8179,7 +8179,7 @@
         "kind": "image",
         "metadata": "",
         "name": "assets/mine-construction-block-27.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true
       },
       {
@@ -8187,7 +8187,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "assets/mine-construction-block-28",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -8381,7 +8381,7 @@
         "kind": "image",
         "metadata": "",
         "name": "cee296ee6218900f2d5f26cfa4be2efb38ce5c28d8723f4d79717e3b248acda7_Key_Spinning_1.png",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": true,
         "origin": {
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Pixel art spinning Items/cee296ee6218900f2d5f26cfa4be2efb38ce5c28d8723f4d79717e3b248acda7_Key_Spinning_1.png",
@@ -8613,7 +8613,7 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
         "name": "Tucked24",
-        "smoothed": true,
+        "smoothed": false,
         "userAdded": false
       },
       {
@@ -29504,7 +29504,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4979159907912979,
+        "zoomFactor": 1.7557887513009571,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -32675,8 +32675,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 63,
-          "y": 28,
+          "x": 4253,
+          "y": 519,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -41824,8 +41824,8 @@
           "name": "MinePartHideSaw",
           "persistentUuid": "1f03f58b-cddf-47b6-ad3a-64342baf9fce",
           "width": 395,
-          "x": 2701,
-          "y": 421,
+          "x": 2703,
+          "y": 422,
           "zOrder": 120,
           "numberProperties": [],
           "stringProperties": [],
@@ -43319,8 +43319,8 @@
           "name": "GemLarge",
           "persistentUuid": "59d11313-5aa9-482e-8f4d-40710fcc34f3",
           "width": 37,
-          "x": 3685,
-          "y": 983,
+          "x": 3654,
+          "y": 945,
           "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
@@ -43335,8 +43335,8 @@
           "name": "MinePart24",
           "persistentUuid": "4c50a213-5d1a-421a-ac58-04ca38457006",
           "width": 48,
-          "x": 3883,
-          "y": 1013,
+          "x": 4020,
+          "y": 987,
           "zOrder": 32,
           "numberProperties": [
             {
@@ -43356,8 +43356,8 @@
           "name": "MinePart25",
           "persistentUuid": "e601c586-354d-4b12-bcd9-469d3c7bdfe9",
           "width": 48,
-          "x": 3930,
-          "y": 1013,
+          "x": 3947,
+          "y": 1322,
           "zOrder": 33,
           "numberProperties": [
             {
@@ -43377,8 +43377,8 @@
           "name": "MinePart26",
           "persistentUuid": "952ae4d2-eaf6-460e-9d6b-58d6ca5e26ce",
           "width": 48,
-          "x": 3977,
-          "y": 1013,
+          "x": 4068,
+          "y": 987,
           "zOrder": 34,
           "numberProperties": [
             {
@@ -43647,27 +43647,10 @@
           "keepRatio": true,
           "layer": "",
           "name": "HeartUpgrade",
-          "persistentUuid": "3e7f19b2-d260-4270-baf5-3bb21b0168fa",
-          "width": 34,
-          "x": 3974,
-          "y": 970,
-          "zOrder": 97,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 31,
-          "keepRatio": true,
-          "layer": "",
-          "name": "HeartUpgrade",
           "persistentUuid": "fc50c0bf-e0b2-48cd-b39b-87270b0ff4c5",
           "width": 34,
-          "x": 3891,
-          "y": 970,
+          "x": 3874,
+          "y": 852,
           "zOrder": 97,
           "numberProperties": [],
           "stringProperties": [],
@@ -43683,8 +43666,8 @@
           "name": "RockMonsterSmall",
           "persistentUuid": "73319037-aee4-4da1-a70a-a64aed609f4c",
           "width": 113,
-          "x": 3766,
-          "y": 890,
+          "x": 3609,
+          "y": 829,
           "zOrder": 163,
           "numberProperties": [],
           "stringProperties": [],
@@ -44275,13 +44258,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 42,
+          "height": 28,
           "keepRatio": true,
           "layer": "",
           "name": "KeySpinningRockMonsterSmall",
           "persistentUuid": "e6912ca0-e648-495a-8990-a33579b7b6b4",
-          "width": 42,
-          "x": 3597,
+          "width": 29,
+          "x": 3570,
           "y": 1010,
           "zOrder": 168,
           "numberProperties": [],
@@ -44316,6 +44299,107 @@
           "x": 3460,
           "y": 1125,
           "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart24",
+          "persistentUuid": "d8fcb119-6dae-481f-9c43-658d4e83b5e3",
+          "width": 48,
+          "x": 3625,
+          "y": 994,
+          "zOrder": 32,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart26",
+          "persistentUuid": "34a6cf77-a68e-4a40-8876-17447ae803a6",
+          "width": 48,
+          "x": 3673,
+          "y": 994,
+          "zOrder": 34,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart24",
+          "persistentUuid": "98ca6bed-8807-486d-ba01-ce654ca3f258",
+          "width": 48,
+          "x": 3840,
+          "y": 895,
+          "zOrder": 32,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 48,
+          "layer": "",
+          "name": "MinePart26",
+          "persistentUuid": "7991a708-daef-4ecc-8d18-ace50487485a",
+          "width": 48,
+          "x": 3888,
+          "y": 895,
+          "zOrder": 34,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
+          "keepRatio": true,
+          "layer": "",
+          "name": "GemLarge",
+          "persistentUuid": "79d19d7b-0716-4ba0-bd97-b895276f8450",
+          "width": 37,
+          "x": 4047,
+          "y": 938,
+          "zOrder": 60,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -55349,6 +55433,11 @@
           "updateIfNotVisible": false,
           "variables": [
             {
+              "name": "isDead",
+              "type": "boolean",
+              "value": false
+            },
+            {
               "name": "hasHit",
               "persistentUuid": "6d2a2d3d-cd0d-45da-9e18-78ae45c3fd34",
               "type": "boolean",
@@ -57880,22 +57969,6 @@
                 "Flippable",
                 "yes"
               ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Buff_Arrow_1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Hide"
-              },
-              "parameters": [
-                "Ground_Brown"
-              ]
             }
           ],
           "events": [
@@ -57915,6 +57988,22 @@
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [],
               "actions": [
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Buff_Arrow_1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Hide"
+                  },
+                  "parameters": [
+                    "Ground_Brown"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Cache"
@@ -57968,6 +58057,16 @@
                   "parameters": [
                     "",
                     "KeySpinningBarel",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JohnesFunctions::Disable"
+                  },
+                  "parameters": [
+                    "",
+                    "KeySpinningRockMonsterSmall",
                     ""
                   ]
                 }
@@ -61598,6 +61697,18 @@
                 },
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sounds/key-collect-long.mp3",
+                    "",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "JohnesFunctions::Enable"
                   },
                   "parameters": [
@@ -61695,7 +61806,7 @@
                 "MineGateSaws",
                 "Tween",
                 "\"gateOpen\"",
-                "200",
+                "240",
                 "\"easeOutQuad\"",
                 "4.5",
                 "no"
@@ -63308,6 +63419,7 @@
               ]
             },
             {
+              "aiGeneratedEventId": "01KYKY6WEA597SY06JZN6ZDVCQ",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -63322,7 +63434,7 @@
                 },
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
                     "RockMonsterSmall",
@@ -63334,11 +63446,24 @@
                 {
                   "type": {
                     "inverted": true,
-                    "value": "AnimationName"
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
                     "RockMonsterSmall",
+                    "Animation",
+                    "=",
                     "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "isDead",
+                    "False",
+                    ""
                   ]
                 }
               ],
@@ -63365,6 +63490,7 @@
               ]
             },
             {
+              "aiGeneratedEventId": "01KYKY6WEA597SY06JZN6ZDVCQ",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -63379,7 +63505,7 @@
                 },
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
                     "RockMonsterSmall",
@@ -63391,11 +63517,24 @@
                 {
                   "type": {
                     "inverted": true,
-                    "value": "AnimationName"
+                    "value": "AnimatableCapability::AnimatableBehavior::Name"
                   },
                   "parameters": [
                     "RockMonsterSmall",
+                    "Animation",
+                    "=",
                     "\"Dead\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "isDead",
+                    "False",
+                    ""
                   ]
                 }
               ],
@@ -63690,11 +63829,12 @@
                   ]
                 },
                 {
+                  "aiGeneratedEventId": "01KYKY6WEA597SY06JZN6ZDVCQ",
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
                       "type": {
-                        "value": "VarObjet"
+                        "value": "NumberObjectVariable"
                       },
                       "parameters": [
                         "RockMonsterSmall",
@@ -63715,21 +63855,34 @@
                     },
                     {
                       "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "RockMonsterSmall",
+                        "Animation",
+                        "=",
+                        "\"Dead\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ActivateBehavior"
                       },
                       "parameters": [
                         "RockMonsterSmall",
-                        "Platform",
+                        "PlatformerObject",
                         "no"
                       ]
                     },
                     {
                       "type": {
-                        "value": "SetAnimationName"
+                        "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
                         "RockMonsterSmall",
-                        "\"Dead\""
+                        "isDead",
+                        "True",
+                        ""
                       ]
                     }
                   ]
@@ -63737,6 +63890,7 @@
               ]
             },
             {
+              "aiGeneratedEventId": "01KYKY6WEA597SY06JZN6ZDVCQ",
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -63752,7 +63906,7 @@
                 },
                 {
                   "type": {
-                    "value": "VarObjet"
+                    "value": "NumberObjectVariable"
                   },
                   "parameters": [
                     "RockMonsterSmall",
@@ -63773,10 +63927,12 @@
                 },
                 {
                   "type": {
-                    "value": "SetAnimationName"
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
                   },
                   "parameters": [
                     "RockMonsterSmall",
+                    "Animation",
+                    "=",
                     "\"Dead\""
                   ]
                 },
@@ -63786,8 +63942,19 @@
                   },
                   "parameters": [
                     "RockMonsterSmall",
-                    "Platform",
+                    "PlatformerObject",
                     "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetBooleanObjectVariable"
+                  },
+                  "parameters": [
+                    "RockMonsterSmall",
+                    "isDead",
+                    "True",
+                    ""
                   ]
                 }
               ]
@@ -63914,6 +64081,62 @@
           "conditions": [
             {
               "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "RockMonsterSpawnedCount",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "SceneInstancesCount"
+              },
+              "parameters": [
+                "",
+                "RockMonsterSmall",
+                "=",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "JohnesFunctions::Enable"
+              },
+              "parameters": [
+                "",
+                "KeySpinningRockMonsterSmall",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds/key-collect-long.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "value": "CollisionNP"
               },
               "parameters": [
@@ -63938,6 +64161,51 @@
                 "\"easeOutQuad\"",
                 "4.5",
                 "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "sounds/key collect short.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "key-collect-short.wav",
+                "no",
+                "100",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "KeyCollectEmitter",
+                "KeySpinningRockMonsterSmall.CenterX()",
+                "KeySpinningRockMonsterSmall.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "KeySpinningRockMonsterSmall",
+                ""
               ]
             }
           ]
