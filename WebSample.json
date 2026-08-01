@@ -11527,6 +11527,16 @@
         "name": "mine-carts-on-rails-icon-for-8bit-game-on-white-background-vector.jpg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Jump_Land_01.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "jump.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -14164,6 +14174,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "8017897dbe78ae313d6ad7bac5f82b20570db729e17ebc84877b2cb589278fbf",
       "name": "Dust",
+      "persistentUuid": "61059c44-0428-4180-bfd3-6acac6172f7c",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14409,6 +14420,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "JumpDust",
+      "persistentUuid": "9aaaa23d-df2e-4306-9986-8708cf2a9529",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -14644,6 +14656,7 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "FallDust",
+      "persistentUuid": "644f5c87-9ce5-4a20-992c-55367d0d27eb",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -29528,7 +29541,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.48167379154926654,
+        "zoomFactor": 0.9350055057186918,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -32699,8 +32712,8 @@
           "name": "Johnes",
           "persistentUuid": "5dc32bae-dc99-4240-83e6-e003fb4ab45f",
           "width": 192,
-          "x": 66,
-          "y": 23,
+          "x": 382,
+          "y": 140,
           "zOrder": 48,
           "numberProperties": [],
           "stringProperties": [],
@@ -37729,8 +37742,8 @@
           "name": "MinePart10",
           "persistentUuid": "a74b2c83-91cc-4f67-ae5d-e4b6091e9329",
           "width": 48,
-          "x": -0.5,
-          "y": 0.5,
+          "x": -188,
+          "y": 82,
           "zOrder": 18,
           "numberProperties": [
             {
@@ -45138,14 +45151,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 39,
+          "height": 25,
           "keepRatio": true,
           "layer": "",
           "name": "Mushroomn",
           "persistentUuid": "da9f2552-8f2a-4595-8356-5f168d5c3680",
-          "width": 26,
-          "x": 388,
-          "y": 514,
+          "width": 24,
+          "x": 386,
+          "y": 526,
           "zOrder": 169,
           "numberProperties": [],
           "stringProperties": [],
@@ -50208,6 +50221,7 @@
           "particleSize2": 10,
           "particleSizeRandomness1": 0,
           "particleSizeRandomness2": 0,
+          "persistentUuid": "ce456c01-1c71-4970-9c34-e82faf200ac2",
           "rendererParam1": 8,
           "rendererParam2": 1,
           "rendererType": "Point",
@@ -57968,7 +57982,14 @@
           "persistentUuid": "a10dd95b-b686-40d5-914b-b31b4895d747",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "bounceCount",
+              "persistentUuid": "b744e8f0-f9b7-4fc9-b25b-bb40d5941f35",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -57977,6 +57998,10 @@
               "platformType": "NormalPlatform",
               "type": "PlatformBehavior::PlatformBehavior",
               "yGrabOffset": 0
+            },
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
             }
           ],
           "animations": [
@@ -58463,6 +58488,54 @@
               ]
             }
           ]
+        },
+        {
+          "additive": false,
+          "assetStoreId": "",
+          "destroyWhenNoParticles": true,
+          "emitterAngleA": 0,
+          "emitterAngleB": 0,
+          "emitterForceMax": 0,
+          "emitterForceMin": 0,
+          "flow": 0.5,
+          "jumpForwardInTimeOnCreation": 0,
+          "maxParticleNb": 1,
+          "name": "MushroomCollectEmitter",
+          "particleAlpha1": 204,
+          "particleAlpha2": 0,
+          "particleAlphaRandomness1": 0,
+          "particleAlphaRandomness2": 0,
+          "particleAngle1": -5,
+          "particleAngle2": 5,
+          "particleAngleRandomness1": 0,
+          "particleAngleRandomness2": 0,
+          "particleBlue1": 252,
+          "particleBlue2": 252,
+          "particleColor1": "252;252;252",
+          "particleColor2": "252;252;252",
+          "particleGravityX": 0,
+          "particleGravityY": -120,
+          "particleGreen1": 252,
+          "particleGreen2": 252,
+          "particleLifeTimeMax": 1.5,
+          "particleLifeTimeMin": 0.5,
+          "particleRed1": 252,
+          "particleRed2": 252,
+          "particleSize1": 160,
+          "particleSize2": 160,
+          "particleSizeRandomness1": 0,
+          "particleSizeRandomness2": 0,
+          "persistentUuid": "5861947a-bac6-4425-a599-d27b7f1b3afe",
+          "rendererParam1": 8,
+          "rendererParam2": 1,
+          "rendererType": "Quad",
+          "tank": 1,
+          "textureParticleName": "tileset-cave tileset-cave_54.png",
+          "type": "ParticleSystem::ParticleEmitter",
+          "zoneRadius": 0,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
         }
       ],
       "objectsFolderStructure": {
@@ -58611,6 +58684,9 @@
           },
           {
             "objectName": "KeyCollectEmitter"
+          },
+          {
+            "objectName": "MushroomCollectEmitter"
           },
           {
             "objectName": "Spider"
@@ -65074,6 +65150,7 @@
           "comment": "Mushroom "
         },
         {
+          "aiGeneratedEventId": "01KYYD5E1GJY7R2M63MY4ZAGXV",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -65087,6 +65164,12 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
           ],
           "actions": [
@@ -65118,6 +65201,185 @@
                 "",
                 "100",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberObjectVariable"
+              },
+              "parameters": [
+                "Mushroomn",
+                "bounceCount",
+                "+",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Mushroomn",
+                    "bounceCount",
+                    "<",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                  },
+                  "parameters": [
+                    "Mushroomn",
+                    "Tween",
+                    "\"squash\"",
+                    "0.8",
+                    "\"easeOutQuad\"",
+                    "0.15",
+                    "no",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "await": true,
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.15"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                  },
+                  "parameters": [
+                    "Mushroomn",
+                    "Tween",
+                    "\"squash\"",
+                    "1.4",
+                    "\"easeOutBack\"",
+                    "0.15",
+                    "no",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Mushroomn",
+                    "bounceCount",
+                    "=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectScaleTween3"
+                  },
+                  "parameters": [
+                    "Mushroomn",
+                    "Tween",
+                    "\"evap_scale\"",
+                    "0",
+                    "\"easeInQuad\"",
+                    "0.4",
+                    "no",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "Mushroomn",
+                    "Tween",
+                    "\"evap_fade\"",
+                    "0",
+                    "\"easeInQuad\"",
+                    "0.4",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "MushroomCollectEmitter",
+                    "Mushroomn.CenterX()",
+                    "Mushroomn.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "sounds/sound_coin_collect_ping_positive_78305.mp3",
+                    "no",
+                    "100",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarGlobal"
+                  },
+                  "parameters": [
+                    "Score",
+                    "+",
+                    "20"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Score",
+                    "=",
+                    "ToString(GlobalVariable(Score))"
+                  ]
+                },
+                {
+                  "type": {
+                    "await": true,
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Mushroomn",
+                    ""
+                  ]
+                }
               ]
             }
           ]
