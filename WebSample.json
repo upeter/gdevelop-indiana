@@ -11593,6 +11593,22 @@
         "name": "mine-carts-on-rails-icon-for-8bit-game-on-white-background-vector4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "MineCart_0001.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MineCart_0001.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "MineCart_0002.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MineCart_0002.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -46627,8 +46643,8 @@
           "name": "MineCart",
           "persistentUuid": "611f7703-a06c-4796-aba4-c6e0e3eb2b4d",
           "width": 103,
-          "x": 3607,
-          "y": 1449,
+          "x": 3611,
+          "y": 1451,
           "zOrder": 170,
           "numberProperties": [],
           "stringProperties": [],
@@ -51096,7 +51112,7 @@
           "persistentUuid": "f0ea3c25-1fb9-478e-b63c-7b65a58d66ab",
           "width": 48,
           "x": 3652,
-          "y": 1475,
+          "y": 1791,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -64386,104 +64402,6 @@
           "content": {}
         },
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "NewSprite2",
-          "persistentUuid": "ed45d092-659f-42ff-8468-2f911f6f94bb",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "NewSprite2",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "metadata": "{\"pskl\":{}}",
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite14",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 132,
-                            "y": 144
-                          },
-                          {
-                            "x": 656,
-                            "y": 144
-                          },
-                          {
-                            "x": 656,
-                            "y": 456
-                          },
-                          {
-                            "x": 132,
-                            "y": 456
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "NewSprite15",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 132,
-                            "y": 144
-                          },
-                          {
-                            "x": 656,
-                            "y": 144
-                          },
-                          {
-                            "x": 656,
-                            "y": 456
-                          },
-                          {
-                            "x": 132,
-                            "y": 456
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "additive": false,
           "assetStoreId": "",
           "destroyWhenNoParticles": true,
@@ -64543,7 +64461,91 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "",
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.16,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "MineCart_0001.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 536,
+                            "y": 14
+                          },
+                          {
+                            "x": 536,
+                            "y": 322
+                          },
+                          {
+                            "x": 12,
+                            "y": 322
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "MineCart_0002.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 536,
+                            "y": 14
+                          },
+                          {
+                            "x": 536,
+                            "y": 322
+                          },
+                          {
+                            "x": 12,
+                            "y": 322
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Moving",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -64911,9 +64913,6 @@
           },
           {
             "objectName": "Torch"
-          },
-          {
-            "objectName": "NewSprite2"
           },
           {
             "objectName": "Beam"
@@ -71608,7 +71607,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "MineCart Moving "
+          "comment": "MineCart "
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
