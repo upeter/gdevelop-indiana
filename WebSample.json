@@ -11645,6 +11645,18 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Breakable Physics/Obstacle/Wood/8a06fd325dde91bd51125a7ba43cdeb7ce6342357b40ed4d775b33f964924cfe_Rectangle wood_Perfect.png",
           "name": "Rectangle wood_Perfect.png"
         }
+      },
+      {
+        "file": "assets/Blue bar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue bar.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Interface/PX UI Basic/40832527439da97fe46056f6934206f3d943568e68a955f6ff29dbe882a1c083_Blue bar.png",
+          "name": "Blue bar.png"
+        }
       }
     ]
   },
@@ -29649,7 +29661,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.4389772133869179,
+        "zoomFactor": 0.3818841323241939,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -29740,6 +29752,12 @@
         }
       ],
       "variables": [
+        {
+          "name": "MineCartSpeed",
+          "persistentUuid": "a8406680-c422-48a6-ab59-bd187b7fdebd",
+          "type": "number",
+          "value": 0
+        },
         {
           "name": "MineCartMoving",
           "persistentUuid": "8a60524d-3a36-4db1-a75d-836e6fe1657b",
@@ -51250,6 +51268,23 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 143,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MineCartEndMark",
+          "persistentUuid": "85cb2dd9-8b95-4ff7-9f2d-5f5c0f0b9c77",
+          "width": 23,
+          "x": 9791,
+          "y": 1439,
+          "zOrder": 172,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -64992,6 +65027,75 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "7cd73b60b8f9a67bc5405a8dd03008c0fb7931dbcf2bc28312089161e77a3b74",
+          "name": "MineCartEndMark",
+          "persistentUuid": "282e2c8d-79da-44b8-b5f7-605ae6662a0c",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "canBeGrabbed": true,
+              "name": "Platform",
+              "platformType": "NormalPlatform",
+              "type": "PlatformBehavior::PlatformBehavior",
+              "yGrabOffset": 0
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blue bar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 377,
+                            "y": 0
+                          },
+                          {
+                            "x": 377,
+                            "y": 19
+                          },
+                          {
+                            "x": 0,
+                            "y": 19
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -65209,6 +65313,9 @@
           },
           {
             "objectName": "MineCartFloor"
+          },
+          {
+            "objectName": "MineCartEndMark"
           }
         ]
       },
@@ -65405,6 +65512,14 @@
                   },
                   "parameters": [
                     "Left"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "MineCartEndMark"
                   ]
                 },
                 {
@@ -71897,7 +72012,7 @@
           ]
         },
         {
-          "aiGeneratedEventId": "01KZ18GRHQFSB215QS3A01WC4R",
+          "aiGeneratedEventId": "01KZ19HZBAF0VHHGR01DGAE20W",
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -71920,6 +72035,19 @@
                 "False",
                 ""
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MineCart",
+                "MineCartEndMark",
+                "",
+                "",
+                ""
+              ]
             }
           ],
           "actions": [
@@ -71935,13 +72063,23 @@
             },
             {
               "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MineCartSpeed",
+                "=",
+                "180"
+              ]
+            },
+            {
+              "type": {
                 "value": "LinearMovement::LinearMovement::SetSpeedX"
               },
               "parameters": [
                 "MineCart",
                 "LinearMovement",
                 "=",
-                "150",
+                "180",
                 ""
               ]
             },
@@ -71954,6 +72092,136 @@
                 "Animation",
                 "=",
                 "\"Moving\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Johnes",
+                "PlatformerObject",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KZ19HZBAF0VHHGR01DGAE20W",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BooleanVariable"
+              },
+              "parameters": [
+                "MineCartMoving",
+                "True",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "MineCartSpeed",
+                "+",
+                "15 * TimeDelta()"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinearMovement::LinearMovement::SetSpeedX"
+              },
+              "parameters": [
+                "MineCart",
+                "LinearMovement",
+                "=",
+                "MineCartSpeed",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::PlatformerObjectBehavior::SetCurrentSpeed"
+              },
+              "parameters": [
+                "Johnes",
+                "PlatformerObject",
+                "=",
+                "MineCartSpeed"
+              ]
+            }
+          ]
+        },
+        {
+          "aiGeneratedEventId": "01KZ19HZBAF0VHHGR01DGAE20W",
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "MineCart",
+                "MineCartEndMark",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "MineCartMoving",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlatformBehavior::IgnoreDefaultControls"
+              },
+              "parameters": [
+                "Johnes",
+                "PlatformerObject",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "LinearMovement::LinearMovement::SetSpeedX"
+              },
+              "parameters": [
+                "MineCart",
+                "LinearMovement",
+                "=",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "MineCart",
+                "Animation",
+                "=",
+                "\"Idle\""
               ]
             }
           ]
